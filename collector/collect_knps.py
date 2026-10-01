@@ -189,7 +189,7 @@ def main():
     eco = collect_eco()
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({
-        "updated_at": datetime.now(KST).isoformat(timespec="minutes"),
+        "updated_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
         "items": trail + eco,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
     tags = [i["age_tag"] for i in trail + eco]

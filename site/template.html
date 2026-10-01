@@ -114,7 +114,7 @@ const store = {
 let favs = new Set(store.get('favs', []));
 const state = Object.assign({ tab: 'hot', park: '', weekend: false, favOnly: false, hideNo: false, showGroup: false }, store.get('filters', {}));
 
-const KINDS = ['숙박', '생태탐방원', '국립공원', '박물관·미술관', '과학관', '광주시 체험', '축제'];
+const KINDS = ['숙박', '생태탐방원', '국립공원', '순천만습지', '박물관·미술관', '과학관', '광주시 체험', '축제'];
 const TABS = [['hot', '🔥 관심'], ['soon', '🔔 신청 오픈 예정'], ['open', '접수 중'], ['all', '전체'], ...KINDS.map(k => [k, k === '숙박' ? '🏠 생태탐방원 숙박' : k])]
   .filter(([v]) => !KINDS.includes(v) || DATA.items.some(i => i.kind === v));
 

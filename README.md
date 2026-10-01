@@ -8,7 +8,7 @@
 |---|---|
 | `collector/collect_all.py` | 아래 수집기를 모두 돌려 `data/programs.json` 하나로 저장 |
 | `collector/collect_knps.py` | 국립공원 탐방프로그램, 생태탐방원 프로그램·기획프로그램(계절 특집)·숙박 |
-| `collector/collect_culture.py` | 국립광주·나주박물관, 국립광주과학관, ACC 어린이문화원, 광주시립미술관, 광주시청 바로예약(역사민속박물관·우치동물원 등), 남도향토음식박물관 |
+| `collector/collect_culture.py` | 국립광주·나주박물관, 국립광주과학관, ACC 어린이문화원, 광주시립미술관, 광주시청 바로예약(역사민속박물관·우치동물원 등), 남도향토음식박물관, 순천만습지(날짜별 잔여석) |
 | `data/watchlist.json` | 🔥 관심 목록 (키워드·바로가기). 고치면 다음 갱신부터 반영 |
 | `collector/collect_festival.py` | 광주·전남 축제 (TourAPI 인증키 필요) |
 | `site/template.html` | 웹페이지 디자인·기능 |

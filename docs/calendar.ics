@@ -214,7 +214,7 @@ UID:gjr-1630-apply@family-activity
 DTSTAMP:20261005T000000Z
 DTSTART;TZID=Asia/Seoul:20261005T090000
 DTEND;TZID=Asia/Seoul:20261005T093000
-SUMMARY:🔔 신청 오픈: 동물생태해설사와 함께 동물원 한
+SUMMARY:🔥 신청 오픈: 동물생태해설사와 함께 동물원 한
  바퀴
 LOCATION:우치동물원 전역
 DESCRIPTION:우치동물원\n대상: 어린이/청소년\,성인/청년\,
@@ -228,6 +228,12 @@ TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:곧 신청 오픈: 동물생태해설사와 함께 동물원 
  한바퀴
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT24H
+ACTION:DISPLAY
+DESCRIPTION:🔥 내일 신청 오픈: 동물생태해설사와 함께 
+ 동물원 한바퀴
 END:VALARM
 END:VEVENT
 END:VCALENDAR

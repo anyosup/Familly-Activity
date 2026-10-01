@@ -232,6 +232,59 @@ def namdo_food():
     return out
 
 
+# ── 순천만습지 체험 (탐조산책·조류 탐험·생물 탐험·천문대·계절 특별체험) ──────
+def suncheon_bay():
+    base = "https://scbay.suncheon.go.kr"
+    page = fetch(f"{base}/wetland/booking/0002/")
+    programs = re.findall(r'id="tab_(\d+)"[^>]*title="([^"]+)"', page)
+    now = datetime.now(KST)
+    out = []
+    for uid, name in programs:
+        data, booked = None, {}
+        for m in range(3):  # 이번 달 + 다음 두 달 예약 현황
+            y, mo = now.year + (now.month - 1 + m) // 12, (now.month - 1 + m) % 12 + 1
+            d = json.loads(fetch(f"{base}/wetland/getYeyakProgramDataAjax.do", {"uid": uid, "calDate": f"{y}{mo:02d}01", "userid": ""}))
+            data = data or d.get("programData")
+            for r in d.get("progYeyakDataList", []):
+                key = (r["yeyakHdate"], r["yeyakTime"])
+                booked[key] = booked.get(key, 0) + int(r.get("yeyakPeople") or 0)
+        if not data or str(data.get("pause")) == "1":
+            continue
+        p_end = (data.get("edate") or "")[:10]
+        if p_end and p_end < now.strftime("%Y-%m-%d"):
+            continue
+        p_start = (data.get("sdate") or "")[:10]
+        weekdays = {int(x) for x in str(data.get("pmode") or "").split("/") if x.strip().isdigit()}  # 0=일요일
+        extra = set(filter(None, str(data.get("adddate") or "").split(",")))
+        excluded = set(filter(None, str(data.get("x_date") or "").split(",")))
+        sessions = [t for t in str(data.get("ptime") or "").split(",") if t]
+        cap = int(data.get("personmax") or 0)
+        first = now.date() + timedelta(days=int(data.get("dateterm") or 0))
+        last = min(now.date() + timedelta(days=min(int(data.get("datelimit") or 60), 60)),
+                   datetime.strptime(p_end, "%Y-%m-%d").date() if p_end else now.date() + timedelta(days=60))
+        dates, day = [], max(first, datetime.strptime(p_start, "%Y-%m-%d").date() if p_start else first)
+        while day <= last:
+            ymd = day.strftime("%Y%m%d")
+            if ((day.isoweekday() % 7) in weekdays or ymd in extra) and ymd not in excluded:
+                left = sum(max(cap - booked.get((ymd, t), 0), 0) for t in sessions)
+                dates.append({"date": day.isoformat(), "left": left, "open": left > 0})
+            day += timedelta(days=1)
+        content = clean(data.get("content"))
+        age = re.search(r"\d+\s*살\s*\(만\s*\d+\s*세\)\s*이상[^\n]*|만\s*\d+\s*세\s*이상[^\n]*", content)
+        fee = re.search(r"참가비\s*[:：]?\s*([^\n]+)", content)
+        out.append(item(
+            id=f"scb-{uid}", source="순천만습지", kind="순천만습지", category="생태체험", park="순천만습지",
+            title=name if name in data.get("subject", name) else data.get("subject", name),
+            place=clean(data.get("area")) or "순천만습지 (순천시 순천만길 513-25)",
+            target=age.group(0).strip() if age else "", price=fee.group(1).strip() if fee else "",
+            time=", ".join(sessions), capacity=f"회당 {cap}명" if cap else "",
+            event_start=p_start or None, event_end=p_end or None,
+            summary=content[:1200], url=f"{base}/wetland/booking/0002/#{uid}",
+            phone=data.get("departtel") or "061-749-6072"))
+        out[-1]["dates"] = dates
+    return out
+
+
 # 함수 → 데이터에 찍히는 출처 이름 (수집 실패 시 이전 데이터를 유지하는 데 쓴다)
 SOURCES = {
     gwangju_museum: "국립광주박물관",
@@ -241,6 +294,7 @@ SOURCES = {
     gwangju_art: "광주시립미술관",
     gwangju_reserve: "광주시 바로예약",
     namdo_food: "남도향토음식박물관",
+    suncheon_bay: "순천만습지",
 }
 FAILED = set()  # 이번 실행에서 실패한 출처 이름
 

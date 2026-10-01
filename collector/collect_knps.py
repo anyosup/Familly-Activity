@@ -10,7 +10,7 @@ import re
 import time
 import urllib.parse
 import urllib.request
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 BASE = "https://reservation.knps.or.kr"
@@ -35,6 +35,7 @@ ECO_CENTERS = {
 ECO_DAYS_AHEAD = 60  # 생태탐방원은 오늘부터 며칠 뒤까지 조회할지
 # ──────────────────────────────────────────────────────────────────
 
+KST = timezone(timedelta(hours=9))
 UA = {"User-Agent": "Mozilla/5.0 (family-kids-activity-calendar; personal use)"}
 
 
@@ -133,7 +134,7 @@ TIME_LABEL = {"0600401": "오전 10:00~12:00", "0600402": "오후 14:00~16:00", 
 
 def collect_eco():
     items = []
-    today = date.today()
+    today = datetime.now(KST).date()
     for dept_id, center in ECO_CENTERS.items():
         programs = {}
         # 1주 단위로 끊어서 조회
@@ -188,7 +189,7 @@ def main():
     eco = collect_eco()
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({
-        "updated_at": datetime.now().isoformat(timespec="minutes"),
+        "updated_at": datetime.now(KST).isoformat(timespec="minutes"),
         "items": trail + eco,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
     tags = [i["age_tag"] for i in trail + eco]

@@ -26,6 +26,11 @@ ECO_CENTERS = {
     "B183001": "변산반도생태탐방원",
 }
 ECO_DAYS_AHEAD = 60  # 생태탐방원은 오늘부터 며칠 뒤까지 조회할지
+# 숙박(생활관) 잔여 조회 대상. 하룻밤씩 조회하므로 곳이 늘면 수집 시간도 늘어난다(한 곳당 약 30초)
+LODGE_CENTERS = dict(ECO_CENTERS)
+# 다른 생태탐방원도 보고 싶으면 아래 줄 맨 앞의 # 을 지운다
+# LODGE_CENTERS.update({"B971002": "북한산생태탐방원", "B301002": "설악산생태탐방원", "B123002": "소백산생태탐방원",
+#                       "B133002": "가야산생태탐방원", "B163001": "계룡산생태탐방원", "B024002": "한려해상생태탐방원"})
 # ──────────────────────────────────────────────────────────────────
 
 HEADERS = {"Referer": BASE + "/trprogram/searchTrailProgram.do", "X-Requested-With": "XMLHttpRequest"}
@@ -141,8 +146,60 @@ def collect_eco():
     return items
 
 
+# ── 생태탐방원 숙박(생활관) ──────────────────────────────────────
+def collect_lodging():
+    """생태탐방원별로 앞으로 ECO_DAYS_AHEAD 일 동안 밤마다 빈 방이 있는지 조회한다."""
+    items = []
+    today = datetime.now(KST).date()
+    for dept_id, center in LODGE_CENTERS.items():
+        nights, prices, not_yet_streak = [], set(), 0
+        for n in range(ECO_DAYS_AHEAD):
+            d = today + timedelta(days=n)
+            rooms = json.loads(fetch(BASE + "/eco/getEcoLivingRoomInfo.do", {
+                "deptId": dept_id, "useBgnDt": d.strftime("%Y%m%d"),
+                "useEndDt": (d + timedelta(days=1)).strftime("%Y%m%d"), "hrkPrdCtgId": "06001",
+            })).get("insttGoodsInfo", [])
+            if not rooms:
+                continue
+            free_types = {}
+            for r in rooms:
+                prices.add(r.get("salAmt", 0))
+                if r.get("rsvtPsblYn") == "Y" and r.get("prdSalStcd") == "N" and r["maxNopCnt"] - r["rsrvtCnt"] > 0:
+                    t = f"{r['mmbMaxRqnpCnt']}인실"
+                    free_types[t] = free_types.get(t, 0) + r["maxNopCnt"] - r["rsrvtCnt"]
+            opened = any(r.get("rsvtPsblYn") == "Y" for r in rooms)
+            state = "free" if free_types else ("full" if opened else "notyet")
+            nights.append({"date": d.isoformat(), "state": state, "free": sum(free_types.values()),
+                           "total": len(rooms), "types": free_types})
+            # 예약 오픈 전 날짜가 계속되면 그 뒤도 오픈 전이므로 조회를 멈춘다
+            not_yet_streak = not_yet_streak + 1 if state == "notyet" else 0
+            if not_yet_streak >= 7:
+                break
+        if not nights:
+            continue
+        # 앞쪽의 '예약 불가'는 오픈 전이 아니라 이미 마감된 날(당일 등)이다
+        for x in nights:
+            if x["state"] != "notyet":
+                break
+            x["state"] = "closed"
+        free_n = sum(1 for x in nights if x["state"] == "free")
+        prices.discard(0)
+        items.append({
+            "id": "lodge-" + dept_id, "source": "국립공원 생태탐방원 숙박", "kind": "숙박", "category": "생활관",
+            "park": center, "title": f"{center} 생활관", "place": center,
+            "price": (f"1박 {min(prices):,}원" + (f" ~ {max(prices):,}원" if max(prices) != min(prices) else "")) if prices else "",
+            "rooms": nights[0]["total"], "nights": nights, "target": "가족 (객실 단위)", "age_tag": "ok", "group_only": False,
+            "how_to_apply": "국립공원 예약시스템 (생태탐방원 → 생활관)",
+            "url": f"{BASE}/eco/searchEcoReservation.do?deptId={dept_id}",
+        })
+        print(f"  [{center}] 객실 {nights[0]['total']}개 · 빈 방 있는 밤 {free_n}일 / 조회 {len(nights)}일")
+    return items
+
+
 def collect():
     print("▶ 국립공원 탐방프로그램")
     trail = collect_trail()
     print("▶ 국립공원 생태탐방원")
-    return trail + collect_eco()
+    eco = collect_eco()
+    print("▶ 생태탐방원 숙박")
+    return trail + eco + collect_lodging()

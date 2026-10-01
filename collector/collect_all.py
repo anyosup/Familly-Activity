@@ -19,7 +19,7 @@ import collect_knps  # noqa: E402
 from common import KST  # noqa: E402
 
 OUT = Path(__file__).resolve().parent.parent / "data" / "programs.json"
-KNPS_SOURCES = {"국립공원 탐방프로그램", "국립공원 생태탐방원"}
+KNPS_SOURCES = {"국립공원 탐방프로그램", "국립공원 생태탐방원", "국립공원 생태탐방원 숙박"}
 FESTIVAL_SOURCES = {"한국관광공사"}
 
 

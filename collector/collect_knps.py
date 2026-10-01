@@ -196,10 +196,50 @@ def collect_lodging():
     return items
 
 
+# ── 생태탐방원 기획프로그램 (여름·겨울방학 캠프 같은 계절 특집) ─────────
+def _notice_field(text, name):
+    m = re.search(name + r"\s*[:：]\s*([^\n]+)", text)
+    return m.group(1).strip() if m else ""
+
+
+def collect_packages():
+    items = []
+    for dept_id, center in ECO_CENTERS.items():
+        pkgs = json.loads(fetch(BASE + "/eco/getEcoAllPackageInfo.do", {"deptId": dept_id})).get("allPackageInfo", [])
+        for p in pkgs:
+            info = json.loads(fetch(BASE + "/eco/getEcoPackageInfo.do", {"deptId": dept_id, "prdId": p["prdId"]}))
+            notice = clean((info.get("packageInfoImg") or {}).get("prdNtcCn", ""))
+            target = _notice_field(notice, r"(?:모집|참가|참여)\s*대상")
+            period = _notice_field(notice, r"(?:모집|접수|신청)\s*기간")
+            a1, a2 = common.date_range(period)
+            opts = info.get("packageInfo", [])
+            rooms = [o for o in opts if "생활관" in o.get("optNm", "")]
+            progs = [o for o in opts if "프로그램" in o.get("optNm", "")]
+            left_rooms = sum(max(o["optCnt"] - o["rsrvtCnt"], 0) for o in rooms)
+            left_people = min((max(o["optCnt"] - o["rsrvtCnt"], 0) for o in progs), default=None)
+            price = " / ".join(f"{o['optNm'].replace('[필수]', '').strip()} {o['optSalAmt']:,}원" for o in opts)
+            title = html.unescape(p["prdNm"]).strip()
+            items.append({
+                "id": "pkg-" + p["prdId"], "source": "국립공원 생태탐방원 기획", "kind": "생태탐방원",
+                "category": "기획프로그램(계절 특집)", "park": center, "title": title, "place": center,
+                "event_start": (p.get("prdUseBgnDtm") or "")[:10] or None, "event_end": (p.get("prdUseEndDtm") or "")[:10] or None,
+                "apply_start": a1 if a1 and a1 != (p.get("prdUseBgnDtm") or "")[:10] else None, "apply_end": None,
+                "target": target or "가족", "age_tag": age_tag(title, target or "가족"), "group_only": False,
+                "price": price, "capacity": (f"남은 객실 {left_rooms}실" if rooms else "") + (f" · 프로그램 잔여 {left_people}명" if left_people is not None else ""),
+                "sold_out": bool(rooms) and left_rooms == 0,
+                "summary": notice[:1500], "how_to_apply": "생활관 + 프로그램을 함께 예약 (로그인 필요)",
+                "url": f"{BASE}/eco/searchEcoPackageGoods.do?deptId={dept_id}",
+            })
+            print(f"  [{center}] {title}  모집 {period[:30] or '-'}  객실 {left_rooms}")
+    return items
+
+
 def collect():
     print("▶ 국립공원 탐방프로그램")
     trail = collect_trail()
     print("▶ 국립공원 생태탐방원")
     eco = collect_eco()
+    print("▶ 생태탐방원 기획프로그램")
+    pkg = collect_packages()
     print("▶ 생태탐방원 숙박")
-    return trail + eco + collect_lodging()
+    return trail + eco + pkg + collect_lodging()

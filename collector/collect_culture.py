@@ -4,9 +4,12 @@
 한 기관이 실패해도 나머지는 계속 수집한다.
 """
 import html
+import json
 import re
 
-from common import age_tag, clean, date_range, fetch, is_group, today
+from datetime import datetime, timedelta
+
+from common import KST, age_tag, clean, date_range, fetch, is_group, today
 
 # 지난 프로그램은 몇 페이지 넘기면 나오므로 앞쪽 몇 페이지만 본다
 MAX_PAGES = 3
@@ -174,6 +177,61 @@ def gwangju_art():
     return out
 
 
+# ── 광주시청 바로예약 (역사민속박물관·우치동물원·김치타운 등 시 운영 시설) ──
+def gwangju_reserve():
+    base = "https://www.gwangju.go.kr/reserve"
+    out = []
+    for page_id, cate in (("reserve1", "A"), ("reserve2", "B")):
+        for page in range(1, 5):
+            data = json.loads(fetch(f"{base}/getBookingList.do", {
+                "pageId": page_id, "movePage": page, "searchCate1": cate, "searchPeriod": "R",
+            }))["dataMap"]
+            for v in data["list"]:
+                title = clean(v.get("eduNm"))
+                place = clean(v.get("eduAddress")) or clean(v.get("areaNm"))
+                target = clean(v.get("eduTargetNm"))
+                price = v.get("eduPrice")
+                a1 = f"{v['startPeriodDate']} {v['startPeriodTime']}" if v.get("startPeriodDate") else None
+                a2 = f"{v['endPeriodDate']} {v['endPeriodTime']}" if v.get("endPeriodDate") else None
+                out.append(item(
+                    id="gjr-" + str(v["bookingCode"]), source="광주시 바로예약", kind="광주시 체험",
+                    category=clean(v.get("cateNm")) or ("교육/강좌" if cate == "A" else "견학/체험"),
+                    park=place.split()[0] if place else "광주시", title=title, place=place, target=target,
+                    price=("무료" if str(price) in ("0", "None", "") else f"{int(price):,}원"),
+                    time=f"{v.get('startEduTime') or ''}~{v.get('endEduTime') or ''}".strip("~"),
+                    capacity=f"정원 {v.get('limit')}명" if v.get("limit") else "",
+                    apply_start=a1, apply_end=a2, event_start=v.get("startEduDate"), event_end=v.get("endEduDate"),
+                    url=f"{base}/bookingView.do?pageId={page_id}&searchCate1={cate}&bookingCode={v['bookingCode']}"))
+            if page >= int(data.get("pageCnt") or 1):
+                break
+    return out
+
+
+# ── 남도향토음식박물관 공지 (체험·교육 모집 글) ─────────────────────
+def namdo_food():
+    base = "https://gbfmc.or.kr"
+    h = fetch(f"{base}/board.es?mid=a40501000000&bid=0022")
+    out = []
+    for href, title, date in re.findall(r'<a href="(/board\.es\?[^"]*list_no=\d+[^"]*)"[^>]*>(.*?)</a>.*?(\d{4}\.\d{2}\.\d{2})', h, re.S):
+        title = clean(title)
+        m = re.match(r"\[(\S+?)-(\S+?)\]\s*(.*)", title)
+        if not m or m.group(1) not in ("체험", "교육"):
+            continue
+        if date.replace(".", "-") < (datetime.now(KST) - timedelta(days=60)).strftime("%Y-%m-%d"):
+            continue
+        kind_, state, name = m.groups()
+        out.append(item(
+            id="ndf-" + re.search(r"list_no=(\d+)", href).group(1), source="남도향토음식박물관", kind="박물관·미술관",
+            category=f"전통음식 {kind_}", park="남도향토음식박물관", title=name,
+            place="남도향토음식박물관 (광주 북구 설죽로 477)", status=state,
+            target="어린이·가족" if re.search("어린이|가족|아이", name) else ("성인 강좌" if "강좌" in name else ""),
+            summary=f"{date.replace('.', '-')} 공지 · 상태: {state}",
+            event_start=None, url=base + html.unescape(href), phone="062-410-6847"))
+        out[-1]["notice_date"] = date.replace(".", "-")
+        out[-1]["closed"] = state == "마감"
+    return out
+
+
 # 함수 → 데이터에 찍히는 출처 이름 (수집 실패 시 이전 데이터를 유지하는 데 쓴다)
 SOURCES = {
     gwangju_museum: "국립광주박물관",
@@ -181,6 +239,8 @@ SOURCES = {
     science_center: "국립광주과학관",
     acc_child: "ACC 어린이문화원",
     gwangju_art: "광주시립미술관",
+    gwangju_reserve: "광주시 바로예약",
+    namdo_food: "남도향토음식박물관",
 }
 FAILED = set()  # 이번 실행에서 실패한 출처 이름
 

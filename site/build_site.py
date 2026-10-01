@@ -11,6 +11,14 @@ ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 data = json.loads((ROOT / "data" / "programs.json").read_text(encoding="utf-8"))
 
+# ── 관심 목록(🔥): 키워드가 맞고, 초등 이상·단체 전용이 아니면 표시 ─────────
+watch = json.loads((ROOT / "data" / "watchlist.json").read_text(encoding="utf-8"))
+for it in data["items"]:
+    text = " ".join(str(it.get(k) or "") for k in ("title", "category", "park", "source", "place"))
+    hit = next((w["name"] for w in watch["watch"] if any(k in text for k in w["keywords"])), None)
+    it["hot"] = hit if hit and it.get("age_tag") != "no" and not it.get("group_only") else None
+data["links"] = watch.get("links", [])
+
 # ── 웹페이지 ──────────────────────────────────────────────────────
 payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
 html = (ROOT / "site" / "template.html").read_text(encoding="utf-8").replace("/*DATA*/", payload)
@@ -45,6 +53,7 @@ for it in data["items"]:
     if not start or start[:10] < today or it.get("group_only") or it.get("age_tag") == "no":
         continue
     day = start[:10].replace("-", "")
+    hot = "🔥 " if it.get("hot") else ""
     if len(start) > 10:  # 시각이 있으면 그 시각에 30분짜리 일정 + 30분 전 알림
         hhmm = start[11:16].replace(":", "")
         end = (datetime.strptime(start, "%Y-%m-%d %H:%M") + timedelta(minutes=30)).strftime("%Y%m%dT%H%M00")
@@ -57,9 +66,12 @@ for it in data["items"]:
     desc = f"{it.get('park', '')}\\n대상: {esc(it.get('target'))}\\n접수: {it.get('apply_start')} ~ {it.get('apply_end') or ''}\\n{it['url']}"
     events += [
         "BEGIN:VEVENT", f"UID:{it['id']}-apply@family-activity", f"DTSTAMP:{day}T000000Z", *when,
-        f"SUMMARY:🔔 신청 오픈: {esc(it['title'])}", f"LOCATION:{esc(it.get('place'))}",
+        f"SUMMARY:{hot or '🔔 '}신청 오픈: {esc(it['title'])}", f"LOCATION:{esc(it.get('place'))}",
         f"DESCRIPTION:{desc}", f"URL:{it['url']}",
         "BEGIN:VALARM", f"TRIGGER:{alarm}", "ACTION:DISPLAY", f"DESCRIPTION:곧 신청 오픈: {esc(it['title'])}", "END:VALARM",
+        # 관심 체험은 하루 전에도 한 번 더 알림 (종일 일정이면 전날 밤 9시)
+        *(["BEGIN:VALARM", "TRIGGER:-PT27H" if len(start) <= 10 else "TRIGGER:-PT24H", "ACTION:DISPLAY",
+           f"DESCRIPTION:🔥 내일 신청 오픈: {esc(it['title'])}", "END:VALARM"] if hot else []),
         "END:VEVENT",
     ]
 

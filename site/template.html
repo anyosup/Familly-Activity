@@ -171,7 +171,7 @@ function sortKey(item) {
   const age = { ok: 0, check: 1, no: 2 }[item.age_tag];
   if (state.tab === 'soon') return [st.at.getTime(), age];
   const rank = { open: 0, soon: 1 }[st?.key] ?? (openDates(item).length ? 0 : 2);
-  return [rank, age, st?.at?.getTime() ?? 9e15];
+  return [rank, age, (st?.at ?? toDate(item.event_start))?.getTime() ?? 9e15];
 }
 const cmp = (a, b) => { const x = sortKey(a), y = sortKey(b); for (let i = 0; i < x.length; i++) if (x[i] !== y[i]) return x[i] - y[i]; return 0; };
 
@@ -210,6 +210,8 @@ function card(item) {
       item.category !== '생태탐방원' && el('span', { class: 'badge' }, item.category),
       warn && el('span', { class: 'badge warn' }, warn)),
     el('dl', { class: 'info' }, info.map(([k, v]) => [el('dt', {}, k), el('dd', {}, v)])),
+    item.as_of && item.as_of.slice(0, 10) < DATA.updated_at.slice(0, 10) &&
+      el('div', { class: 'hint' }, `⚠ ${item.as_of.slice(0, 10)} 기준 정보예요. 신청 전에 원문을 확인하세요.`),
     item.dates && (dates.length
       ? [el('div', { class: 'hint' }, `예약 가능 ${dates.length}일 · 주말 ${dates.filter(d => isWeekend(d.date)).length}일 · 날짜를 누르면 캘린더에 추가`),
          el('div', { class: 'dates' }, shown.slice(0, 24).map(d => {

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01 13:32",
+  "updated_at": "2026-10-01 13:33",
   "items": [
     {
       "id": "GB171XXX07172",
@@ -20,7 +20,8 @@
       "notes": "1. 예약시스템 예약 시, 담당자와 유선연락 후 예약이 확정됩니다.\r\n2. 예약인원 15명 미만 시 예약이 취소됩니다.\r\n3. 프로그램 참여일 기준 60일 이전 프로그램 예약은 자동취소 됩니다.\r\n (예시: 1월 1일에는 3월 1일 프로그램까지만 예약가능)\r\n4. 기상 및 사무소 여건에 따라 프로그램 내용이 변경될 수 있습니다.\r\n (우천 및 특보 발효시 취소)\r\n5. 프로그램 참여 가능 복장필수(트레킹화, 모자 등)",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B171&prdId=GB171XXX07172&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB172XXX06962",
@@ -41,7 +42,8 @@
       "notes": "우천 시/ 내부 사정 (운영자 부족 or 기존 일정 존재 ) 등 취소 발생시 담당자 유선 안내, \r\n편안한 복장(운동화, 모자, 개인 물병 등 )\r\n*운영내용은 운영자와 계절, 여건에 따라 달라질 수 있습니다",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B172&prdId=GB172XXX06962&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB172XXX06963",
@@ -62,7 +64,8 @@
       "notes": "우천 시/내부 사정 발생 시(운영자 부족 or 기존 일정 존재 등), 예약 취소 발생 시 (담당자 유선 안내 ), \r\n편안한 복장(운동화, 모자, 물) 필참 * 운영 내용은 운영자와 계절, 여건에 따라 달라질 수 있습니다",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B172&prdId=GB172XXX06963&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB201XXX07146",
@@ -83,7 +86,8 @@
       "notes": "",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B201&prdId=GB201XXX07146&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB201XXX07147",
@@ -104,7 +108,8 @@
       "notes": "",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B201&prdId=GB201XXX07147&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB201XXX07148",
@@ -125,7 +130,8 @@
       "notes": "",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B201&prdId=GB201XXX07148&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB201XXX07149",
@@ -146,7 +152,8 @@
       "notes": "",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B201&prdId=GB201XXX07149&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB013XXX06841",
@@ -167,7 +174,8 @@
       "notes": "편안한 복장, 모자, 운동화, 마실 물\n※ 강우 및 기상악화로 인해 취소될 수 있음",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B013&prdId=GB013XXX06841&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB013XXX06844",
@@ -188,7 +196,8 @@
       "notes": "월요일 휴관 (월요일이 공휴일인 경우 다음 평일에 휴관), 편안한 복장",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B013&prdId=GB013XXX06844&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB013XXX06845",
@@ -209,7 +218,8 @@
       "notes": "편안한 복장, 모자, 운동화, 마실 물",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B013&prdId=GB013XXX06845&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB041XXX06572",
@@ -230,7 +240,8 @@
       "notes": "1) 활동하기 편한 복장\r\n2) 기상악화 및 현장여건에 따라 일정이 변경, 취소 될 수 있습니다.\r\n3) 최대 참여인원은 30명으로 인원 미달 시 병합하여 운영 될 수 있습니다.",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B041&prdId=GB041XXX06572&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB041XXX06578",
@@ -251,7 +262,8 @@
       "notes": "1) 활동하기 편한 복장\r\n2) 기상악화 및 현장여건에 따라 일정이 변경, 취소 될 수 있습니다.\r\n3) 최대 참여인원은 20명으로 인원 미달 시 병합하여 운영 될 수 있습니다.",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B041&prdId=GB041XXX06578&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB091XXX06094",
@@ -272,7 +284,8 @@
       "notes": "예약인원 10명 미만시 예약 취소",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06094&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB091XXX06095",
@@ -293,7 +306,8 @@
       "notes": "예약인원 10명 미만시 예약 취소, 편안한 복장, 모자, 등산화 필수\r\n다도해해상국립공원 집결장소 확인 및 전화문의 후 예약진행 요청",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06095&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB091XXX06096",
@@ -314,7 +328,8 @@
       "notes": "예약인원 10명 미만시 예약 취소",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06096&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB091XXX06097",
@@ -335,7 +350,8 @@
       "notes": "예약인원 10명 미만시 예약 취소",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06097&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB091XXX06098",
@@ -356,7 +372,8 @@
       "notes": "예약인원 10명 미만시 예약 취소",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06098&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB091XXX06099",
@@ -377,7 +394,8 @@
       "notes": "예약인원 10명 미만시 예약 취소",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06099&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB091XXX06100",
@@ -398,7 +416,8 @@
       "notes": "예약인원 10명 미만시 예약 취소",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06100&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB091XXX06103",
@@ -419,7 +438,8 @@
       "notes": "체험 활동은 상시 변결될 수 있음",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06103&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB091XXX06107",
@@ -440,7 +460,8 @@
       "notes": "안전사고 유의",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06107&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB091XXX06109",
@@ -461,7 +482,8 @@
       "notes": "구계등 해변 안전사고 예방",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06109&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB092XXX05112",
@@ -482,7 +504,8 @@
       "notes": "예약인원 5명 미만시 예약 취소, 편안한 복장",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B092&prdId=GB092XXX05112&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB092XXX05114",
@@ -503,7 +526,8 @@
       "notes": "예약인원 5명 미만시 예약취소, 편안한 복장",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B092&prdId=GB092XXX05114&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB092XXX05115",
@@ -524,7 +548,8 @@
       "notes": "예약인원 5명 미만일 경우 예약 취소, 편안한 복장, 모자, 편한 신발 필수",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B092&prdId=GB092XXX05115&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB092XXX05116",
@@ -545,7 +570,8 @@
       "notes": "※ 도서 지역 프로그램 운영을 위한 사전 전화 문의 필수",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B092&prdId=GB092XXX05116&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "GB092XXX05121",
@@ -566,7 +592,8 @@
       "notes": "",
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B092&prdId=GB092XXX05121&orgnztGbn=G",
       "kind": "국립공원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB23100200005",
@@ -889,7 +916,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B231002",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB23100200006",
@@ -1212,7 +1240,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B231002",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB23100200009",
@@ -1535,7 +1564,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B231002",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB01400300007",
@@ -1858,7 +1888,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B014003",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB01400300008",
@@ -2181,7 +2212,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B014003",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB01400300010",
@@ -2504,7 +2536,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B014003",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB01400300032",
@@ -2827,7 +2860,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B014003",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB01400300033",
@@ -3150,7 +3184,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B014003",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB01400300034",
@@ -3473,7 +3508,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B014003",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB33100100005",
@@ -3796,7 +3832,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B331001",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB33100100006",
@@ -3847,7 +3884,7 @@
         },
         {
           "date": "2026-10-08",
-          "left": 34,
+          "left": 28,
           "open": true
         },
         {
@@ -4119,7 +4156,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B331001",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB33100100008",
@@ -4442,7 +4480,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B331001",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB18300100008",
@@ -4765,7 +4804,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B183001",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB18300100009",
@@ -5088,7 +5128,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B183001",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB18300100010",
@@ -5411,7 +5452,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B183001",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB18300100013",
@@ -5734,7 +5776,8 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B183001",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "EB18300100045",
@@ -6057,7 +6100,224 @@
       "how_to_apply": "생태탐방원 예약 (2인 이상)",
       "url": "https://reservation.knps.or.kr/eco/searchEcoReservation.do?deptId=B183001",
       "kind": "생태탐방원",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gjm-275-663",
+      "source": "국립광주박물관",
+      "kind": "박물관·미술관",
+      "category": "교육(유아)",
+      "park": "국립광주박물관",
+      "title": "[유아단체]2026 쏙쏙!꼬마 도공 탐험",
+      "place": "국립광주박물관 (광주 북구 하서로 110)",
+      "target": "7세반 유아기관 단체(만5세, 2020년생)/매회 20명",
+      "price": "무료",
+      "status": "접수마감",
+      "apply_start": "2026-03-09",
+      "apply_end": "2026-10-21",
+      "event_start": "2026-10-28",
+      "event_end": "2026-10-28",
+      "time": "",
+      "summary": "",
+      "url": "https://gwangju.museum.go.kr/prog/education/kor/sub03_02/view.do?cntNo=275&subCntNo=663",
+      "how_to_apply": "온라인선착순",
+      "phone": "062-570-7000",
+      "age_tag": "ok",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gjm-275-662",
+      "source": "국립광주박물관",
+      "kind": "박물관·미술관",
+      "category": "교육(유아)",
+      "park": "국립광주박물관",
+      "title": "[유아단체]2026 쏙쏙!꼬마 도공 탐험",
+      "place": "국립광주박물관 (광주 북구 하서로 110)",
+      "target": "7세반 유아기관 단체(만5세, 2020년생)/매회 20명",
+      "price": "무료",
+      "status": "접수마감",
+      "apply_start": "2026-03-09",
+      "apply_end": "2026-10-14",
+      "event_start": "2026-10-21",
+      "event_end": "2026-10-21",
+      "time": "",
+      "summary": "",
+      "url": "https://gwangju.museum.go.kr/prog/education/kor/sub03_02/view.do?cntNo=275&subCntNo=662",
+      "how_to_apply": "온라인선착순",
+      "phone": "062-570-7000",
+      "age_tag": "ok",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gjm-275-661",
+      "source": "국립광주박물관",
+      "kind": "박물관·미술관",
+      "category": "교육(유아)",
+      "park": "국립광주박물관",
+      "title": "[유아단체]2026 쏙쏙!꼬마 도공 탐험",
+      "place": "국립광주박물관 (광주 북구 하서로 110)",
+      "target": "7세반 유아기관 단체(만5세, 2020년생)/매회 20명",
+      "price": "무료",
+      "status": "접수마감",
+      "apply_start": "2026-03-09",
+      "apply_end": "2026-10-07",
+      "event_start": "2026-10-14",
+      "event_end": "2026-10-14",
+      "time": "",
+      "summary": "",
+      "url": "https://gwangju.museum.go.kr/prog/education/kor/sub03_02/view.do?cntNo=275&subCntNo=661",
+      "how_to_apply": "온라인선착순",
+      "phone": "062-570-7000",
+      "age_tag": "ok",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gjm-275-660",
+      "source": "국립광주박물관",
+      "kind": "박물관·미술관",
+      "category": "교육(유아)",
+      "park": "국립광주박물관",
+      "title": "[유아단체]2026 쏙쏙!꼬마 도공 탐험",
+      "place": "국립광주박물관 (광주 북구 하서로 110)",
+      "target": "7세반 유아기관 단체(만5세, 2020년생)/매회 20명",
+      "price": "무료",
+      "status": "접수마감",
+      "apply_start": "2026-03-09",
+      "apply_end": "2026-09-30",
+      "event_start": "2026-10-07",
+      "event_end": "2026-10-07",
+      "time": "",
+      "summary": "",
+      "url": "https://gwangju.museum.go.kr/prog/education/kor/sub03_02/view.do?cntNo=275&subCntNo=660",
+      "how_to_apply": "온라인선착순",
+      "phone": "062-570-7000",
+      "age_tag": "ok",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gjm-259-627",
+      "source": "국립광주박물관",
+      "kind": "박물관·미술관",
+      "category": "교육(초등)",
+      "park": "국립광주박물관",
+      "title": "[단체] 고고학자와 함께하는 고려청자 몽타주",
+      "place": "국립광주박물관 (광주 북구 하서로 110)",
+      "target": "초등학교 1~6학년 단체",
+      "price": "무료",
+      "status": "접수중",
+      "apply_start": "2026-02-24",
+      "apply_end": "2026-11-02",
+      "event_start": null,
+      "event_end": null,
+      "time": "",
+      "summary": "",
+      "url": "https://gwangju.museum.go.kr/prog/education/kor/sub03_02/view.do?cntNo=259&subCntNo=627",
+      "how_to_apply": "온라인선착순",
+      "phone": "062-570-7000",
+      "age_tag": "no",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gjm-259-641",
+      "source": "국립광주박물관",
+      "kind": "박물관·미술관",
+      "category": "교육(초등)",
+      "park": "국립광주박물관",
+      "title": "[단체] 고고학자와 함께하는 고려청자 몽타주",
+      "place": "국립광주박물관 (광주 북구 하서로 110)",
+      "target": "초등학교 1~6학년 단체",
+      "price": "무료",
+      "status": "접수마감",
+      "apply_start": "2026-02-24",
+      "apply_end": "2026-10-19",
+      "event_start": null,
+      "event_end": null,
+      "time": "",
+      "summary": "",
+      "url": "https://gwangju.museum.go.kr/prog/education/kor/sub03_02/view.do?cntNo=259&subCntNo=641",
+      "how_to_apply": "온라인선착순",
+      "phone": "062-570-7000",
+      "age_tag": "no",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gjm-259-640",
+      "source": "국립광주박물관",
+      "kind": "박물관·미술관",
+      "category": "교육(초등)",
+      "park": "국립광주박물관",
+      "title": "[단체] 고고학자와 함께하는 고려청자 몽타주",
+      "place": "국립광주박물관 (광주 북구 하서로 110)",
+      "target": "초등학교 1~6학년 단체",
+      "price": "무료",
+      "status": "접수마감",
+      "apply_start": "2026-02-24",
+      "apply_end": "2026-10-12",
+      "event_start": null,
+      "event_end": null,
+      "time": "",
+      "summary": "",
+      "url": "https://gwangju.museum.go.kr/prog/education/kor/sub03_02/view.do?cntNo=259&subCntNo=640",
+      "how_to_apply": "온라인선착순",
+      "phone": "062-570-7000",
+      "age_tag": "no",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gjm-259-639",
+      "source": "국립광주박물관",
+      "kind": "박물관·미술관",
+      "category": "교육(초등)",
+      "park": "국립광주박물관",
+      "title": "[단체] 고고학자와 함께하는 고려청자 몽타주",
+      "place": "국립광주박물관 (광주 북구 하서로 110)",
+      "target": "초등학교 1~6학년 단체",
+      "price": "무료",
+      "status": "접수중",
+      "apply_start": "2026-02-24",
+      "apply_end": "2026-10-05",
+      "event_start": null,
+      "event_end": null,
+      "time": "",
+      "summary": "",
+      "url": "https://gwangju.museum.go.kr/prog/education/kor/sub03_02/view.do?cntNo=259&subCntNo=639",
+      "how_to_apply": "온라인선착순",
+      "phone": "062-570-7000",
+      "age_tag": "no",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gjm-263-621",
+      "source": "국립광주박물관",
+      "kind": "박물관·미술관",
+      "category": "교육(초등)",
+      "park": "국립광주박물관",
+      "title": "[초등단체] 박물관은 내 친구",
+      "place": "국립광주박물관 (광주 북구 하서로 110)",
+      "target": "초등학교 단체",
+      "price": "무료",
+      "status": "전화접수",
+      "apply_start": "2026-02-02",
+      "apply_end": "2026-10-31",
+      "event_start": null,
+      "event_end": null,
+      "time": "",
+      "summary": "",
+      "url": "https://gwangju.museum.go.kr/prog/education/kor/sub03_02/view.do?cntNo=263&subCntNo=621",
+      "how_to_apply": "오프라인",
+      "phone": "062-570-7000",
+      "age_tag": "no",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "njm-EDU_0000000000000111",
@@ -6080,7 +6340,8 @@
       "how_to_apply": "가족",
       "phone": "061-330-7800",
       "age_tag": "no",
-      "group_only": true
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "njm-EDU_0000000000000112",
@@ -6103,7 +6364,8 @@
       "how_to_apply": "가족",
       "phone": "061-330-7800",
       "age_tag": "no",
-      "group_only": true
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "njm-EDU_0000000000000113",
@@ -6126,7 +6388,8 @@
       "how_to_apply": "가족",
       "phone": "061-330-7800",
       "age_tag": "no",
-      "group_only": true
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "njm-EDU_0000000000000115",
@@ -6149,7 +6412,8 @@
       "how_to_apply": "가족",
       "phone": "061-330-7800",
       "age_tag": "no",
-      "group_only": true
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "njm-EDU_0000000000000120",
@@ -6172,7 +6436,8 @@
       "how_to_apply": "가족",
       "phone": "061-330-7800",
       "age_tag": "no",
-      "group_only": true
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "njm-EDU_0000000000000121",
@@ -6195,7 +6460,8 @@
       "how_to_apply": "가족",
       "phone": "061-330-7800",
       "age_tag": "no",
-      "group_only": true
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "njm-EDU_0000000000000116",
@@ -6218,7 +6484,8 @@
       "how_to_apply": "가족",
       "phone": "061-330-7800",
       "age_tag": "ok",
-      "group_only": true
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "njm-EDU_0000000000000119",
@@ -6241,7 +6508,836 @@
       "how_to_apply": "가족",
       "phone": "061-330-7800",
       "age_tag": "check",
-      "group_only": true
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2742",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(성인교육)",
+      "park": "국립광주과학관",
+      "title": "2026년 AI로 다시 배우는 성인 과학교실(6기)",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "성인\n (20명)",
+      "price": "20,000원",
+      "status": "접수예정",
+      "apply_start": "2026-11-02",
+      "apply_end": "2026-11-27",
+      "event_start": "2026-12-01",
+      "event_end": "2026-12-10",
+      "time": "10:00-12:00",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_310&eduSEQ=2742",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2943",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(개인교육]\n [과학영재융합탐구)",
+      "park": "국립광주과학관",
+      "title": "[6기] 과학영재융합탐구 토요일 중급",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초등 3~4학년\n (12명)",
+      "price": "210,000원",
+      "status": "접수예정",
+      "apply_start": "2026-10-10",
+      "apply_end": "2026-10-31",
+      "event_start": "2026-11-07",
+      "event_end": "2026-12-19",
+      "time": "10:00-12:50,14:00-16:50",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_286_301&eduSEQ=2943",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2944",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(개인교육]\n [과학영재융합탐구)",
+      "park": "국립광주과학관",
+      "title": "[6기] 과학영재융합탐구 일요일 중급",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초등 3~4학년\n (12명)",
+      "price": "210,000원",
+      "status": "접수예정",
+      "apply_start": "2026-10-10",
+      "apply_end": "2026-10-31",
+      "event_start": "2026-11-08",
+      "event_end": "2026-12-20",
+      "time": "10:00-12:50,14:00-16:50",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_286_301&eduSEQ=2944",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2945",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(개인교육]\n [과학영재융합탐구)",
+      "park": "국립광주과학관",
+      "title": "[6기] 과학영재융합탐구 토요일 초급 A, B반",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초등학교 1~2학년 \n (12명)",
+      "price": "210,000원",
+      "status": "접수예정",
+      "apply_start": "2026-10-10",
+      "apply_end": "2026-10-31",
+      "event_start": "2026-11-07",
+      "event_end": "2026-12-19",
+      "time": "10:00-12:50,14:00-16:50",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_286_301&eduSEQ=2945",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2946",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(개인교육]\n [과학영재융합탐구)",
+      "park": "국립광주과학관",
+      "title": "[6기] 과학영재융합탐구 일요일 초급 A, B반",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초등학교 1~2학년 \n (12명)",
+      "price": "210,000원",
+      "status": "접수예정",
+      "apply_start": "2026-10-10",
+      "apply_end": "2026-10-31",
+      "event_start": "2026-11-08",
+      "event_end": "2026-12-20",
+      "time": "10:00-12:50,14:00-16:50",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_286_301&eduSEQ=2946",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2947",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(개인교육]\n [과학영재융합탐구)",
+      "park": "국립광주과학관",
+      "title": "[6기] 과학영재융합탐구 토요일 초급 C반",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초등학교 1~2학년 \n (12명)",
+      "price": "210,000원",
+      "status": "접수예정",
+      "apply_start": "2026-10-10",
+      "apply_end": "2026-10-31",
+      "event_start": "2026-11-07",
+      "event_end": "2026-12-19",
+      "time": "14:00-16:50",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_286_301&eduSEQ=2947",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2948",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(개인교육]\n [과학영재융합탐구)",
+      "park": "국립광주과학관",
+      "title": "[6기] 과학영재융합탐구 일요일 초급 C반",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초등학교 1~2학년 \n (12명)",
+      "price": "210,000원",
+      "status": "접수예정",
+      "apply_start": "2026-10-10",
+      "apply_end": "2026-10-31",
+      "event_start": "2026-11-08",
+      "event_end": "2026-12-20",
+      "time": "14:00-16:50",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_286_301&eduSEQ=2948",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2949",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(개인교육]\n [로봇 교실)",
+      "park": "국립광주과학관",
+      "title": "[6기] 나의생활안전로봇 중급 [토요일반]",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초등 3~6학년 (초등학교)\n (12명)",
+      "price": "140,000원",
+      "status": "접수예정",
+      "apply_start": "2026-10-10",
+      "apply_end": "2026-10-31",
+      "event_start": "2026-11-07",
+      "event_end": "2026-12-19",
+      "time": "10:00-11:50",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_286_296&eduSEQ=2949",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2950",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(개인교육]\n [로봇 교실)",
+      "park": "국립광주과학관",
+      "title": "[6기] 안녕! 세이프티 로봇 초급 [토요일반]",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초등 1~2학년 (초등학교)\n (12명)",
+      "price": "140,000원",
+      "status": "접수예정",
+      "apply_start": "2026-10-10",
+      "apply_end": "2026-10-31",
+      "event_start": "2026-11-07",
+      "event_end": "2026-12-19",
+      "time": "13:00-14:50",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_286_296&eduSEQ=2950",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2951",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(개인교육]\n [로봇 교실)",
+      "park": "국립광주과학관",
+      "title": "[6기] 안녕! 세이프티 로봇 초급[일요일반]",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초등 1~2학년 (초등학교)\n (12명)",
+      "price": "140,000원",
+      "status": "접수예정",
+      "apply_start": "2026-10-10",
+      "apply_end": "2026-10-31",
+      "event_start": "2026-11-08",
+      "event_end": "2026-12-20",
+      "time": "10:00-11:50",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_286_296&eduSEQ=2951",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2952",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(개인교육]\n [로봇 교실)",
+      "park": "국립광주과학관",
+      "title": "[6기] 새 로봇이 아기 새를 돌봐요 누리[일요일반]",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "누리(7세)\n (12명)",
+      "price": "140,000원",
+      "status": "접수예정",
+      "apply_start": "2026-10-10",
+      "apply_end": "2026-10-31",
+      "event_start": "2026-11-08",
+      "event_end": "2026-12-20",
+      "time": "13:00-14:50",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_286_296&eduSEQ=2952",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2953",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(개인교육]\n [로봇 교실)",
+      "park": "국립광주과학관",
+      "title": "[6기]뚜루랑 인공지능 세계로 누리 [일요일반]",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "누리(7세)\n (10명)",
+      "price": "140,000원",
+      "status": "접수예정",
+      "apply_start": "2026-10-10",
+      "apply_end": "2026-10-31",
+      "event_start": "2026-11-08",
+      "event_end": "2026-12-20",
+      "time": "15:00-16:50",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_286_296&eduSEQ=2953",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2940",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(별빛천문대]\n [별빛학교)",
+      "park": "국립광주과학관",
+      "title": "10월 야간천체관측 「별빛학교」",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "6세 이상 누구나 (2021년생 이상) ※ 초등학생까지 보호자 동반 필수\n (50명)",
+      "price": "10,000원",
+      "status": "접수예정",
+      "apply_start": "2026-10-07",
+      "apply_end": "2026-10-18",
+      "event_start": "2026-10-20",
+      "event_end": "2026-10-20",
+      "time": "19:30-20:20",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_306&eduSEQ=2940",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2941",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(별빛천문대]\n [별 찍는 밤)",
+      "park": "국립광주과학관",
+      "title": "10월 야간천체관측 「AI 별 찍는 밤」",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초3이상(1팀 최대 3명)\n (30명)",
+      "price": "15,000원",
+      "status": "접수예정",
+      "apply_start": "2026-10-07",
+      "apply_end": "2026-10-18",
+      "event_start": "2026-10-22",
+      "event_end": "2026-10-22",
+      "time": "19:30-20:50",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_306&eduSEQ=2941",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2942",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(별빛천문대]\n [햇빛학교)",
+      "park": "국립광주과학관",
+      "title": "10월 주간천체관측 「햇빛학교」",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초등학생 이상 누구나 ※ 초등학생까지 보호자 동시 예약 필수\n (15명)",
+      "price": "5,000원",
+      "status": "접수예정",
+      "apply_start": "2026-10-07",
+      "apply_end": "2026-10-18",
+      "event_start": "2026-10-24",
+      "event_end": "2026-10-25",
+      "time": "11:00-11:50,14:00-14:50",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_306&eduSEQ=2942",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2933",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(1일 교육)",
+      "park": "국립광주과학관",
+      "title": "[모두의 AI교실] AI새싹(누리과정)",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "6세(2021년생), 7세(2020년생)\n (12명)",
+      "price": "무료",
+      "status": "접수예정",
+      "apply_start": "2026-10-03",
+      "apply_end": "2026-10-04",
+      "event_start": "2026-10-03",
+      "event_end": "2026-10-04",
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_308&eduSEQ=2933",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2672",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(별빛천문대)",
+      "park": "국립광주과학관",
+      "title": "2026년 천문프로그램 연간 일정표",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "교육별 확인\n (0명)",
+      "price": "1원",
+      "status": "접수중",
+      "apply_start": "2026-01-01",
+      "apply_end": "2026-12-31",
+      "event_start": "2026-01-01",
+      "event_end": "2026-12-31",
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_306&eduSEQ=2672",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2679",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(단체교육)",
+      "park": "국립광주과학관",
+      "title": "AI융합 직업 탐구",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초 · 중 · 고등학생 단체",
+      "price": "",
+      "status": "접수중",
+      "apply_start": "2026-01-02",
+      "apply_end": "2026-12-31",
+      "event_start": "2026-01-02",
+      "event_end": "2026-12-31",
+      "time": "10:00-17:30",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_318&eduSEQ=2679",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2680",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(단체교육)",
+      "park": "국립광주과학관",
+      "title": "환경X에너지 직업 탐구",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초 · 중 · 고등학생 단체",
+      "price": "",
+      "status": "접수중",
+      "apply_start": "2026-01-02",
+      "apply_end": "2026-12-31",
+      "event_start": "2026-01-02",
+      "event_end": "2026-12-31",
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_318&eduSEQ=2680",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2681",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(단체교육)",
+      "park": "국립광주과학관",
+      "title": "심화형 직업탐구",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "중 · 고등학생 단체",
+      "price": "",
+      "status": "접수중",
+      "apply_start": "2026-01-02",
+      "apply_end": "2026-12-31",
+      "event_start": "2026-01-02",
+      "event_end": "2026-12-31",
+      "time": "10:00-17:30",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_318&eduSEQ=2681",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2682",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(단체교육)",
+      "park": "국립광주과학관",
+      "title": "심화형 진로멘토링",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "중 · 고등학생 단체",
+      "price": "",
+      "status": "접수중",
+      "apply_start": "2026-01-02",
+      "apply_end": "2026-12-31",
+      "event_start": "2026-01-02",
+      "event_end": "2026-12-31",
+      "time": "09:30-16:30",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_318&eduSEQ=2682",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2683",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(단체교육)",
+      "park": "국립광주과학관",
+      "title": "융합탐구",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초 · 중 · 고등학생 단체",
+      "price": "",
+      "status": "접수중",
+      "apply_start": "2026-01-02",
+      "apply_end": "2026-12-31",
+      "event_start": "2026-01-02",
+      "event_end": "2026-12-31",
+      "time": "10:00-17:30",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_318&eduSEQ=2683",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2684",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(단체교육)",
+      "park": "국립광주과학관",
+      "title": "찾아가는 창의적 체험활동",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초 · 중 · 고등학생 단체",
+      "price": "",
+      "status": "접수중",
+      "apply_start": "2026-01-02",
+      "apply_end": "2026-12-31",
+      "event_start": "2026-01-02",
+      "event_end": "2026-12-31",
+      "time": "10:00-16:00",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_318&eduSEQ=2684",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-2685",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(단체교육)",
+      "park": "국립광주과학관",
+      "title": "이공계 직업탐구",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "초 · 중 · 고등학생 단체",
+      "price": "",
+      "status": "접수중",
+      "apply_start": "2026-01-02",
+      "apply_end": "2026-12-31",
+      "event_start": "2026-01-02",
+      "event_end": "2026-12-31",
+      "time": "10:00-17:30",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_318&eduSEQ=2685",
+      "phone": "062-960-6114",
+      "age_tag": "no",
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-830",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "행사(문화행사)",
+      "park": "국립광주과학관",
+      "title": "2026 과학관에서 생일파티 참가신청안내",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "",
+      "price": "150,000원",
+      "status": "접수중",
+      "apply_start": "2026-02-01",
+      "apply_end": "2026-12-31",
+      "event_start": "2026-03-01",
+      "event_end": "2026-12-31",
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_39&evSEQ=830",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-820",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "행사(주말/계기별/기념일 행사)",
+      "park": "국립광주과학관",
+      "title": "2026년 주말과학문화행사 안내사항",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "",
+      "price": "1,000원",
+      "status": "접수중",
+      "apply_start": "2024-12-25",
+      "apply_end": "2026-12-27",
+      "event_start": "2026-01-04",
+      "event_end": "2026-12-27",
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_337&evSEQ=820",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-823",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "행사(과학스쿨)",
+      "park": "국립광주과학관",
+      "title": "2026년 과학스쿨 연간일정 안내",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "",
+      "price": "1,000원",
+      "status": "접수중",
+      "apply_start": null,
+      "apply_end": null,
+      "event_start": null,
+      "event_end": null,
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_40&evSEQ=823",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-841",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "행사(금요일에 과학터치)",
+      "park": "국립광주과학관",
+      "title": "2026년 금요일에 과학터치 연간 일정",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "",
+      "price": "무료",
+      "status": "접수중",
+      "apply_start": "2026-03-05",
+      "apply_end": "2026-10-29",
+      "event_start": "2026-03-27",
+      "event_end": "2026-10-30",
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_323&evSEQ=841",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-935",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "행사(주말/계기별/기념일 행사)",
+      "park": "국립광주과학관",
+      "title": "2026년 10월 주말 과학문화행사",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "",
+      "price": "1,000원",
+      "status": "접수중",
+      "apply_start": "2026-09-02",
+      "apply_end": "2026-10-29",
+      "event_start": "2026-10-04",
+      "event_end": "2026-10-25",
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_337&evSEQ=935",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-913",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "행사(문화행사)",
+      "park": "국립광주과학관",
+      "title": "과감한 콘서트 [행사안내]",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "",
+      "price": "무료",
+      "status": "접수중",
+      "apply_start": "2026-08-06",
+      "apply_end": "2026-10-28",
+      "event_start": "2026-09-20",
+      "event_end": "2026-09-20",
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_39&evSEQ=913",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-941",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "행사(과학스쿨)",
+      "park": "국립광주과학관",
+      "title": "5회차 과학스쿨 - 버려지는 전기를 저장하고 활용하는 방법은?",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "",
+      "price": "1,000원",
+      "status": "접수중",
+      "apply_start": "2026-09-23",
+      "apply_end": "2026-10-20",
+      "event_start": "2026-10-21",
+      "event_end": "2026-10-21",
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_40&evSEQ=941",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-948",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "행사(문화행사)",
+      "park": "국립광주과학관",
+      "title": "2026 광주 수학·과학축제",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "",
+      "price": "무료",
+      "status": "접수중",
+      "apply_start": "2026-10-01",
+      "apply_end": "2026-10-18",
+      "event_start": "2026-10-17",
+      "event_end": "2026-10-18",
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_39&evSEQ=948",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-942",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "행사(금요일에 과학터치)",
+      "park": "국립광주과학관",
+      "title": "2026년 금요일에 과학터치 16회차",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "",
+      "price": "무료",
+      "status": "접수중",
+      "apply_start": "2026-09-25",
+      "apply_end": "2026-10-15",
+      "event_start": "2026-10-16",
+      "event_end": "2026-10-16",
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_323&evSEQ=942",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-940",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "행사(문화행사)",
+      "park": "국립광주과학관",
+      "title": "2026년 아트사이언스 페스티벌",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "",
+      "price": "프로그램별 상이",
+      "status": "접수중",
+      "apply_start": "2026-09-22",
+      "apply_end": "2026-10-11",
+      "event_start": "2026-10-09",
+      "event_end": "2026-10-11",
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_39&evSEQ=940",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-944",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "행사(문화행사)",
+      "park": "국립광주과학관",
+      "title": "2026 과학관에서 생일파티 11월 참가자 모집",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "",
+      "price": "150,000원",
+      "status": "접수중",
+      "apply_start": "2026-10-01",
+      "apply_end": "2026-10-10",
+      "event_start": "2026-11-01",
+      "event_end": "2026-11-29",
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_39&evSEQ=944",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
+    },
+    {
+      "id": "gsc-946",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "행사(문화행사)",
+      "park": "국립광주과학관",
+      "title": "2026 아트사이언스 페스티벌 생태연못 해설 및 체험",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "",
+      "price": "2,000원",
+      "status": "접수중",
+      "apply_start": "2026-09-30",
+      "apply_end": "2026-10-10",
+      "event_start": "2026-10-10",
+      "event_end": "2026-10-11",
+      "time": "",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_39&evSEQ=946",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "acc-EM_0000009255",
@@ -6263,7 +7359,8 @@
       "url": "https://www.accf.or.kr/main/product/detail/ko/316",
       "phone": "1899-5566",
       "age_tag": "ok",
-      "group_only": true
+      "group_only": true,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "acc-EM_0000009971",
@@ -6285,7 +7382,8 @@
       "url": "https://www.accf.or.kr/main/product/detail/ko/419",
       "phone": "1899-5566",
       "age_tag": "no",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "acc-EM_0000009964",
@@ -6307,7 +7405,8 @@
       "url": "https://www.accf.or.kr/main/product/detail/ko/412",
       "phone": "1899-5566",
       "age_tag": "no",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "acc-EM_0000009963",
@@ -6329,7 +7428,8 @@
       "url": "https://www.accf.or.kr/main/product/detail/ko/411",
       "phone": "1899-5566",
       "age_tag": "ok",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "acc-EM_0000009972",
@@ -6351,7 +7451,8 @@
       "url": "https://www.accf.or.kr/main/product/detail/ko/420",
       "phone": "1899-5566",
       "age_tag": "no",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "acc-EM_0000009965",
@@ -6373,7 +7474,8 @@
       "url": "https://www.accf.or.kr/main/product/detail/ko/413",
       "phone": "1899-5566",
       "age_tag": "ok",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "acc-EM_0000009962",
@@ -6395,7 +7497,8 @@
       "url": "https://www.accf.or.kr/main/product/detail/ko/408",
       "phone": "1899-5566",
       "age_tag": "ok",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "acc-EM_0000009968",
@@ -6417,7 +7520,8 @@
       "url": "https://www.accf.or.kr/main/product/detail/ko/416",
       "phone": "1899-5566",
       "age_tag": "no",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "acc-EM_0000009967",
@@ -6439,7 +7543,8 @@
       "url": "https://www.accf.or.kr/main/product/detail/ko/415",
       "phone": "1899-5566",
       "age_tag": "no",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "acc-EM_0000009966",
@@ -6461,7 +7566,8 @@
       "url": "https://www.accf.or.kr/main/product/detail/ko/414",
       "phone": "1899-5566",
       "age_tag": "no",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "acc-EM_0000009969",
@@ -6483,7 +7589,8 @@
       "url": "https://www.accf.or.kr/main/product/detail/ko/417",
       "phone": "1899-5566",
       "age_tag": "no",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "acc-EM_0000009970",
@@ -6505,7 +7612,8 @@
       "url": "https://www.accf.or.kr/main/product/detail/ko/418",
       "phone": "1899-5566",
       "age_tag": "no",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "acc-EM_0000009973",
@@ -6527,7 +7635,8 @@
       "url": "https://www.accf.or.kr/main/product/detail/ko/409",
       "phone": "1899-5566",
       "age_tag": "ok",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "acc-EM_0000009974",
@@ -6549,7 +7658,8 @@
       "url": "https://www.accf.or.kr/main/product/detail/ko/410",
       "phone": "1899-5566",
       "age_tag": "ok",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "gam-4162",
@@ -6572,7 +7682,8 @@
       "how_to_apply": "온라인접수",
       "phone": "062-613-7100",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "gam-4126",
@@ -6595,7 +7706,8 @@
       "how_to_apply": "온라인접수",
       "phone": "062-613-7100",
       "age_tag": "no",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:33"
     },
     {
       "id": "fes-2435280",
@@ -6617,7 +7729,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/37/4115237_image2_1.JPG",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=2435280",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-2872215",
@@ -6639,7 +7752,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/13/4109413_image2_1.png",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=2872215",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-1322668",
@@ -6661,7 +7775,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/68/4108468_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=1322668",
       "age_tag": "ok",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-692682",
@@ -6683,7 +7798,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/71/3584471_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=692682",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-604097",
@@ -6705,7 +7821,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/32/3545732_image2_1.JPG",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=604097",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-2990881",
@@ -6727,7 +7844,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/63/4076763_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=2990881",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-2561700",
@@ -6749,7 +7867,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/22/3546722_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=2561700",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-3009344",
@@ -6771,7 +7890,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/44/4100044_image2_1.png",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3009344",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-4109893",
@@ -6793,7 +7913,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/97/4109897_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=4109893",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-638576",
@@ -6815,7 +7936,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/06/4114406_image2_1.JPG",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=638576",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-574014",
@@ -6837,7 +7959,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/90/3498990_image2_1.JPG",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=574014",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-3380662",
@@ -6859,7 +7982,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/97/3547597_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3380662",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-4110051",
@@ -6881,7 +8005,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/62/4110062_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=4110051",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-2874909",
@@ -6903,7 +8028,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/80/4113380_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=2874909",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-617992",
@@ -6925,7 +8051,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/66/4105666_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=617992",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-1075049",
@@ -6947,7 +8074,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/90/4105890_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=1075049",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-2854507",
@@ -6969,7 +8097,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/02/4115602_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=2854507",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-1391363",
@@ -6991,7 +8120,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/71/4106371_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=1391363",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-3370635",
@@ -7013,7 +8143,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/89/4106489_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3370635",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-2987489",
@@ -7035,7 +8166,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/97/4054497_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=2987489",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-4114185",
@@ -7057,7 +8189,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/90/4114190_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=4114185",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-3369503",
@@ -7079,7 +8212,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/93/4115193_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3369503",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-3478890",
@@ -7101,7 +8235,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/37/4040737_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3478890",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-4095228",
@@ -7123,7 +8258,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/56/4095456_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=4095228",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-2865136",
@@ -7145,7 +8281,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/01/4067301_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=2865136",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-3488655",
@@ -7167,7 +8304,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/85/4039885_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3488655",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-4067214",
@@ -7189,7 +8327,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/13/4067313_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=4067214",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-2737313",
@@ -7211,7 +8350,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/14/4109714_image2_1.png",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=2737313",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     },
     {
       "id": "fes-4089090",
@@ -7233,7 +8373,8 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/92/4089092_image2_1.jpg",
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=4089090",
       "age_tag": "check",
-      "group_only": false
+      "group_only": false,
+      "as_of": "2026-10-01 13:32"
     }
   ]
 }

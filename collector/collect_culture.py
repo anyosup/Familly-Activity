@@ -174,19 +174,31 @@ def gwangju_art():
     return out
 
 
-SOURCES = [gwangju_museum, naju_museum, science_center, acc_child, gwangju_art]
+# 함수 → 데이터에 찍히는 출처 이름 (수집 실패 시 이전 데이터를 유지하는 데 쓴다)
+SOURCES = {
+    gwangju_museum: "국립광주박물관",
+    naju_museum: "국립나주박물관",
+    science_center: "국립광주과학관",
+    acc_child: "ACC 어린이문화원",
+    gwangju_art: "광주시립미술관",
+}
+FAILED = set()  # 이번 실행에서 실패한 출처 이름
 
 
 def collect():
     items = []
-    for src in SOURCES:
+    for src, label in SOURCES.items():
         try:
-            got = [i for i in src() if still_relevant(i)]
+            raw = src()
+            if not raw:  # 지난 글까지 0건이면 접속이 막혔거나 화면 구조가 바뀐 것
+                raise RuntimeError("목록이 비어 있음")
+            got = [i for i in raw if still_relevant(i)]
             items += got
-            print(f"▶ {src.__name__}: {len(got)}건")
+            print(f"▶ {label}: {len(got)}건")
             for i in got:
                 flag = " [단체]" if i["group_only"] else ""
                 print(f"    - {i['title'][:40]}{flag}  접수 {i['apply_start'] or '-'}~{i['apply_end'] or '-'}  대상 {i['target'][:20]}")
         except Exception as e:  # 한 기관이 고장 나도 나머지는 계속
-            print(f"▶ {src.__name__}: 실패 ({e!r})")
+            FAILED.add(label)
+            print(f"▶ {label}: 실패 ({e!r})")
     return items

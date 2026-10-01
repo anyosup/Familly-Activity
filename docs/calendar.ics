@@ -16,6 +16,83 @@ TZNAME:KST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:gsc-2940-apply@family-activity
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:🔔 신청 오픈: 10월 야간천체관측 「별빛학교」
+LOCATION:국립광주과학관 (광주 북구 첨단과기로 235)
+DESCRIPTION:국립광주과학관\n대상: 6세 이상 누구나 (2021년
+ 생 이상) ※ 초등학생까지 보호자 동반 필수\n (50명)\n
+ 접수: 2026-10-07 ~ 2026-10-18\nhttps://www.sciencecenter.or.kr/kor/edu
+ /index.do?mode=view&menuId=285_306&eduSEQ=2940
+URL:https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285
+ _306&eduSEQ=2940
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 10월 야간천체관측 「별빛학교
+ 」
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gsc-2933-apply@family-activity
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:🔔 신청 오픈: [모두의 AI교실] AI새싹(누리과정)
+LOCATION:국립광주과학관 (광주 북구 첨단과기로 235)
+DESCRIPTION:국립광주과학관\n대상: 6세(2021년생)\, 7세(2020
+ 년생)\n (12명)\n접수: 2026-10-03 ~ 2026-10-04\nhttps://www.sciencec
+ enter.or.kr/kor/edu/index.do?mode=view&menuId=285_308&eduSEQ=2933
+URL:https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285
+ _308&eduSEQ=2933
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: [모두의 AI교실] AI새싹(누리과정
+ )
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gsc-948-apply@family-activity
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🔔 신청 오픈: 2026 광주 수학·과학축제
+LOCATION:국립광주과학관 (광주 북구 첨단과기로 235)
+DESCRIPTION:국립광주과학관\n대상: \n접수: 2026-10-01 ~ 2026-10
+ -18\nhttps://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18
+ _39&evSEQ=948
+URL:https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_3
+ 9&evSEQ=948
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 2026 광주 수학·과학축제
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gsc-944-apply@family-activity
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🔔 신청 오픈: 2026 과학관에서 생일파티 11월 참
+ 가자 모집
+LOCATION:국립광주과학관 (광주 북구 첨단과기로 235)
+DESCRIPTION:국립광주과학관\n대상: \n접수: 2026-10-01 ~ 2026-10
+ -10\nhttps://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18
+ _39&evSEQ=944
+URL:https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_3
+ 9&evSEQ=944
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 2026 과학관에서 생일파티 11월 
+ 참가자 모집
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gam-4162-apply@family-activity
 DTSTAMP:20261001T000000Z
 DTSTART;VALUE=DATE:20261001

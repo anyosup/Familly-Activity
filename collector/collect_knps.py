@@ -138,8 +138,8 @@ def collect_eco():
                 "target": "",
                 "age_tag": age_tag(p["title"], ""),
                 "dates": dates,
-                "how_to_apply": "생태탐방원 예약 (2인 이상)",
-                "url": f"{BASE}/eco/searchEcoReservation.do?deptId={dept_id}",
+                "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
+                "url": f"{BASE}/contents/E/serviceGuide.do?deptId={dept_id}",
             })
             n_open = sum(1 for d in dates if d["open"] and (d["left"] is None or d["left"] > 0))
             print(f"  [{center}] {p['title']}  → 예약가능 {n_open}일 / 조회 {len(dates)}일")
@@ -189,8 +189,8 @@ def collect_lodging():
             "park": center, "title": f"{center} 생활관", "place": center,
             "price": (f"1박 {min(prices):,}원" + (f" ~ {max(prices):,}원" if max(prices) != min(prices) else "")) if prices else "",
             "rooms": nights[0]["total"], "nights": nights, "target": "가족 (객실 단위)", "age_tag": "ok", "group_only": False,
-            "how_to_apply": "국립공원 예약시스템 (생태탐방원 → 생활관)",
-            "url": f"{BASE}/eco/searchEcoReservation.do?deptId={dept_id}",
+            "how_to_apply": "이용안내 페이지 → [예약하기] → 생활관 (로그인 필요)",
+            "url": f"{BASE}/contents/E/serviceGuide.do?deptId={dept_id}",
         })
         print(f"  [{center}] 객실 {nights[0]['total']}개 · 빈 방 있는 밤 {free_n}일 / 조회 {len(nights)}일")
     return items

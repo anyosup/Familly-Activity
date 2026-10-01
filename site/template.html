@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>우리 가족 체험 달력</title>
+<meta name="theme-color" content="#2f6b4f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌳</text></svg>">
+<style>
+:root {
+  --bg: #f6f4ee; --card: #ffffff; --text: #1f2a24; --muted: #66706a; --line: #e3e0d6;
+  --brand: #2f6b4f; --brand-soft: #e3efe7;
+  --ok: #1e7a46; --ok-bg: #dff3e6; --check: #8a6200; --check-bg: #fbefcf; --no: #8c8c8c; --no-bg: #ececec;
+  --weekend: #c2410c; --weekend-bg: #fde7dc; --warn: #b42318;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141815; --card: #1d231f; --text: #e8ece9; --muted: #9aa49e; --line: #2c342f;
+    --brand: #7fc49d; --brand-soft: #22352a;
+    --ok: #7fd7a2; --ok-bg: #1d3a28; --check: #f0c766; --check-bg: #3a3118; --no: #9a9a9a; --no-bg: #2a2a2a;
+    --weekend: #ffa47a; --weekend-bg: #3d2519; --warn: #ff8b80;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  font-size: 15px; line-height: 1.5; }
+header { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 14px 16px 8px; border-bottom: 1px solid var(--line); }
+h1 { font-size: 19px; margin: 0; }
+.updated { color: var(--muted); font-size: 12px; }
+.tabs, .chips { display: flex; gap: 6px; overflow-x: auto; padding: 8px 0 2px; scrollbar-width: none; }
+.tabs::-webkit-scrollbar, .chips::-webkit-scrollbar { display: none; }
+button { font: inherit; color: inherit; cursor: pointer; }
+.tab, .chip { flex: none; border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 5px 12px; font-size: 13px; white-space: nowrap; }
+.tab[aria-pressed="true"] { background: var(--brand); border-color: var(--brand); color: var(--bg); font-weight: 600; }
+.chip[aria-pressed="true"] { background: var(--brand-soft); border-color: var(--brand); color: var(--brand); font-weight: 600; }
+select.chip { appearance: none; padding-right: 22px; background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+  background-position: calc(100% - 12px) 50%, calc(100% - 8px) 50%; background-size: 4px 4px; background-repeat: no-repeat; }
+main { padding: 12px 16px 40px; max-width: 760px; margin: 0 auto; }
+.count { color: var(--muted); font-size: 13px; margin: 0 0 10px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px; margin-bottom: 12px; }
+.card.dim { opacity: .55; }
+.top { display: flex; gap: 8px; align-items: flex-start; }
+.top h2 { font-size: 16px; margin: 0; flex: 1; line-height: 1.4; }
+.star { border: 0; background: none; font-size: 20px; line-height: 1; padding: 0 2px; color: var(--muted); }
+.star[aria-pressed="true"] { color: #e0a100; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 6px; margin: 6px 0; font-size: 12px; }
+.badge { border-radius: 6px; padding: 1px 7px; background: var(--brand-soft); color: var(--brand); }
+.badge.ok { background: var(--ok-bg); color: var(--ok); }
+.badge.check { background: var(--check-bg); color: var(--check); }
+.badge.no { background: var(--no-bg); color: var(--no); }
+.badge.warn { background: transparent; color: var(--warn); border: 1px solid currentColor; }
+dl.info { display: grid; grid-template-columns: 64px 1fr; gap: 2px 8px; margin: 8px 0; font-size: 13px; }
+dl.info dt { color: var(--muted); }
+dl.info dd { margin: 0; overflow-wrap: anywhere; }
+.dates { display: flex; flex-wrap: wrap; gap: 5px; margin: 8px 0 4px; }
+.date { border: 1px solid var(--line); background: var(--card); border-radius: 8px; padding: 3px 7px; font-size: 12px; text-align: center; line-height: 1.25; }
+.date.we { background: var(--weekend-bg); border-color: transparent; color: var(--weekend); font-weight: 600; }
+.date small { display: block; font-size: 10px; opacity: .8; font-weight: 400; }
+.hint { color: var(--muted); font-size: 12px; margin: 2px 0; }
+details { margin-top: 6px; font-size: 13px; }
+summary { color: var(--muted); cursor: pointer; }
+details p { white-space: pre-line; margin: 6px 0; }
+.actions { display: flex; gap: 8px; margin-top: 10px; }
+.btn { flex: 1; text-align: center; text-decoration: none; border-radius: 10px; padding: 9px 10px; font-size: 14px; font-weight: 600; border: 1px solid var(--line); color: var(--text); background: var(--card); }
+.btn.primary { background: var(--brand); border-color: var(--brand); color: var(--bg); }
+.empty { text-align: center; color: var(--muted); padding: 40px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🌳 우리 가족 체험 달력</h1>
+  <div class="updated" id="updated"></div>
+  <div class="tabs" id="tabs" role="group" aria-label="종류"></div>
+  <div class="chips" id="filters" role="group" aria-label="필터"></div>
+</header>
+<main>
+  <p class="count" id="count"></p>
+  <div id="list"></div>
+</main>
+
+<script id="data" type="application/json">/*DATA*/</script>
+<script>
+const DATA = JSON.parse(document.getElementById('data').textContent);
+const AGE = { ok: '유아 가능', check: '확인 필요', no: '초등 이상' };
+const WEEK = ['일', '월', '화', '수', '목', '금', '토'];
+
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+};
+let favs = new Set(store.get('favs', []));
+const state = Object.assign({ tab: 'all', park: '', weekend: false, favOnly: false, hideNo: false }, store.get('filters', {}));
+
+const TABS = [['all', '전체'], ['생태탐방원', '생태탐방원'], ['trail', '탐방프로그램']];
+
+function el(tag, attrs = {}, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k.startsWith('on')) e.addEventListener(k.slice(2), v);
+    else if (v !== undefined && v !== null && v !== false) e.setAttribute(k, v === true ? '' : v);
+  }
+  for (const c of kids.flat(Infinity)) if (c !== null && c !== undefined && c !== false) e.append(c);
+  return e;
+}
+
+function renderControls() {
+  const tabs = document.getElementById('tabs');
+  tabs.replaceChildren(...TABS.map(([v, label]) =>
+    el('button', { class: 'tab', 'aria-pressed': String(state.tab === v), onclick: () => { state.tab = v; update(); } }, label)));
+
+  const parks = [...new Set(DATA.items.map(i => i.park))];
+  const sel = el('select', { class: 'chip', 'aria-label': '장소', onchange: e => { state.park = e.target.value; update(); } },
+    el('option', { value: '' }, '모든 장소'),
+    parks.map(p => el('option', { value: p, selected: state.park === p }, p)));
+  const toggle = (key, label) => el('button', { class: 'chip', 'aria-pressed': String(state[key]), onclick: () => { state[key] = !state[key]; update(); } }, label);
+  document.getElementById('filters').replaceChildren(
+    sel, toggle('weekend', '주말 자리 있음'), toggle('hideNo', '초등 이상 숨기기'), toggle('favOnly', `⭐ 찜 (${favs.size})`));
+}
+
+function openDates(item) {
+  return (item.dates || []).filter(d => d.open && (d.left === null || d.left > 0));
+}
+const isWeekend = s => [0, 6].includes(new Date(s + 'T00:00').getDay());
+
+function match(item) {
+  if (state.tab === 'trail' && item.category === '생태탐방원') return false;
+  if (state.tab === '생태탐방원' && item.category !== '생태탐방원') return false;
+  if (state.park && item.park !== state.park) return false;
+  if (state.favOnly && !favs.has(item.id)) return false;
+  if (state.hideNo && item.age_tag === 'no') return false;
+  if (state.weekend && !openDates(item).some(d => isWeekend(d.date))) return false;
+  return true;
+}
+
+function periodText(item) {
+  if (!item.period_end) return '';
+  return item.period_end >= '2030' ? '연중 상시' : `~ ${item.period_end}`;
+}
+
+function minPeople(item) {
+  const m = (item.notes || '').match(/(\d+)\s*명\s*미만/);
+  return m ? `최소 ${m[1]}명 모여야 진행` : '';
+}
+
+function card(item) {
+  const fav = favs.has(item.id);
+  const dates = openDates(item);
+  const shown = state.weekend ? dates.filter(d => isWeekend(d.date)) : dates;
+  const info = [
+    ['장소', item.place], ['시간', item.time || item.duration], ['요금', item.price], ['대상', item.target],
+    ['인원', item.capacity], ['기간', periodText(item)], ['신청', item.how_to_apply],
+  ].filter(([, v]) => v);
+  const warn = minPeople(item);
+
+  return el('article', { class: 'card' + (item.age_tag === 'no' ? ' dim' : '') },
+    el('div', { class: 'top' },
+      el('h2', {}, item.title),
+      el('button', { class: 'star', 'aria-pressed': String(fav), 'aria-label': fav ? '찜 해제' : '찜하기',
+        onclick: () => { fav ? favs.delete(item.id) : favs.add(item.id); store.set('favs', [...favs]); update(); } }, fav ? '★' : '☆')),
+    el('div', { class: 'meta' },
+      el('span', { class: 'badge' }, item.park),
+      el('span', { class: 'badge ' + item.age_tag }, AGE[item.age_tag]),
+      item.category !== '생태탐방원' && el('span', { class: 'badge' }, item.category),
+      warn && el('span', { class: 'badge warn' }, warn)),
+    el('dl', { class: 'info' }, info.map(([k, v]) => [el('dt', {}, k), el('dd', {}, v)])),
+    item.dates && (dates.length
+      ? [el('div', { class: 'hint' }, `예약 가능 ${dates.length}일 · 주말 ${dates.filter(d => isWeekend(d.date)).length}일 · 날짜를 누르면 캘린더에 추가`),
+         el('div', { class: 'dates' }, shown.slice(0, 24).map(d => {
+           const dt = new Date(d.date + 'T00:00');
+           return el('button', { class: 'date' + (isWeekend(d.date) ? ' we' : ''), title: '캘린더에 추가', onclick: () => downloadIcs(item, d.date) },
+             `${dt.getMonth() + 1}/${dt.getDate()}(${WEEK[dt.getDay()]})`, el('small', {}, d.left === null ? '여유' : `${d.left}석`));
+         }))]
+      : el('div', { class: 'hint' }, '앞으로 60일 내 예약 가능한 날짜 없음')),
+    (item.summary || item.notes) && el('details', {},
+      el('summary', {}, '내용·주의사항 보기'),
+      item.summary && el('p', {}, item.summary),
+      item.notes && el('p', {}, item.notes)),
+    el('div', { class: 'actions' },
+      el('a', { class: 'btn primary', href: item.url, target: '_blank', rel: 'noopener' }, '예약 페이지'),
+      item.phone && el('a', { class: 'btn', href: 'tel:' + item.phone.replace(/[^\d]/g, '') }, '전화 문의')));
+}
+
+function downloadIcs(item, day) {
+  const d = day.replace(/-/g, '');
+  const next = new Date(day + 'T00:00'); next.setDate(next.getDate() + 1);
+  const d2 = next.toISOString().slice(0, 10).replace(/-/g, '');
+  const esc = s => String(s || '').replace(/[\\,;]/g, m => '\\' + m).replace(/\n/g, '\\n');
+  const ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//family-activity//KO', 'BEGIN:VEVENT',
+    `UID:${item.id}-${d}@family-activity`, `DTSTART;VALUE=DATE:${d}`, `DTEND;VALUE=DATE:${d2}`,
+    `SUMMARY:${esc(item.title)}`, `LOCATION:${esc(item.place)}`, `DESCRIPTION:${esc(item.url)}`, `URL:${item.url}`,
+    'BEGIN:VALARM', 'TRIGGER:-P1D', 'ACTION:DISPLAY', 'DESCRIPTION:내일 체험 일정', 'END:VALARM',
+    'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
+  const a = el('a', { href: URL.createObjectURL(new Blob([ics], { type: 'text/calendar' })), download: `${d}.ics` });
+  a.click();
+}
+
+function update() {
+  store.set('filters', state);
+  renderControls();
+  const items = DATA.items.filter(match);
+  document.getElementById('count').textContent = `${items.length}개 프로그램`;
+  const list = document.getElementById('list');
+  list.replaceChildren(...(items.length ? items.map(card) : [el('p', { class: 'empty' }, '조건에 맞는 프로그램이 없어요')]));
+}
+
+document.getElementById('updated').textContent = `국립공원 예약시스템 기준 · ${DATA.updated_at.replace('T', ' ')} 업데이트`;
+update();
+</script>
+</body>
+</html>

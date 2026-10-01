@@ -1,20 +1,13 @@
-"""국립공원 예약시스템에서 광주·전남권 탐방프로그램 + 생태탐방원 프로그램을 수집한다.
-
-실행:  py collector/collect_knps.py
-결과:  data/programs.json
-외부 라이브러리 없이 파이썬 기본 기능만 사용한다.
-"""
+"""국립공원 예약시스템에서 광주·전남권 탐방프로그램 + 생태탐방원 프로그램을 수집한다."""
 import html
 import json
 import re
-import time
-import urllib.parse
-import urllib.request
-from datetime import date, datetime, timedelta, timezone
-from pathlib import Path
+from datetime import datetime, timedelta
+
+import common
+from common import KST, age_tag, clean
 
 BASE = "https://reservation.knps.or.kr"
-OUT = Path(__file__).resolve().parent.parent / "data" / "programs.json"
 
 # ── 설정: 여기만 고치면 수집 대상이 바뀐다 ──────────────────────────
 # 탐방프로그램: 공원코드(목록 조회용) → 포함할 세부 사무소 코드와 지역
@@ -35,45 +28,11 @@ ECO_CENTERS = {
 ECO_DAYS_AHEAD = 60  # 생태탐방원은 오늘부터 며칠 뒤까지 조회할지
 # ──────────────────────────────────────────────────────────────────
 
-KST = timezone(timedelta(hours=9))
-UA = {"User-Agent": "Mozilla/5.0 (family-kids-activity-calendar; personal use)"}
+HEADERS = {"Referer": BASE + "/trprogram/searchTrailProgram.do", "X-Requested-With": "XMLHttpRequest"}
 
 
 def fetch(url, data=None):
-    body = urllib.parse.urlencode(data).encode() if data else None
-    req = urllib.request.Request(url, data=body, headers={
-        **UA,
-        "Referer": BASE + "/trprogram/searchTrailProgram.do",
-        "X-Requested-With": "XMLHttpRequest",
-    })
-    with urllib.request.urlopen(req, timeout=30) as r:
-        text = r.read().decode("utf-8", errors="replace")
-    time.sleep(0.5)  # 사이트에 부담 주지 않도록 천천히
-    return text
-
-
-def clean(s):
-    s = re.sub(r"<br\s*/?>", "\n", s)
-    s = re.sub(r"<[^>]+>", "", s)
-    s = html.unescape(s)
-    return re.sub(r"[ \t]+", " ", s).strip()
-
-
-# ── 연령 표시: 거르지 않고 표시만 붙인다 ──────────────────────────
-KID_OK = ["유아", "영유아", "어린이", "아동", "가족", "모든 연령", "전연령", "전 연령", "모든연령", "구분 없음", "구분없음", "누구나", "제한없음", "제한 없음", "미취학"]
-KID_NO = ["초등학생 이상", "초등 이상", "중학생", "고등학생", "청소년", "성인", "노인", "어르신", "외국인", "이주노동자", "직업탐험"]
-
-
-def age_tag(title, target):
-    text = f"{title} {target}"
-    if any(k in text for k in KID_OK):
-        return "ok"
-    m = re.search(r"(\d+)\s*세\s*이상", text)
-    if m:
-        return "ok" if int(m.group(1)) <= 5 else "no"
-    if any(k in text for k in KID_NO):
-        return "no"
-    return "check"
+    return common.fetch(url, data, HEADERS)
 
 
 # ── 탐방프로그램 ──────────────────────────────────────────────────
@@ -182,20 +141,8 @@ def collect_eco():
     return items
 
 
-def main():
-    print("▶ 탐방프로그램 수집")
+def collect():
+    print("▶ 국립공원 탐방프로그램")
     trail = collect_trail()
-    print("▶ 생태탐방원 수집")
-    eco = collect_eco()
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps({
-        "updated_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
-        "items": trail + eco,
-    }, ensure_ascii=False, indent=2), encoding="utf-8")
-    tags = [i["age_tag"] for i in trail + eco]
-    print(f"\n완료: 총 {len(tags)}건 (유아가능 {tags.count('ok')}, 확인필요 {tags.count('check')}, 초등이상 {tags.count('no')})")
-    print(f"저장: {OUT}")
-
-
-if __name__ == "__main__":
-    main()
+    print("▶ 국립공원 생태탐방원")
+    return trail + collect_eco()

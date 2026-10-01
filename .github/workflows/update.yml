@@ -20,8 +20,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 국립공원 데이터 수집
-        run: python collector/collect_knps.py
+      - name: 데이터 수집 (국립공원·박물관·과학관·축제)
+        run: python collector/collect_all.py
+        env:
+          TOURAPI_KEY: ${{ secrets.TOURAPI_KEY }}
 
       - name: 웹페이지 만들기
         run: python site/build_site.py

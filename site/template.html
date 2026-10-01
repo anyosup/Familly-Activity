@@ -67,12 +67,19 @@ details p { white-space: pre-line; margin: 6px 0; }
 .btn { flex: 1; text-align: center; text-decoration: none; border-radius: 10px; padding: 9px 10px; font-size: 14px; font-weight: 600; border: 1px solid var(--line); color: var(--text); background: var(--card); }
 .btn.primary { background: var(--brand); border-color: var(--brand); color: var(--bg); }
 .empty { text-align: center; color: var(--muted); padding: 40px 0; }
+.badge.soon { background: #2f5fb3; color: #fff; font-weight: 600; }
+.badge.open { background: var(--ok); color: var(--card); font-weight: 600; }
+.badge.closed { background: var(--no-bg); color: var(--no); }
+.badge.group { background: var(--no-bg); color: var(--no); }
+.subscribe { display: inline-block; margin-top: 4px; font-size: 12px; color: var(--brand); text-decoration: none; font-weight: 600; }
+@media (prefers-color-scheme: dark) { .badge.soon { background: #8fb3ff; color: #10172a; } }
 </style>
 </head>
 <body>
 <header>
   <h1>🌳 우리 가족 체험 달력</h1>
   <div class="updated" id="updated"></div>
+  <a class="subscribe" id="subscribe" href="calendar.ics">📅 신청 오픈 알림을 폰 달력에 구독하기</a>
   <div class="tabs" id="tabs" role="group" aria-label="종류"></div>
   <div class="chips" id="filters" role="group" aria-label="필터"></div>
 </header>
@@ -92,9 +99,29 @@ const store = {
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
 };
 let favs = new Set(store.get('favs', []));
-const state = Object.assign({ tab: 'all', park: '', weekend: false, favOnly: false, hideNo: false }, store.get('filters', {}));
+const state = Object.assign({ tab: 'soon', park: '', weekend: false, favOnly: false, hideNo: false, showGroup: false }, store.get('filters', {}));
 
-const TABS = [['all', '전체'], ['생태탐방원', '생태탐방원'], ['trail', '탐방프로그램']];
+const KINDS = ['생태탐방원', '국립공원', '박물관·미술관', '과학관', '축제'];
+const TABS = [['soon', '🔔 신청 오픈 예정'], ['open', '접수 중'], ['all', '전체'], ...KINDS.map(k => [k, k])]
+  .filter(([v]) => !KINDS.includes(v) || DATA.items.some(i => i.kind === v));
+
+// ── 날짜·접수 상태 ──
+const DAY = 864e5;
+const toDate = (s, endOfDay) => s ? new Date(s.length > 10 ? s.replace(' ', 'T') : s + (endOfDay ? 'T23:59' : 'T00:00')) : null;
+function dday(d) {
+  const t = new Date(); t.setHours(0, 0, 0, 0);
+  const x = new Date(d); x.setHours(0, 0, 0, 0);
+  const n = Math.round((x - t) / DAY);
+  return n === 0 ? '오늘' : n > 0 ? `D-${n}` : `D+${-n}`;
+}
+function applyState(item) {
+  const now = new Date(), s = toDate(item.apply_start), e = toDate(item.apply_end, true);
+  if (s && s > now) return { key: 'soon', label: `신청 오픈 ${dday(s)}`, at: s };
+  if (e && e >= now) return { key: 'open', label: `접수 중 · 마감 ${dday(e)}`, at: e };
+  if (e) return { key: 'closed', label: '접수 마감', at: e };
+  return null;
+}
+const range = (a, b) => a ? (b && b !== a ? `${a.replace(/-/g, '.')} ~ ${b.replace(/-/g, '.')}` : a.replace(/-/g, '.')) : '';
 
 function el(tag, attrs = {}, ...kids) {
   const e = document.createElement(tag);
@@ -117,7 +144,7 @@ function renderControls() {
     parks.map(p => el('option', { value: p, selected: state.park === p }, p)));
   const toggle = (key, label) => el('button', { class: 'chip', 'aria-pressed': String(state[key]), onclick: () => { state[key] = !state[key]; update(); } }, label);
   document.getElementById('filters').replaceChildren(
-    sel, toggle('weekend', '주말 자리 있음'), toggle('hideNo', '초등 이상 숨기기'), toggle('favOnly', `⭐ 찜 (${favs.size})`));
+    sel, toggle('weekend', '주말 자리 있음'), toggle('hideNo', '초등 이상 숨기기'), toggle('showGroup', '단체 전용도 보기'), toggle('favOnly', `⭐ 찜 (${favs.size})`));
 }
 
 function openDates(item) {
@@ -126,14 +153,27 @@ function openDates(item) {
 const isWeekend = s => [0, 6].includes(new Date(s + 'T00:00').getDay());
 
 function match(item) {
-  if (state.tab === 'trail' && item.category === '생태탐방원') return false;
-  if (state.tab === '생태탐방원' && item.category !== '생태탐방원') return false;
+  const st = applyState(item);
+  if (state.tab === 'soon' && st?.key !== 'soon') return false;
+  if (state.tab === 'open' && st?.key !== 'open' && !openDates(item).length) return false;
+  if (!['all', 'soon', 'open'].includes(state.tab) && item.kind !== state.tab) return false;
   if (state.park && item.park !== state.park) return false;
   if (state.favOnly && !favs.has(item.id)) return false;
   if (state.hideNo && item.age_tag === 'no') return false;
+  if (!state.showGroup && item.group_only) return false;
   if (state.weekend && !openDates(item).some(d => isWeekend(d.date))) return false;
   return true;
 }
+
+// 신청 오픈 예정 탭은 빠른 순, 그 외에는 접수 중 → 오픈 예정 → 나머지, 같은 묶음 안에서는 유아 가능 먼저
+function sortKey(item) {
+  const st = applyState(item);
+  const age = { ok: 0, check: 1, no: 2 }[item.age_tag];
+  if (state.tab === 'soon') return [st.at.getTime(), age];
+  const rank = { open: 0, soon: 1 }[st?.key] ?? (openDates(item).length ? 0 : 2);
+  return [rank, age, st?.at?.getTime() ?? 9e15];
+}
+const cmp = (a, b) => { const x = sortKey(a), y = sortKey(b); for (let i = 0; i < x.length; i++) if (x[i] !== y[i]) return x[i] - y[i]; return 0; };
 
 function periodText(item) {
   if (!item.period_end) return '';
@@ -150,10 +190,12 @@ function card(item) {
   const dates = openDates(item);
   const shown = state.weekend ? dates.filter(d => isWeekend(d.date)) : dates;
   const info = [
+    ['접수', range(item.apply_start, item.apply_end)], ['일정', range(item.event_start, item.event_end)],
     ['장소', item.place], ['시간', item.time || item.duration], ['요금', item.price], ['대상', item.target],
     ['인원', item.capacity], ['기간', periodText(item)], ['신청', item.how_to_apply],
   ].filter(([, v]) => v);
   const warn = minPeople(item);
+  const st = applyState(item);
 
   return el('article', { class: 'card' + (item.age_tag === 'no' ? ' dim' : '') },
     el('div', { class: 'top' },
@@ -161,7 +203,9 @@ function card(item) {
       el('button', { class: 'star', 'aria-pressed': String(fav), 'aria-label': fav ? '찜 해제' : '찜하기',
         onclick: () => { fav ? favs.delete(item.id) : favs.add(item.id); store.set('favs', [...favs]); update(); } }, fav ? '★' : '☆')),
     el('div', { class: 'meta' },
+      st && el('span', { class: 'badge ' + st.key }, st.label),
       el('span', { class: 'badge' }, item.park),
+      item.group_only && el('span', { class: 'badge group' }, '단체 전용'),
       el('span', { class: 'badge ' + item.age_tag }, AGE[item.age_tag]),
       item.category !== '생태탐방원' && el('span', { class: 'badge' }, item.category),
       warn && el('span', { class: 'badge warn' }, warn)),
@@ -179,34 +223,39 @@ function card(item) {
       item.summary && el('p', {}, item.summary),
       item.notes && el('p', {}, item.notes)),
     el('div', { class: 'actions' },
-      el('a', { class: 'btn primary', href: item.url, target: '_blank', rel: 'noopener' }, '예약 페이지'),
+      el('a', { class: 'btn primary', href: item.url, target: '_blank', rel: 'noopener' }, item.kind === '축제' ? '축제 정보' : '신청 페이지'),
+      st?.key === 'soon' && el('button', { class: 'btn', onclick: () => downloadIcs(item, item.apply_start, '🔔 신청 오픈: ') }, '오픈 알림'),
       item.phone && el('a', { class: 'btn', href: 'tel:' + item.phone.replace(/[^\d]/g, '') }, '전화 문의')));
 }
 
-function downloadIcs(item, day) {
-  const d = day.replace(/-/g, '');
-  const next = new Date(day + 'T00:00'); next.setDate(next.getDate() + 1);
-  const d2 = next.toISOString().slice(0, 10).replace(/-/g, '');
+function downloadIcs(item, when, prefix = '') {
+  const timed = when.length > 10;
+  const z = n => String(n).padStart(2, '0');
+  const stamp = d => `${d.getFullYear()}${z(d.getMonth() + 1)}${z(d.getDate())}`;
+  const start = toDate(when);
+  const end = new Date(start.getTime() + (timed ? 30 * 60e3 : DAY));
+  const at = d => timed ? `;TZID=Asia/Seoul:${stamp(d)}T${z(d.getHours())}${z(d.getMinutes())}00` : `;VALUE=DATE:${stamp(d)}`;
   const esc = s => String(s || '').replace(/[\\,;]/g, m => '\\' + m).replace(/\n/g, '\\n');
   const ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//family-activity//KO', 'BEGIN:VEVENT',
-    `UID:${item.id}-${d}@family-activity`, `DTSTART;VALUE=DATE:${d}`, `DTEND;VALUE=DATE:${d2}`,
-    `SUMMARY:${esc(item.title)}`, `LOCATION:${esc(item.place)}`, `DESCRIPTION:${esc(item.url)}`, `URL:${item.url}`,
-    'BEGIN:VALARM', 'TRIGGER:-P1D', 'ACTION:DISPLAY', 'DESCRIPTION:내일 체험 일정', 'END:VALARM',
+    `UID:${item.id}-${stamp(start)}${prefix ? '-apply' : ''}@family-activity`, `DTSTART${at(start)}`, `DTEND${at(end)}`,
+    `SUMMARY:${esc(prefix + item.title)}`, `LOCATION:${esc(item.place)}`, `DESCRIPTION:${esc(item.url)}`, `URL:${item.url}`,
+    'BEGIN:VALARM', `TRIGGER:${prefix && timed ? '-PT30M' : '-P1D'}`, 'ACTION:DISPLAY', `DESCRIPTION:${esc(prefix + item.title)}`, 'END:VALARM',
     'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
-  const a = el('a', { href: URL.createObjectURL(new Blob([ics], { type: 'text/calendar' })), download: `${d}.ics` });
+  const a = el('a', { href: URL.createObjectURL(new Blob([ics], { type: 'text/calendar' })), download: `${stamp(start)}.ics` });
   a.click();
 }
 
 function update() {
   store.set('filters', state);
   renderControls();
-  const items = DATA.items.filter(match);
+  const items = DATA.items.filter(match).sort(cmp);
   document.getElementById('count').textContent = `${items.length}개 프로그램`;
   const list = document.getElementById('list');
-  list.replaceChildren(...(items.length ? items.map(card) : [el('p', { class: 'empty' }, '조건에 맞는 프로그램이 없어요')]));
+  list.replaceChildren(...(items.length ? items.map(card) : [el('p', { class: 'empty' }, state.tab === 'soon' ? '곧 신청이 열리는 프로그램이 없어요. "단체 전용도 보기"를 켜거나 다른 탭을 보세요.' : '조건에 맞는 프로그램이 없어요')]));
 }
 
-document.getElementById('updated').textContent = `국립공원 예약시스템 기준 · ${DATA.updated_at.replace('T', ' ')} 업데이트`;
+if (location.protocol === 'https:') document.getElementById('subscribe').href = 'webcal://' + location.host + location.pathname.replace(/[^/]*$/, '') + 'calendar.ics';
+document.getElementById('updated').textContent = `${DATA.items.length}개 프로그램 · ${DATA.updated_at.replace('T', ' ')} 업데이트`;
 update();
 </script>
 </body>

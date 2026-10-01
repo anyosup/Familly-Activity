@@ -1,4 +1,4 @@
-# 집 PC에서 매일 실행: 국내에서만 열리는 사이트(국립광주과학관·국립광주박물관 등)까지 수집해 GitHub에 올린다.
+﻿# 집 PC에서 매일 실행: 국내에서만 열리는 사이트(국립광주과학관·국립광주박물관 등)까지 수집해 GitHub에 올린다.
 # Windows 작업 스케줄러가 이 파일을 실행한다. 직접 실행해도 된다:
 #   powershell -ExecutionPolicy Bypass -File scripts\update_local.ps1
 # 실행 기록은 logs\update_local.log 에 남는다.

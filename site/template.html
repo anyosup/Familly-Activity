@@ -44,7 +44,7 @@ main { padding: 12px 16px 40px; max-width: 760px; margin: 0 auto; }
 .card.dim { opacity: .55; }
 .top { display: flex; gap: 8px; align-items: flex-start; }
 .top h2 { font-size: 16px; margin: 0; flex: 1; line-height: 1.4; }
-.star { border: 0; background: none; font-size: 20px; line-height: 1; padding: 0 2px; color: var(--muted); }
+.star { border: 0; background: none; font-size: 24px; line-height: 1; padding: 2px 4px; margin: -4px -4px 0 0; color: var(--muted); }
 .star[aria-pressed="true"] { color: #e0a100; }
 .meta { display: flex; flex-wrap: wrap; gap: 4px 6px; margin: 6px 0; font-size: 12px; }
 .badge { border-radius: 6px; padding: 1px 7px; background: var(--brand-soft); color: var(--brand); }
@@ -112,10 +112,10 @@ const store = {
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
 };
 let favs = new Set(store.get('favs', []));
-const state = Object.assign({ tab: 'hot', park: '', weekend: false, favOnly: false, hideNo: false, showGroup: false }, store.get('filters', {}));
+const state = Object.assign({ tab: 'hot', park: '', weekend: false, hideNo: false, showGroup: false }, store.get('filters', {}));
 
 const KINDS = ['숙박', '생태탐방원', '국립공원', '순천만습지', '박물관·미술관', '과학관', '광주시 체험', '축제'];
-const TABS = [['hot', '🔥 관심'], ['soon', '🔔 신청 오픈 예정'], ['open', '접수 중'], ['all', '전체'], ...KINDS.map(k => [k, k === '숙박' ? '🏠 생태탐방원 숙박' : k])]
+const TABS = [['hot', '🔥 관심'], ['fav', '⭐ 찜'], ['soon', '🔔 신청 오픈 예정'], ['open', '접수 중'], ['all', '전체'], ...KINDS.map(k => [k, k === '숙박' ? '🏠 생태탐방원 숙박' : k])]
   .filter(([v]) => !KINDS.includes(v) || DATA.items.some(i => i.kind === v));
 
 // ── 날짜·접수 상태 ──
@@ -149,7 +149,7 @@ function el(tag, attrs = {}, ...kids) {
 function renderControls() {
   const tabs = document.getElementById('tabs');
   tabs.replaceChildren(...TABS.map(([v, label]) =>
-    el('button', { class: 'tab', 'aria-pressed': String(state.tab === v), onclick: () => { state.tab = v; update(); } }, label)));
+    el('button', { class: 'tab', 'aria-pressed': String(state.tab === v), onclick: () => { state.tab = v; update(); } }, v === 'fav' ? `${label} ${favs.size}` : label)));
 
   const parks = [...new Set(DATA.items.map(i => i.park))];
   const sel = el('select', { class: 'chip', 'aria-label': '장소', onchange: e => { state.park = e.target.value; update(); } },
@@ -157,7 +157,7 @@ function renderControls() {
     parks.map(p => el('option', { value: p, selected: state.park === p }, p)));
   const toggle = (key, label) => el('button', { class: 'chip', 'aria-pressed': String(state[key]), onclick: () => { state[key] = !state[key]; update(); } }, label);
   document.getElementById('filters').replaceChildren(
-    sel, toggle('weekend', '주말 자리 있음'), toggle('hideNo', '초등 이상 숨기기'), toggle('showGroup', '단체 전용도 보기'), toggle('favOnly', `⭐ 찜 (${favs.size})`));
+    sel, toggle('weekend', '주말 자리 있음'), toggle('hideNo', '초등 이상 숨기기'), toggle('showGroup', '단체 전용도 보기'));
 }
 
 function openDates(item) {
@@ -171,10 +171,10 @@ function match(item) {
   const st = applyState(item);
   if (state.tab === 'soon' && st?.key !== 'soon') return false;
   if (state.tab === 'open' && st?.key !== 'open' && !openDates(item).length && !freeNights(item).length) return false;
+  if (state.tab === 'fav') return favs.has(item.id);
   if (state.tab === 'hot' && !item.hot) return false;
-  if (!['all', 'soon', 'open', 'hot'].includes(state.tab) && item.kind !== state.tab) return false;
+  if (!['all', 'soon', 'open', 'hot', 'fav'].includes(state.tab) && item.kind !== state.tab) return false;
   if (state.park && item.park !== state.park) return false;
-  if (state.favOnly && !favs.has(item.id)) return false;
   if (state.hideNo && item.age_tag === 'no') return false;
   if (!state.showGroup && item.group_only) return false;
   if (state.weekend && !openDates(item).some(d => isWeekend(d.date)) && !freeNights(item).some(n => isWeekendNight(n.date))) return false;
@@ -293,7 +293,7 @@ function update() {
   const list = document.getElementById('list');
   const links = state.tab === 'hot' && DATA.links?.length ? [el('div', { class: 'section-title' }, '📌 자주 가는 예약 바로가기'),
     el('div', { class: 'links' }, DATA.links.map(l => el('a', { class: 'link-card', href: l.url, target: '_blank', rel: 'noopener' }, el('b', {}, l.name), l.note)))] : [];
-  list.replaceChildren(...links, ...(items.length ? items.map(card) : [el('p', { class: 'empty' }, state.tab === 'soon' ? '곧 신청이 열리는 프로그램이 없어요. "단체 전용도 보기"를 켜거나 다른 탭을 보세요.' : '조건에 맞는 프로그램이 없어요')]));
+  list.replaceChildren(...links, ...(items.length ? items.map(card) : [el('p', { class: 'empty' }, state.tab === 'fav' ? '아직 찜한 프로그램이 없어요. 카드 오른쪽 위 ☆를 누르면 여기에 모여요.' : state.tab === 'soon' ? '곧 신청이 열리는 프로그램이 없어요. "단체 전용도 보기"를 켜거나 다른 탭을 보세요.' : '조건에 맞는 프로그램이 없어요')]));
 }
 
 if (location.protocol === 'https:') document.getElementById('subscribe').href = 'webcal://' + location.host + location.pathname.replace(/[^/]*$/, '') + 'calendar.ics';

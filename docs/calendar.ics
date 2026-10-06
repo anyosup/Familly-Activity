@@ -16,26 +16,6 @@ TZNAME:KST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:gjr-1617-apply@family-activity
-DTSTAMP:20261006T000000Z
-DTSTART;TZID=Asia/Seoul:20261006T090000
-DTEND;TZID=Asia/Seoul:20261006T093000
-SUMMARY:🔔 신청 오픈: 김치박물관 한식디저트 만들기 체
- 험 16회차(알록달록삼색경단\, 단호박스프)
-LOCATION:김치타운 본관 2층 교육체험장
-DESCRIPTION:김치타운\n대상: 제한없음\n접수: 2026-10-06 09:00 
- ~ 2026-10-12 15:00\nhttps://www.gwangju.go.kr/reserve/bookingView.do?pag
- eId=reserve2&searchCate1=B&bookingCode=1617
-URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
- chCate1=B&bookingCode=1617
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:곧 신청 오픈: 김치박물관 한식디저트 만들기 
- 체험 16회차(알록달록삼색경단\, 단호박스프)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:gjr-1609-apply@family-activity
 DTSTAMP:20261013T000000Z
 DTSTART;TZID=Asia/Seoul:20261013T090000

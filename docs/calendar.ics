@@ -35,6 +35,33 @@ DESCRIPTION:곧 신청 오픈: 김치 한상차림 9회차(김치떡갈
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:gjr-1638-apply@family-activity
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Asia/Seoul:20261019T090000
+DTEND;TZID=Asia/Seoul:20261019T093000
+SUMMARY:🔥 신청 오픈: 동물생태해설사와 함께 동물원 한
+ 바퀴
+LOCATION:우치동물원 전역
+DESCRIPTION:우치동물원\n대상: 어린이/청소년\,성인/청년\,
+ 여성/가족\,중년/장년\,장애인/유공자\,기타\n접수: 2026-
+ 10-19 09:00 ~ 2026-10-23 15:00\nhttps://www.gwangju.go.kr/reserve/bookin
+ gView.do?pageId=reserve2&searchCate1=B&bookingCode=1638
+URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
+ chCate1=B&bookingCode=1638
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 동물생태해설사와 함께 동물원 
+ 한바퀴
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT24H
+ACTION:DISPLAY
+DESCRIPTION:🔥 내일 신청 오픈: 동물생태해설사와 함께 
+ 동물원 한바퀴
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gjr-1609-apply@family-activity
 DTSTAMP:20261013T000000Z
 DTSTART;TZID=Asia/Seoul:20261013T090000
@@ -50,6 +77,73 @@ BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:곧 신청 오픈: 김치 한상차림 8회차(김치만두)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gjr-1640-apply@family-activity
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Asia/Seoul:20261012T100000
+DTEND;TZID=Asia/Seoul:20261012T103000
+SUMMARY:🔔 신청 오픈: 수목원 가을 숲 생태탐험 "열매를 
+ 찾아서"
+LOCATION:시립수목원
+DESCRIPTION:시립수목원\n대상: 기타\n접수: 2026-10-12 10:00 ~ 2
+ 026-11-07 12:00\nhttps://www.gwangju.go.kr/reserve/bookingView.do?pageId
+ =reserve2&searchCate1=B&bookingCode=1640
+URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
+ chCate1=B&bookingCode=1640
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 수목원 가을 숲 생태탐험 "열매
+ 를 찾아서"
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gjr-1639-apply@family-activity
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Asia/Seoul:20261012T100000
+DTEND;TZID=Asia/Seoul:20261012T103000
+SUMMARY:🔔 신청 오픈: 수목원 가을 숲 생태탐험 "곤충을 
+ 찾아서"
+LOCATION:시립수목원 방문자센터 교육실
+DESCRIPTION:시립수목원\n대상: 기타\n접수: 2026-10-12 10:00 ~ 2
+ 026-10-24 12:00\nhttps://www.gwangju.go.kr/reserve/bookingView.do?pageId
+ =reserve2&searchCate1=B&bookingCode=1639
+URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
+ chCate1=B&bookingCode=1639
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 수목원 가을 숲 생태탐험 "곤충
+ 을 찾아서"
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gjr-1637-apply@family-activity
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Asia/Seoul:20261012T090000
+DTEND;TZID=Asia/Seoul:20261012T093000
+SUMMARY:🔥 신청 오픈: 동물생태해설사와 함께 동물원 한
+ 바퀴
+LOCATION:우치동물원 전역
+DESCRIPTION:우치동물원\n대상: 어린이/청소년\,성인/청년\,
+ 여성/가족\,중년/장년\,장애인/유공자\,기타\n접수: 2026-
+ 10-12 09:00 ~ 2026-10-16 15:00\nhttps://www.gwangju.go.kr/reserve/bookin
+ gView.do?pageId=reserve2&searchCate1=B&bookingCode=1637
+URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
+ chCate1=B&bookingCode=1637
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 동물생태해설사와 함께 동물원 
+ 한바퀴
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT24H
+ACTION:DISPLAY
+DESCRIPTION:🔥 내일 신청 오픈: 동물생태해설사와 함께 
+ 동물원 한바퀴
 END:VALARM
 END:VEVENT
 END:VCALENDAR

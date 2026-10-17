@@ -101,30 +101,4 @@ DESCRIPTION:🔥 내일 신청 오픈: 동물생태해설사와 함께
  동물원 한바퀴
 END:VALARM
 END:VEVENT
-BEGIN:VEVENT
-UID:gjr-1645-apply@family-activity
-DTSTAMP:20261017T000000Z
-DTSTART;TZID=Asia/Seoul:20261017T090000
-DTEND;TZID=Asia/Seoul:20261017T093000
-SUMMARY:🔥 신청 오픈: 주말) 손으로 만들고\, 소리로 만
- 나는 마한 - 하반기 4회차 <마한탐험대2>
-LOCATION:마한유적체험관 로비
-DESCRIPTION:마한유적체험관\n대상: 어린이/청소년\n접수: 2
- 026-10-17 09:00 ~ 2026-10-30 17:00\nhttps://www.gwangju.go.kr/reserve/bo
- okingView.do?pageId=reserve2&searchCate1=B&bookingCode=1645
-URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
- chCate1=B&bookingCode=1645
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:곧 신청 오픈: 주말) 손으로 만들고\, 소리로 
- 만나는 마한 - 하반기 4회차 <마한탐험대2>
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT24H
-ACTION:DISPLAY
-DESCRIPTION:🔥 내일 신청 오픈: 주말) 손으로 만들고\, 소
- 리로 만나는 마한 - 하반기 4회차 <마한탐험대2>
-END:VALARM
-END:VEVENT
 END:VCALENDAR

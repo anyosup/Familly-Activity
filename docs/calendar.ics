@@ -16,6 +16,46 @@ TZNAME:KST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:gjr-1647-apply@family-activity
+DTSTAMP:20261020T000000Z
+DTSTART;TZID=Asia/Seoul:20261020T090000
+DTEND;TZID=Asia/Seoul:20261020T093000
+SUMMARY:🔔 신청 오픈: 전남광주통합특별시 찾아가는 재
+ 난안전 인형극(2026년 11월 추가모집)
+LOCATION:신청한 장소
+DESCRIPTION:신청한\n대상: 제한없음\n접수: 2026-10-20 09:00 ~ 2
+ 026-10-31 18:00\nhttps://www.gwangju.go.kr/reserve/bookingView.do?pageId
+ =reserve1&searchCate1=A&bookingCode=1647
+URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve1&sear
+ chCate1=A&bookingCode=1647
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 전남광주통합특별시 찾아가는 
+ 재난안전 인형극(2026년 11월 추가모집)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gjr-1646-apply@family-activity
+DTSTAMP:20261020T000000Z
+DTSTART;TZID=Asia/Seoul:20261020T090000
+DTEND;TZID=Asia/Seoul:20261020T093000
+SUMMARY:🔔 신청 오픈: 전남광주통합특별시 찾아가는 재
+ 난안전교실(2026년 11월 추가모집)
+LOCATION:신청한 장소
+DESCRIPTION:신청한\n대상: 제한없음\n접수: 2026-10-20 09:00 ~ 2
+ 026-10-31 18:00\nhttps://www.gwangju.go.kr/reserve/bookingView.do?pageId
+ =reserve1&searchCate1=A&bookingCode=1646
+URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve1&sear
+ chCate1=A&bookingCode=1646
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 전남광주통합특별시 찾아가는 
+ 재난안전교실(2026년 11월 추가모집)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gjr-1644-apply@family-activity
 DTSTAMP:20261110T000000Z
 DTSTART;TZID=Asia/Seoul:20261110T090000
@@ -72,33 +112,6 @@ TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:곧 신청 오픈: 김치박물관 한식디저트 만들기 
  체험 17회차(삼색쌀강정\, 단팥죽)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gjr-1638-apply@family-activity
-DTSTAMP:20261019T000000Z
-DTSTART;TZID=Asia/Seoul:20261019T090000
-DTEND;TZID=Asia/Seoul:20261019T093000
-SUMMARY:🔥 신청 오픈: 동물생태해설사와 함께 동물원 한
- 바퀴
-LOCATION:우치동물원 전역
-DESCRIPTION:우치동물원\n대상: 어린이/청소년\,성인/청년\,
- 여성/가족\,중년/장년\,장애인/유공자\,기타\n접수: 2026-
- 10-19 09:00 ~ 2026-10-23 15:00\nhttps://www.gwangju.go.kr/reserve/bookin
- gView.do?pageId=reserve2&searchCate1=B&bookingCode=1638
-URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
- chCate1=B&bookingCode=1638
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:곧 신청 오픈: 동물생태해설사와 함께 동물원 
- 한바퀴
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT24H
-ACTION:DISPLAY
-DESCRIPTION:🔥 내일 신청 오픈: 동물생태해설사와 함께 
- 동물원 한바퀴
 END:VALARM
 END:VEVENT
 END:VCALENDAR

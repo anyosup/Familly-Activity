@@ -16,46 +16,6 @@ TZNAME:KST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:gjr-1647-apply@family-activity
-DTSTAMP:20261020T000000Z
-DTSTART;TZID=Asia/Seoul:20261020T090000
-DTEND;TZID=Asia/Seoul:20261020T093000
-SUMMARY:🔔 신청 오픈: 전남광주통합특별시 찾아가는 재
- 난안전 인형극(2026년 11월 추가모집)
-LOCATION:신청한 장소
-DESCRIPTION:신청한\n대상: 제한없음\n접수: 2026-10-20 09:00 ~ 2
- 026-10-31 18:00\nhttps://www.gwangju.go.kr/reserve/bookingView.do?pageId
- =reserve1&searchCate1=A&bookingCode=1647
-URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve1&sear
- chCate1=A&bookingCode=1647
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:곧 신청 오픈: 전남광주통합특별시 찾아가는 
- 재난안전 인형극(2026년 11월 추가모집)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gjr-1646-apply@family-activity
-DTSTAMP:20261020T000000Z
-DTSTART;TZID=Asia/Seoul:20261020T090000
-DTEND;TZID=Asia/Seoul:20261020T093000
-SUMMARY:🔔 신청 오픈: 전남광주통합특별시 찾아가는 재
- 난안전교실(2026년 11월 추가모집)
-LOCATION:신청한 장소
-DESCRIPTION:신청한\n대상: 제한없음\n접수: 2026-10-20 09:00 ~ 2
- 026-10-31 18:00\nhttps://www.gwangju.go.kr/reserve/bookingView.do?pageId
- =reserve1&searchCate1=A&bookingCode=1646
-URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve1&sear
- chCate1=A&bookingCode=1646
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:곧 신청 오픈: 전남광주통합특별시 찾아가는 
- 재난안전교실(2026년 11월 추가모집)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:gjr-1644-apply@family-activity
 DTSTAMP:20261110T000000Z
 DTSTART;TZID=Asia/Seoul:20261110T090000
@@ -95,6 +55,33 @@ DESCRIPTION:곧 신청 오픈: 김치 한상차림 9회차(김치떡갈
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:gjr-1650-apply@family-activity
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Asia/Seoul:20261102T090000
+DTEND;TZID=Asia/Seoul:20261102T093000
+SUMMARY:🔥 신청 오픈: 동물생태해설사와 함께 동물원 한
+ 바퀴
+LOCATION:우치동물원 전역
+DESCRIPTION:우치동물원\n대상: 어린이/청소년\,성인/청년\,
+ 여성/가족\,중년/장년\,장애인/유공자\,기타\n접수: 2026-
+ 11-02 09:00 ~ 2026-11-06 15:00\nhttps://www.gwangju.go.kr/reserve/bookin
+ gView.do?pageId=reserve2&searchCate1=B&bookingCode=1650
+URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
+ chCate1=B&bookingCode=1650
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 동물생태해설사와 함께 동물원 
+ 한바퀴
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT24H
+ACTION:DISPLAY
+DESCRIPTION:🔥 내일 신청 오픈: 동물생태해설사와 함께 
+ 동물원 한바퀴
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gjr-1643-apply@family-activity
 DTSTAMP:20261027T000000Z
 DTSTART;TZID=Asia/Seoul:20261027T090000
@@ -112,6 +99,54 @@ TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:곧 신청 오픈: 김치박물관 한식디저트 만들기 
  체험 17회차(삼색쌀강정\, 단팥죽)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gjr-1649-apply@family-activity
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Asia/Seoul:20261026T090000
+DTEND;TZID=Asia/Seoul:20261026T093000
+SUMMARY:🔥 신청 오픈: 동물생태해설사와 함께 동물원 한
+ 바퀴
+LOCATION:우치동물원 전역
+DESCRIPTION:우치동물원\n대상: 어린이/청소년\,성인/청년\,
+ 여성/가족\,중년/장년\,장애인/유공자\,기타\n접수: 2026-
+ 10-26 09:00 ~ 2026-10-30 15:00\nhttps://www.gwangju.go.kr/reserve/bookin
+ gView.do?pageId=reserve2&searchCate1=B&bookingCode=1649
+URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
+ chCate1=B&bookingCode=1649
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 동물생태해설사와 함께 동물원 
+ 한바퀴
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT24H
+ACTION:DISPLAY
+DESCRIPTION:🔥 내일 신청 오픈: 동물생태해설사와 함께 
+ 동물원 한바퀴
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gjr-1651-apply@family-activity
+DTSTAMP:20261023T000000Z
+DTSTART;TZID=Asia/Seoul:20261023T090000
+DTEND;TZID=Asia/Seoul:20261023T093000
+SUMMARY:🔔 신청 오픈: 어린이 안전체험관 2026년 11월 교
+ 육
+LOCATION:전남광주통합특별시광주시청 1층 어린이 안전체
+ 험관
+DESCRIPTION:전남광주통합특별시광주시청\n대상: 기타\n접
+ 수: 2026-10-23 09:00 ~ 2026-11-15 18:00\nhttps://www.gwangju.go.kr/rese
+ rve/bookingView.do?pageId=reserve2&searchCate1=B&bookingCode=1651
+URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
+ chCate1=B&bookingCode=1651
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 어린이 안전체험관 2026년 11월 
+ 교육
 END:VALARM
 END:VEVENT
 END:VCALENDAR

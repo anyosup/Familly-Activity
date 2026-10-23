@@ -16,27 +16,6 @@ TZNAME:KST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:gjr-1651-apply@family-activity
-DTSTAMP:20261023T000000Z
-DTSTART;TZID=Asia/Seoul:20261023T090000
-DTEND;TZID=Asia/Seoul:20261023T093000
-SUMMARY:🔔 신청 오픈: 어린이 안전체험관 2026년 11월 교
- 육
-LOCATION:전남광주통합특별시광주시청 1층 어린이 안전체
- 험관
-DESCRIPTION:전남광주통합특별시광주시청\n대상: 기타\n접
- 수: 2026-10-23 09:00 ~ 2026-11-15 18:00\nhttps://www.gwangju.go.kr/rese
- rve/bookingView.do?pageId=reserve2&searchCate1=B&bookingCode=1651
-URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
- chCate1=B&bookingCode=1651
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:곧 신청 오픈: 어린이 안전체험관 2026년 11월 
- 교육
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:gjr-1644-apply@family-activity
 DTSTAMP:20261110T000000Z
 DTSTART;TZID=Asia/Seoul:20261110T090000

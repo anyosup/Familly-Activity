@@ -16,6 +16,26 @@ TZNAME:KST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:gjr-1652-apply@family-activity
+DTSTAMP:20261117T000000Z
+DTSTART;TZID=Asia/Seoul:20261117T090000
+DTEND;TZID=Asia/Seoul:20261117T093000
+SUMMARY:🔔 신청 오픈: 김치 한상차림 10회차(김치불고기
+ 피자)
+LOCATION:김치타운 본관 2층 김치교육체험장
+DESCRIPTION:김치타운\n대상: 제한없음\n접수: 2026-11-17 09:00 
+ ~ 2026-11-23 18:00\nhttps://www.gwangju.go.kr/reserve/bookingView.do?pag
+ eId=reserve2&searchCate1=B&bookingCode=1652
+URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
+ chCate1=B&bookingCode=1652
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 김치 한상차림 10회차(김치불고
+ 기피자)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gjr-1644-apply@family-activity
 DTSTAMP:20261110T000000Z
 DTSTART;TZID=Asia/Seoul:20261110T090000

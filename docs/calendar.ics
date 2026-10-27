@@ -101,49 +101,4 @@ DESCRIPTION:🔥 내일 신청 오픈: 동물생태해설사와 함께
  동물원 한바퀴
 END:VALARM
 END:VEVENT
-BEGIN:VEVENT
-UID:gjr-1654-apply@family-activity
-DTSTAMP:20261027T000000Z
-DTSTART;TZID=Asia/Seoul:20261027T090000
-DTEND;TZID=Asia/Seoul:20261027T093000
-SUMMARY:🔥 신청 오픈: [11월] 강에서 시작된 마한이야기
-LOCATION:마한유적체험관 유아체험실
-DESCRIPTION:마한유적체험관\n대상: 제한없음\n접수: 2026-10-
- 27 09:00 ~ 2026-11-19 17:00\nhttps://www.gwangju.go.kr/reserve/bookingVi
- ew.do?pageId=reserve2&searchCate1=B&bookingCode=1654
-URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
- chCate1=B&bookingCode=1654
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:곧 신청 오픈: [11월] 강에서 시작된 마한이야
- 기
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT24H
-ACTION:DISPLAY
-DESCRIPTION:🔥 내일 신청 오픈: [11월] 강에서 시작된 마한
- 이야기
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gjr-1643-apply@family-activity
-DTSTAMP:20261027T000000Z
-DTSTART;TZID=Asia/Seoul:20261027T090000
-DTEND;TZID=Asia/Seoul:20261027T093000
-SUMMARY:🔔 신청 오픈: 김치박물관 한식디저트 만들기 체
- 험 17회차(삼색쌀강정\, 단팥죽)
-LOCATION:김치타운 본관 2층 교육체험장
-DESCRIPTION:김치타운\n대상: 제한없음\n접수: 2026-10-27 09:00 
- ~ 2026-11-02 15:00\nhttps://www.gwangju.go.kr/reserve/bookingView.do?pag
- eId=reserve2&searchCate1=B&bookingCode=1643
-URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
- chCate1=B&bookingCode=1643
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:곧 신청 오픈: 김치박물관 한식디저트 만들기 
- 체험 17회차(삼색쌀강정\, 단팥죽)
-END:VALARM
-END:VEVENT
 END:VCALENDAR

@@ -16,6 +16,72 @@ TZNAME:KST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:gsc-2982-apply@family-activity
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:🔥 신청 오픈: 11월 야간천체관측 「별빛학교」
+LOCATION:국립광주과학관 (광주 북구 첨단과기로 235)
+DESCRIPTION:국립광주과학관\n대상: 6세 이상 누구나 (2021년
+ 생 이상) ※ 초등학생까지 보호자 동반 필수\n (50명)\n
+ 접수: 2026-11-03 ~ 2026-11-15\nhttps://www.sciencecenter.or.kr/kor/edu
+ /index.do?mode=view&menuId=285_306&eduSEQ=2982
+URL:https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285
+ _306&eduSEQ=2982
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 11월 야간천체관측 「별빛학교
+ 」
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT27H
+ACTION:DISPLAY
+DESCRIPTION:🔥 내일 신청 오픈: 11월 야간천체관측 「별빛
+ 학교」
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gjr-1656-apply@family-activity
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=Asia/Seoul:20261109T090000
+DTEND;TZID=Asia/Seoul:20261109T093000
+SUMMARY:🔔 신청 오픈: 2026 덤벙첨벙 분청교실 2회차(11. 22
+ .(일) 13:00~16:00)
+LOCATION:무등산분청사기전시실 및 평촌도예공방
+DESCRIPTION:무등산분청사기전시실\n대상: 제한없음\n접수:
+  2026-11-09 09:00 ~ 2026-11-15 17:00\nhttps://www.gwangju.go.kr/reserve/
+ bookingView.do?pageId=reserve1&searchCate1=A&bookingCode=1656
+URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve1&sear
+ chCate1=A&bookingCode=1656
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 2026 덤벙첨벙 분청교실 2회차(11.
+  22.(일) 13:00~16:00)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gjr-1655-apply@family-activity
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Asia/Seoul:20261101T090000
+DTEND;TZID=Asia/Seoul:20261101T093000
+SUMMARY:🔔 신청 오픈: 2026 덤벙첨벙 분청교실 1회차(11. 8.
+ (일) 13:00~16:00)
+LOCATION:무등산분청사기전시실 및 평촌도예공방
+DESCRIPTION:무등산분청사기전시실\n대상: 제한없음\n접수:
+  2026-11-01 09:00 ~ 2026-11-06 17:00\nhttps://www.gwangju.go.kr/reserve/
+ bookingView.do?pageId=reserve1&searchCate1=A&bookingCode=1655
+URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve1&sear
+ chCate1=A&bookingCode=1655
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 2026 덤벙첨벙 분청교실 1회차(11.
+  8.(일) 13:00~16:00)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gjr-1652-apply@family-activity
 DTSTAMP:20261117T000000Z
 DTSTART;TZID=Asia/Seoul:20261117T090000

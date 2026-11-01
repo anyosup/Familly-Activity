@@ -42,26 +42,6 @@ DESCRIPTION:🔥 내일 신청 오픈: 11월 야간천체관측 「별빛
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:gjr-1656-apply@family-activity
-DTSTAMP:20261109T000000Z
-DTSTART;TZID=Asia/Seoul:20261109T090000
-DTEND;TZID=Asia/Seoul:20261109T093000
-SUMMARY:🔔 신청 오픈: 2026 덤벙첨벙 분청교실 2회차(11. 22
- .(일) 13:00~16:00)
-LOCATION:무등산분청사기전시실 및 평촌도예공방
-DESCRIPTION:무등산분청사기전시실\n대상: 제한없음\n접수:
-  2026-11-09 09:00 ~ 2026-11-15 17:00\nhttps://www.gwangju.go.kr/reserve/
- bookingView.do?pageId=reserve1&searchCate1=A&bookingCode=1656
-URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve1&sear
- chCate1=A&bookingCode=1656
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:곧 신청 오픈: 2026 덤벙첨벙 분청교실 2회차(11.
-  22.(일) 13:00~16:00)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:gjr-1657-apply@family-activity
 DTSTAMP:20261101T000000Z
 DTSTART;TZID=Asia/Seoul:20261101T090000
@@ -119,6 +99,26 @@ TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:곧 신청 오픈: 2026 덤벙첨벙 분청교실 1회차(11.
   8.(일) 13:00~16:00)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gjr-1656-apply@family-activity
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=Asia/Seoul:20261109T090000
+DTEND;TZID=Asia/Seoul:20261109T093000
+SUMMARY:🔔 신청 오픈: 2026 덤벙첨벙 분청교실 2회차(11. 22
+ .(일) 13:00~16:00)
+LOCATION:무등산분청사기전시실 및 평촌도예공방
+DESCRIPTION:무등산분청사기전시실\n대상: 제한없음\n접수:
+  2026-11-09 09:00 ~ 2026-11-15 17:00\nhttps://www.gwangju.go.kr/reserve/
+ bookingView.do?pageId=reserve1&searchCate1=A&bookingCode=1656
+URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve1&sear
+ chCate1=A&bookingCode=1656
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 2026 덤벙첨벙 분청교실 2회차(11.
+  22.(일) 13:00~16:00)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT

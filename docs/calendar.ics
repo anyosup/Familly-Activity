@@ -16,6 +16,24 @@ TZNAME:KST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:gsc-956-apply@family-activity
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:🔔 신청 오픈: 2026년 12월 주말 과학문화행사
+LOCATION:국립광주과학관 (광주 북구 첨단과기로 235)
+DESCRIPTION:국립광주과학관\n대상: \n접수: 2026-11-04 ~ 2026-12
+ -17\nhttps://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18
+ _337&evSEQ=956
+URL:https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_3
+ 37&evSEQ=956
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 2026년 12월 주말 과학문화행사
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gjr-1656-apply@family-activity
 DTSTAMP:20261109T000000Z
 DTSTART;TZID=Asia/Seoul:20261109T090000

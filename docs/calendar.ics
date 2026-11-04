@@ -16,21 +16,28 @@ TZNAME:KST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:gsc-956-apply@family-activity
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
-SUMMARY:🔔 신청 오픈: 2026년 12월 주말 과학문화행사
-LOCATION:국립광주과학관 (광주 북구 첨단과기로 235)
-DESCRIPTION:국립광주과학관\n대상: \n접수: 2026-11-04 ~ 2026-12
- -17\nhttps://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18
- _337&evSEQ=956
-URL:https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_3
- 37&evSEQ=956
+UID:njm-EDU_0000000000000124-apply@family-activity
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:🔥 신청 오픈: 특별전 《마한\, 낯선 것을 만나다
+ 》 '큐레이터와의 대화' 안내
+LOCATION:국립나주박물관 (나주 반남면 고분로 747)
+DESCRIPTION:국립나주박물관\n대상: 관람객 누구나/ 사전 
+ 신청 없이 현장 참여\n접수: 2026-11-11 ~ 2026-02-10\nhttps://na
+ ju.museum.go.kr/prog/edu/kor/sub03_02_01/list.do
+URL:https://naju.museum.go.kr/prog/edu/kor/sub03_02_01/list.do
 BEGIN:VALARM
 TRIGGER:-PT15H
 ACTION:DISPLAY
-DESCRIPTION:곧 신청 오픈: 2026년 12월 주말 과학문화행사
+DESCRIPTION:곧 신청 오픈: 특별전 《마한\, 낯선 것을 만나
+ 다》 '큐레이터와의 대화' 안내
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT27H
+ACTION:DISPLAY
+DESCRIPTION:🔥 내일 신청 오픈: 특별전 《마한\, 낯선 것
+ 을 만나다》 '큐레이터와의 대화' 안내
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT

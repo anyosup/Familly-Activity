@@ -61,6 +61,32 @@ DESCRIPTION:곧 신청 오픈: 2026 덤벙첨벙 분청교실 2회차(11.
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:gjr-1660-apply@family-activity
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=Asia/Seoul:20261109T090000
+DTEND;TZID=Asia/Seoul:20261109T093000
+SUMMARY:🔥 신청 오픈: 광주역사민속박물관과 함께하는 <
+ 2026 하반기 어린이 박물관 학교>
+LOCATION:마한유적체험관 세미나실
+DESCRIPTION:마한유적체험관\n대상: 어린이/청소년\n접수: 2
+ 026-11-09 09:00 ~ 2026-11-21 17:00\nhttps://www.gwangju.go.kr/reserve/bo
+ okingView.do?pageId=reserve2&searchCate1=B&bookingCode=1660
+URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
+ chCate1=B&bookingCode=1660
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:곧 신청 오픈: 광주역사민속박물관과 함께하
+ 는 <2026 하반기 어린이 박물관 학교>
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT24H
+ACTION:DISPLAY
+DESCRIPTION:🔥 내일 신청 오픈: 광주역사민속박물관과 함
+ 께하는 <2026 하반기 어린이 박물관 학교>
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gjr-1652-apply@family-activity
 DTSTAMP:20261117T000000Z
 DTSTART;TZID=Asia/Seoul:20261117T090000
@@ -98,32 +124,6 @@ TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:곧 신청 오픈: 김치박물관 한식디저트 만들기 
  체험 18회차(삼색쌀강정\, 단팥죽)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gjr-1660-apply@family-activity
-DTSTAMP:20261109T000000Z
-DTSTART;TZID=Asia/Seoul:20261109T090000
-DTEND;TZID=Asia/Seoul:20261109T093000
-SUMMARY:🔥 신청 오픈: 광주역사민속박물관과 함께하는 <
- 2026 하반기 어린이 박물관 학교>
-LOCATION:마한유적체험관 세미나실
-DESCRIPTION:마한유적체험관\n대상: 어린이/청소년\n접수: 2
- 026-11-09 09:00 ~ 2026-11-21 17:00\nhttps://www.gwangju.go.kr/reserve/bo
- okingView.do?pageId=reserve2&searchCate1=B&bookingCode=1660
-URL:https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&sear
- chCate1=B&bookingCode=1660
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:곧 신청 오픈: 광주역사민속박물관과 함께하
- 는 <2026 하반기 어린이 박물관 학교>
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT24H
-ACTION:DISPLAY
-DESCRIPTION:🔥 내일 신청 오픈: 광주역사민속박물관과 함
- 께하는 <2026 하반기 어린이 박물관 학교>
 END:VALARM
 END:VEVENT
 END:VCALENDAR

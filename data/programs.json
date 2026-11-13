@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 11:03",
+  "updated_at": "2026-11-13 10:33",
   "items": [
     {
       "id": "GB171XXX07172",
@@ -21,29 +21,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B171&prdId=GB171XXX07172&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
-    },
-    {
-      "id": "GB171XXX07177",
-      "source": "국립공원 탐방프로그램",
-      "category": "해설·생태관광·환경교육",
-      "park": "무등산",
-      "title": "[26년] 꼼지락꼼지락 무등산 숲 놀이터(숲 학교)",
-      "place": "증심탐방지원센터 앞(광주광역시 동구 증심사길 71)",
-      "period_start": "2023-03-01",
-      "period_end": "2026-11-30",
-      "target": "취학전 아동(7세)",
-      "age_tag": "ok",
-      "duration": "10:00 ~ 12:00(2차시)",
-      "capacity": "20~50명/회",
-      "how_to_apply": "홈페이지 공고 후, 모집",
-      "phone": "062-230-2053",
-      "summary": "①. 무등산 사계절 자연변화를 반영한 연간 커리큘럽으로 진행\r\n②. 누리과정 교제[국립공원에 가자!]를 활용한 프로그램 운영\r\n③. 주제에 밎춰 자연놀이 및 탄소중립을 조화롭게 구성하여 운영",
-      "notes": "1. 편안한 복장, 모자, 운동화 필수",
-      "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B171&prdId=GB171XXX07177&orgnztGbn=G",
-      "kind": "국립공원",
-      "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB172XXX06962",
@@ -65,7 +43,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B172&prdId=GB172XXX06962&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB172XXX06963",
@@ -87,7 +65,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B172&prdId=GB172XXX06963&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB201XXX07146",
@@ -109,7 +87,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B201&prdId=GB201XXX07146&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB201XXX07147",
@@ -131,7 +109,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B201&prdId=GB201XXX07147&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB201XXX07148",
@@ -153,7 +131,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B201&prdId=GB201XXX07148&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB201XXX07149",
@@ -175,7 +153,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B201&prdId=GB201XXX07149&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB013XXX06841",
@@ -197,7 +175,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B013&prdId=GB013XXX06841&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB013XXX06844",
@@ -219,7 +197,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B013&prdId=GB013XXX06844&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB013XXX06845",
@@ -241,7 +219,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B013&prdId=GB013XXX06845&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB091XXX06094",
@@ -263,7 +241,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06094&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB091XXX06095",
@@ -285,7 +263,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06095&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB091XXX06096",
@@ -307,7 +285,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06096&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB091XXX06097",
@@ -329,7 +307,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06097&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB091XXX06098",
@@ -351,7 +329,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06098&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB091XXX06099",
@@ -373,7 +351,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06099&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB091XXX06100",
@@ -395,7 +373,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06100&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB091XXX06103",
@@ -417,7 +395,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06103&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB091XXX06107",
@@ -439,7 +417,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06107&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB091XXX06109",
@@ -461,7 +439,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B091&prdId=GB091XXX06109&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB092XXX05112",
@@ -483,7 +461,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B092&prdId=GB092XXX05112&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB092XXX05114",
@@ -505,7 +483,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B092&prdId=GB092XXX05114&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB092XXX05115",
@@ -527,7 +505,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B092&prdId=GB092XXX05115&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB092XXX05116",
@@ -549,7 +527,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B092&prdId=GB092XXX05116&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "GB092XXX05121",
@@ -571,7 +549,7 @@
       "url": "https://reservation.knps.or.kr/contents/G/serviceGuide.do?parkId=B092&prdId=GB092XXX05121&orgnztGbn=G",
       "kind": "국립공원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB23100200005",
@@ -586,14 +564,9 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
-          "left": 0,
-          "open": false
-        },
-        {
           "date": "2026-11-13",
           "left": 40,
-          "open": true
+          "open": false
         },
         {
           "date": "2026-11-14",
@@ -602,7 +575,7 @@
         },
         {
           "date": "2026-11-15",
-          "left": 30,
+          "left": 25,
           "open": true
         },
         {
@@ -637,7 +610,7 @@
         },
         {
           "date": "2026-11-22",
-          "left": 21,
+          "left": 24,
           "open": true
         },
         {
@@ -772,7 +745,7 @@
         },
         {
           "date": "2026-12-19",
-          "left": 35,
+          "left": 38,
           "open": true
         },
         {
@@ -889,13 +862,18 @@
           "date": "2027-01-11",
           "left": 40,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 40,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B231002",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB23100200006",
@@ -910,23 +888,18 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
-          "left": 40,
+          "date": "2026-11-13",
+          "left": 38,
           "open": false
         },
         {
-          "date": "2026-11-13",
-          "left": 38,
-          "open": true
-        },
-        {
           "date": "2026-11-14",
-          "left": 25,
+          "left": 29,
           "open": true
         },
         {
           "date": "2026-11-15",
-          "left": 36,
+          "left": 37,
           "open": true
         },
         {
@@ -1096,7 +1069,7 @@
         },
         {
           "date": "2026-12-19",
-          "left": 35,
+          "left": 38,
           "open": true
         },
         {
@@ -1156,7 +1129,7 @@
         },
         {
           "date": "2026-12-31",
-          "left": 20,
+          "left": 22,
           "open": true
         },
         {
@@ -1213,13 +1186,18 @@
           "date": "2027-01-11",
           "left": 40,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 40,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B231002",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB23100200009",
@@ -1234,23 +1212,18 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "left": 94,
           "open": false
         },
         {
-          "date": "2026-11-13",
-          "left": 92,
-          "open": true
-        },
-        {
           "date": "2026-11-14",
-          "left": 85,
+          "left": 89,
           "open": true
         },
         {
           "date": "2026-11-15",
-          "left": 100,
+          "left": 98,
           "open": true
         },
         {
@@ -1275,22 +1248,22 @@
         },
         {
           "date": "2026-11-20",
-          "left": 96,
+          "left": 93,
           "open": true
         },
         {
           "date": "2026-11-21",
-          "left": 90,
+          "left": 88,
           "open": true
         },
         {
           "date": "2026-11-22",
-          "left": 96,
+          "left": 94,
           "open": true
         },
         {
           "date": "2026-11-23",
-          "left": 98,
+          "left": 100,
           "open": true
         },
         {
@@ -1300,7 +1273,7 @@
         },
         {
           "date": "2026-11-25",
-          "left": 96,
+          "left": 98,
           "open": true
         },
         {
@@ -1460,7 +1433,7 @@
         },
         {
           "date": "2026-12-27",
-          "left": 94,
+          "left": 91,
           "open": true
         },
         {
@@ -1480,7 +1453,7 @@
         },
         {
           "date": "2026-12-31",
-          "left": 92,
+          "left": 90,
           "open": true
         },
         {
@@ -1537,13 +1510,18 @@
           "date": "2027-01-11",
           "left": 100,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 100,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B231002",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB01400300007",
@@ -1558,23 +1536,18 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "left": 100,
           "open": false
         },
         {
-          "date": "2026-11-13",
-          "left": 100,
-          "open": true
-        },
-        {
           "date": "2026-11-14",
-          "left": 63,
+          "left": 65,
           "open": true
         },
         {
           "date": "2026-11-15",
-          "left": 78,
+          "left": 83,
           "open": true
         },
         {
@@ -1614,7 +1587,7 @@
         },
         {
           "date": "2026-11-23",
-          "left": 93,
+          "left": 95,
           "open": true
         },
         {
@@ -1639,7 +1612,7 @@
         },
         {
           "date": "2026-11-28",
-          "left": 96,
+          "left": 98,
           "open": true
         },
         {
@@ -1709,7 +1682,7 @@
         },
         {
           "date": "2026-12-12",
-          "left": 94,
+          "left": 92,
           "open": true
         },
         {
@@ -1744,7 +1717,7 @@
         },
         {
           "date": "2026-12-19",
-          "left": 94,
+          "left": 91,
           "open": true
         },
         {
@@ -1779,7 +1752,7 @@
         },
         {
           "date": "2026-12-26",
-          "left": 92,
+          "left": 94,
           "open": true
         },
         {
@@ -1794,7 +1767,7 @@
         },
         {
           "date": "2026-12-29",
-          "left": 61,
+          "left": 56,
           "open": true
         },
         {
@@ -1861,13 +1834,18 @@
           "date": "2027-01-11",
           "left": 100,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 100,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B014003",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB01400300008",
@@ -1882,14 +1860,9 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
-          "left": 40,
-          "open": false
-        },
-        {
           "date": "2026-11-13",
           "left": 3,
-          "open": true
+          "open": false
         },
         {
           "date": "2026-11-14",
@@ -1898,7 +1871,7 @@
         },
         {
           "date": "2026-11-15",
-          "left": 33,
+          "left": 29,
           "open": true
         },
         {
@@ -1918,7 +1891,7 @@
         },
         {
           "date": "2026-11-19",
-          "left": 38,
+          "left": 40,
           "open": true
         },
         {
@@ -2185,13 +2158,18 @@
           "date": "2027-01-11",
           "left": 40,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 40,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B014003",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB01400300010",
@@ -2206,14 +2184,9 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
-          "left": 75,
-          "open": false
-        },
-        {
           "date": "2026-11-13",
           "left": 38,
-          "open": true
+          "open": false
         },
         {
           "date": "2026-11-14",
@@ -2222,7 +2195,7 @@
         },
         {
           "date": "2026-11-15",
-          "left": 86,
+          "left": 84,
           "open": true
         },
         {
@@ -2242,7 +2215,7 @@
         },
         {
           "date": "2026-11-19",
-          "left": 100,
+          "left": 98,
           "open": true
         },
         {
@@ -2357,7 +2330,7 @@
         },
         {
           "date": "2026-12-12",
-          "left": 95,
+          "left": 93,
           "open": true
         },
         {
@@ -2427,7 +2400,7 @@
         },
         {
           "date": "2026-12-26",
-          "left": 92,
+          "left": 90,
           "open": true
         },
         {
@@ -2509,13 +2482,18 @@
           "date": "2027-01-11",
           "left": 100,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 100,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B014003",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB01400300035",
@@ -2530,23 +2508,18 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "left": 100,
           "open": false
         },
         {
-          "date": "2026-11-13",
-          "left": 100,
-          "open": true
-        },
-        {
           "date": "2026-11-14",
-          "left": 94,
+          "left": 96,
           "open": true
         },
         {
           "date": "2026-11-15",
-          "left": 100,
+          "left": 98,
           "open": true
         },
         {
@@ -2571,7 +2544,7 @@
         },
         {
           "date": "2026-11-20",
-          "left": 100,
+          "left": 96,
           "open": true
         },
         {
@@ -2611,7 +2584,7 @@
         },
         {
           "date": "2026-11-28",
-          "left": 100,
+          "left": 98,
           "open": true
         },
         {
@@ -2681,7 +2654,7 @@
         },
         {
           "date": "2026-12-12",
-          "left": 100,
+          "left": 98,
           "open": true
         },
         {
@@ -2716,7 +2689,7 @@
         },
         {
           "date": "2026-12-19",
-          "left": 94,
+          "left": 96,
           "open": true
         },
         {
@@ -2833,13 +2806,18 @@
           "date": "2027-01-11",
           "left": 100,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 100,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B014003",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB01400300032",
@@ -2853,11 +2831,6 @@
       "target": "",
       "age_tag": "check",
       "dates": [
-        {
-          "date": "2026-11-12",
-          "left": 10,
-          "open": false
-        },
         {
           "date": "2026-11-13",
           "left": 10,
@@ -3157,13 +3130,18 @@
           "date": "2027-01-11",
           "left": 10,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 10,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B014003",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB01400300033",
@@ -3178,11 +3156,6 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
-          "left": 10,
-          "open": false
-        },
-        {
           "date": "2026-11-13",
           "left": 10,
           "open": false
@@ -3194,7 +3167,7 @@
         },
         {
           "date": "2026-11-15",
-          "left": 6,
+          "left": 8,
           "open": true
         },
         {
@@ -3481,13 +3454,18 @@
           "date": "2027-01-11",
           "left": 10,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 10,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B014003",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB01400300034",
@@ -3502,18 +3480,13 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
-          "left": 10,
-          "open": false
-        },
-        {
           "date": "2026-11-13",
           "left": 10,
           "open": false
         },
         {
           "date": "2026-11-14",
-          "left": 8,
+          "left": 6,
           "open": true
         },
         {
@@ -3805,13 +3778,18 @@
           "date": "2027-01-11",
           "left": 10,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 10,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B014003",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB33100100005",
@@ -3826,23 +3804,18 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
-          "left": 30,
+          "date": "2026-11-13",
+          "left": 34,
           "open": false
         },
         {
-          "date": "2026-11-13",
-          "left": 32,
-          "open": true
-        },
-        {
           "date": "2026-11-14",
-          "left": 25,
+          "left": 23,
           "open": true
         },
         {
           "date": "2026-11-15",
-          "left": 30,
+          "left": 36,
           "open": true
         },
         {
@@ -3862,7 +3835,7 @@
         },
         {
           "date": "2026-11-19",
-          "left": 36,
+          "left": 30,
           "open": true
         },
         {
@@ -3907,12 +3880,12 @@
         },
         {
           "date": "2026-11-28",
-          "left": 5,
+          "left": 7,
           "open": true
         },
         {
           "date": "2026-11-29",
-          "left": 33,
+          "left": 30,
           "open": true
         },
         {
@@ -4047,12 +4020,12 @@
         },
         {
           "date": "2026-12-26",
-          "left": 28,
+          "left": 30,
           "open": true
         },
         {
           "date": "2026-12-27",
-          "left": 32,
+          "left": 34,
           "open": true
         },
         {
@@ -4129,13 +4102,18 @@
           "date": "2027-01-11",
           "left": 40,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 40,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B331001",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB33100100006",
@@ -4150,14 +4128,9 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
-          "left": 34,
-          "open": false
-        },
-        {
           "date": "2026-11-13",
           "left": 36,
-          "open": true
+          "open": false
         },
         {
           "date": "2026-11-14",
@@ -4166,7 +4139,7 @@
         },
         {
           "date": "2026-11-15",
-          "left": 8,
+          "left": 12,
           "open": true
         },
         {
@@ -4186,12 +4159,12 @@
         },
         {
           "date": "2026-11-19",
-          "left": 32,
+          "left": 34,
           "open": true
         },
         {
           "date": "2026-11-20",
-          "left": 34,
+          "left": 32,
           "open": true
         },
         {
@@ -4216,12 +4189,12 @@
         },
         {
           "date": "2026-11-25",
-          "left": 36,
+          "left": 34,
           "open": true
         },
         {
           "date": "2026-11-26",
-          "left": 36,
+          "left": 34,
           "open": true
         },
         {
@@ -4231,7 +4204,7 @@
         },
         {
           "date": "2026-11-28",
-          "left": 10,
+          "left": 12,
           "open": true
         },
         {
@@ -4266,7 +4239,7 @@
         },
         {
           "date": "2026-12-05",
-          "left": 38,
+          "left": 35,
           "open": true
         },
         {
@@ -4371,7 +4344,7 @@
         },
         {
           "date": "2026-12-26",
-          "left": 32,
+          "left": 30,
           "open": true
         },
         {
@@ -4453,13 +4426,18 @@
           "date": "2027-01-11",
           "left": 40,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 40,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B331001",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB33100100008",
@@ -4474,23 +4452,18 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
-          "left": 26,
+          "date": "2026-11-13",
+          "left": 16,
           "open": false
         },
         {
-          "date": "2026-11-13",
-          "left": 14,
-          "open": true
-        },
-        {
           "date": "2026-11-14",
-          "left": 4,
+          "left": 6,
           "open": true
         },
         {
           "date": "2026-11-15",
-          "left": 10,
+          "left": 5,
           "open": true
         },
         {
@@ -4500,7 +4473,7 @@
         },
         {
           "date": "2026-11-17",
-          "left": 30,
+          "left": 32,
           "open": true
         },
         {
@@ -4510,7 +4483,7 @@
         },
         {
           "date": "2026-11-19",
-          "left": 36,
+          "left": 32,
           "open": true
         },
         {
@@ -4520,17 +4493,17 @@
         },
         {
           "date": "2026-11-21",
-          "left": 7,
+          "left": 11,
           "open": true
         },
         {
           "date": "2026-11-22",
-          "left": 22,
+          "left": 20,
           "open": true
         },
         {
           "date": "2026-11-23",
-          "left": 38,
+          "left": 36,
           "open": true
         },
         {
@@ -4545,22 +4518,22 @@
         },
         {
           "date": "2026-11-26",
-          "left": 40,
+          "left": 38,
           "open": true
         },
         {
           "date": "2026-11-27",
-          "left": 28,
+          "left": 36,
           "open": true
         },
         {
           "date": "2026-11-28",
-          "left": 28,
+          "left": 26,
           "open": true
         },
         {
           "date": "2026-11-29",
-          "left": 24,
+          "left": 26,
           "open": true
         },
         {
@@ -4590,7 +4563,7 @@
         },
         {
           "date": "2026-12-05",
-          "left": 19,
+          "left": 21,
           "open": true
         },
         {
@@ -4655,7 +4628,7 @@
         },
         {
           "date": "2026-12-18",
-          "left": 36,
+          "left": 38,
           "open": true
         },
         {
@@ -4695,7 +4668,7 @@
         },
         {
           "date": "2026-12-26",
-          "left": 38,
+          "left": 34,
           "open": true
         },
         {
@@ -4777,13 +4750,18 @@
           "date": "2027-01-11",
           "left": 40,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 40,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B331001",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB18300100008",
@@ -4798,14 +4776,9 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
-          "left": -15,
-          "open": false
-        },
-        {
           "date": "2026-11-13",
           "left": -15,
-          "open": true
+          "open": false
         },
         {
           "date": "2026-11-14",
@@ -4824,7 +4797,7 @@
         },
         {
           "date": "2026-11-17",
-          "left": 16,
+          "left": 12,
           "open": true
         },
         {
@@ -4839,12 +4812,12 @@
         },
         {
           "date": "2026-11-20",
-          "left": 9,
+          "left": 11,
           "open": true
         },
         {
           "date": "2026-11-21",
-          "left": 7,
+          "left": 9,
           "open": true
         },
         {
@@ -4864,12 +4837,12 @@
         },
         {
           "date": "2026-11-25",
-          "left": 11,
+          "left": 8,
           "open": true
         },
         {
           "date": "2026-11-26",
-          "left": 12,
+          "left": 10,
           "open": true
         },
         {
@@ -4879,7 +4852,7 @@
         },
         {
           "date": "2026-11-28",
-          "left": 5,
+          "left": 7,
           "open": true
         },
         {
@@ -4894,7 +4867,7 @@
         },
         {
           "date": "2026-12-01",
-          "left": 18,
+          "left": 14,
           "open": true
         },
         {
@@ -4919,12 +4892,12 @@
         },
         {
           "date": "2026-12-06",
-          "left": 8,
+          "left": 5,
           "open": true
         },
         {
           "date": "2026-12-07",
-          "left": 14,
+          "left": 12,
           "open": true
         },
         {
@@ -4949,7 +4922,7 @@
         },
         {
           "date": "2026-12-12",
-          "left": 5,
+          "left": 3,
           "open": true
         },
         {
@@ -4959,7 +4932,7 @@
         },
         {
           "date": "2026-12-14",
-          "left": 11,
+          "left": 9,
           "open": true
         },
         {
@@ -4979,17 +4952,17 @@
         },
         {
           "date": "2026-12-18",
-          "left": 18,
+          "left": 20,
           "open": true
         },
         {
           "date": "2026-12-19",
-          "left": 16,
+          "left": 14,
           "open": true
         },
         {
           "date": "2026-12-20",
-          "left": 4,
+          "left": 2,
           "open": true
         },
         {
@@ -5004,7 +4977,7 @@
         },
         {
           "date": "2026-12-23",
-          "left": 12,
+          "left": 10,
           "open": true
         },
         {
@@ -5101,13 +5074,18 @@
           "date": "2027-01-11",
           "left": 20,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 20,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B183001",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB18300100009",
@@ -5122,14 +5100,9 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
-          "left": -15,
-          "open": false
-        },
-        {
           "date": "2026-11-13",
           "left": -15,
-          "open": true
+          "open": false
         },
         {
           "date": "2026-11-14",
@@ -5148,7 +5121,7 @@
         },
         {
           "date": "2026-11-17",
-          "left": 8,
+          "left": 4,
           "open": true
         },
         {
@@ -5158,12 +5131,12 @@
         },
         {
           "date": "2026-11-19",
-          "left": 5,
+          "left": 7,
           "open": true
         },
         {
           "date": "2026-11-20",
-          "left": 12,
+          "left": 14,
           "open": true
         },
         {
@@ -5178,7 +5151,7 @@
         },
         {
           "date": "2026-11-23",
-          "left": 3,
+          "left": 5,
           "open": true
         },
         {
@@ -5213,7 +5186,7 @@
         },
         {
           "date": "2026-11-30",
-          "left": 14,
+          "left": 8,
           "open": true
         },
         {
@@ -5243,7 +5216,7 @@
         },
         {
           "date": "2026-12-06",
-          "left": 2,
+          "left": 4,
           "open": true
         },
         {
@@ -5283,7 +5256,7 @@
         },
         {
           "date": "2026-12-14",
-          "left": 14,
+          "left": 18,
           "open": true
         },
         {
@@ -5313,7 +5286,7 @@
         },
         {
           "date": "2026-12-20",
-          "left": 9,
+          "left": 7,
           "open": true
         },
         {
@@ -5425,13 +5398,18 @@
           "date": "2027-01-11",
           "left": 20,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 20,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B183001",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB18300100010",
@@ -5446,23 +5424,18 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
-          "left": 993,
+          "date": "2026-11-13",
+          "left": 981,
           "open": false
         },
         {
-          "date": "2026-11-13",
+          "date": "2026-11-14",
           "left": 979,
           "open": true
         },
         {
-          "date": "2026-11-14",
-          "left": 974,
-          "open": true
-        },
-        {
           "date": "2026-11-15",
-          "left": 940,
+          "left": 947,
           "open": true
         },
         {
@@ -5472,7 +5445,7 @@
         },
         {
           "date": "2026-11-17",
-          "left": 990,
+          "left": 992,
           "open": true
         },
         {
@@ -5487,7 +5460,7 @@
         },
         {
           "date": "2026-11-20",
-          "left": 984,
+          "left": 980,
           "open": true
         },
         {
@@ -5522,12 +5495,12 @@
         },
         {
           "date": "2026-11-27",
-          "left": 992,
+          "left": 990,
           "open": true
         },
         {
           "date": "2026-11-28",
-          "left": 977,
+          "left": 979,
           "open": true
         },
         {
@@ -5542,7 +5515,7 @@
         },
         {
           "date": "2026-12-01",
-          "left": 996,
+          "left": 994,
           "open": true
         },
         {
@@ -5592,7 +5565,7 @@
         },
         {
           "date": "2026-12-11",
-          "left": 992,
+          "left": 994,
           "open": true
         },
         {
@@ -5627,17 +5600,17 @@
         },
         {
           "date": "2026-12-18",
-          "left": 984,
+          "left": 986,
           "open": true
         },
         {
           "date": "2026-12-19",
-          "left": 994,
+          "left": 996,
           "open": true
         },
         {
           "date": "2026-12-20",
-          "left": 968,
+          "left": 966,
           "open": true
         },
         {
@@ -5647,7 +5620,7 @@
         },
         {
           "date": "2026-12-22",
-          "left": 998,
+          "left": 995,
           "open": true
         },
         {
@@ -5682,7 +5655,7 @@
         },
         {
           "date": "2026-12-29",
-          "left": 986,
+          "left": 984,
           "open": true
         },
         {
@@ -5749,13 +5722,18 @@
           "date": "2027-01-11",
           "left": 1000,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 1000,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B183001",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB18300100013",
@@ -5770,23 +5748,18 @@
       "age_tag": "check",
       "dates": [
         {
-          "date": "2026-11-12",
-          "left": 994,
+          "date": "2026-11-13",
+          "left": 991,
           "open": false
         },
         {
-          "date": "2026-11-13",
-          "left": 986,
-          "open": true
-        },
-        {
           "date": "2026-11-14",
-          "left": 957,
+          "left": 971,
           "open": true
         },
         {
           "date": "2026-11-15",
-          "left": 970,
+          "left": 972,
           "open": true
         },
         {
@@ -5796,7 +5769,7 @@
         },
         {
           "date": "2026-11-17",
-          "left": 994,
+          "left": 996,
           "open": true
         },
         {
@@ -5806,7 +5779,7 @@
         },
         {
           "date": "2026-11-19",
-          "left": 978,
+          "left": 976,
           "open": true
         },
         {
@@ -5816,7 +5789,7 @@
         },
         {
           "date": "2026-11-21",
-          "left": 978,
+          "left": 976,
           "open": true
         },
         {
@@ -5826,7 +5799,7 @@
         },
         {
           "date": "2026-11-23",
-          "left": 985,
+          "left": 983,
           "open": true
         },
         {
@@ -5841,7 +5814,7 @@
         },
         {
           "date": "2026-11-26",
-          "left": 980,
+          "left": 978,
           "open": true
         },
         {
@@ -5856,7 +5829,7 @@
         },
         {
           "date": "2026-11-29",
-          "left": 985,
+          "left": 990,
           "open": true
         },
         {
@@ -5866,7 +5839,7 @@
         },
         {
           "date": "2026-12-01",
-          "left": 996,
+          "left": 994,
           "open": true
         },
         {
@@ -5886,12 +5859,12 @@
         },
         {
           "date": "2026-12-05",
-          "left": 982,
+          "left": 984,
           "open": true
         },
         {
           "date": "2026-12-06",
-          "left": 996,
+          "left": 994,
           "open": true
         },
         {
@@ -5916,7 +5889,7 @@
         },
         {
           "date": "2026-12-11",
-          "left": 990,
+          "left": 992,
           "open": true
         },
         {
@@ -5951,17 +5924,17 @@
         },
         {
           "date": "2026-12-18",
-          "left": 984,
+          "left": 982,
           "open": true
         },
         {
           "date": "2026-12-19",
-          "left": 990,
+          "left": 986,
           "open": true
         },
         {
           "date": "2026-12-20",
-          "left": 988,
+          "left": 986,
           "open": true
         },
         {
@@ -5976,7 +5949,7 @@
         },
         {
           "date": "2026-12-23",
-          "left": 996,
+          "left": 994,
           "open": true
         },
         {
@@ -6006,7 +5979,7 @@
         },
         {
           "date": "2026-12-29",
-          "left": 985,
+          "left": 987,
           "open": true
         },
         {
@@ -6073,13 +6046,18 @@
           "date": "2027-01-11",
           "left": 1000,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 1000,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B183001",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "EB18300100045",
@@ -6093,11 +6071,6 @@
       "target": "",
       "age_tag": "check",
       "dates": [
-        {
-          "date": "2026-11-12",
-          "left": 20,
-          "open": false
-        },
         {
           "date": "2026-11-13",
           "left": 20,
@@ -6140,7 +6113,7 @@
         },
         {
           "date": "2026-11-21",
-          "left": 14,
+          "left": 16,
           "open": true
         },
         {
@@ -6397,13 +6370,18 @@
           "date": "2027-01-11",
           "left": 20,
           "open": false
+        },
+        {
+          "date": "2027-01-12",
+          "left": 20,
+          "open": false
         }
       ],
       "how_to_apply": "이용안내 페이지 → [예약하기] (로그인 필요, 2인 이상)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B183001",
       "kind": "생태탐방원",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "lodge-B231002",
@@ -6417,20 +6395,11 @@
       "rooms": 14,
       "nights": [
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "state": "closed",
           "free": 0,
           "total": 14,
           "types": {}
-        },
-        {
-          "date": "2026-11-13",
-          "state": "free",
-          "free": 2,
-          "total": 14,
-          "types": {
-            "6인실": 2
-          }
         },
         {
           "date": "2026-11-14",
@@ -6442,10 +6411,10 @@
         {
           "date": "2026-11-15",
           "state": "free",
-          "free": 11,
+          "free": 12,
           "total": 14,
           "types": {
-            "4인실": 3,
+            "4인실": 4,
             "6인실": 8
           }
         },
@@ -6478,19 +6447,18 @@
         {
           "date": "2026-11-19",
           "state": "free",
-          "free": 8,
+          "free": 7,
           "total": 14,
           "types": {
-            "6인실": 8
+            "6인실": 7
           }
         },
         {
           "date": "2026-11-20",
           "state": "free",
-          "free": 5,
+          "free": 4,
           "total": 14,
           "types": {
-            "4인실": 1,
             "6인실": 4
           }
         },
@@ -6504,30 +6472,30 @@
         {
           "date": "2026-11-22",
           "state": "free",
-          "free": 12,
+          "free": 13,
           "total": 14,
           "types": {
-            "4인실": 5,
+            "4인실": 6,
             "6인실": 7
           }
         },
         {
           "date": "2026-11-23",
           "state": "free",
-          "free": 11,
+          "free": 12,
           "total": 14,
           "types": {
-            "4인실": 5,
+            "4인실": 6,
             "6인실": 6
           }
         },
         {
           "date": "2026-11-24",
           "state": "free",
-          "free": 12,
+          "free": 13,
           "total": 14,
           "types": {
-            "4인실": 5,
+            "4인실": 6,
             "6인실": 7
           }
         },
@@ -6817,21 +6785,21 @@
         {
           "date": "2026-12-27",
           "state": "free",
-          "free": 11,
+          "free": 10,
           "total": 14,
           "types": {
             "4인실": 3,
-            "6인실": 8
+            "6인실": 7
           }
         },
         {
           "date": "2026-12-28",
           "state": "free",
-          "free": 11,
+          "free": 10,
           "total": 14,
           "types": {
             "4인실": 3,
-            "6인실": 8
+            "6인실": 7
           }
         },
         {
@@ -6916,7 +6884,7 @@
       "group_only": false,
       "how_to_apply": "이용안내 페이지 → [예약하기] → 생활관 (로그인 필요)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B231002",
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "lodge-B014003",
@@ -6930,37 +6898,28 @@
       "rooms": 20,
       "nights": [
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "state": "closed",
           "free": 0,
           "total": 20,
           "types": {}
         },
         {
-          "date": "2026-11-13",
+          "date": "2026-11-14",
           "state": "free",
-          "free": 3,
+          "free": 1,
           "total": 20,
           "types": {
-            "4인실": 1,
-            "6인실": 1,
-            "8인실": 1
+            "4인실": 1
           }
-        },
-        {
-          "date": "2026-11-14",
-          "state": "full",
-          "free": 0,
-          "total": 20,
-          "types": {}
         },
         {
           "date": "2026-11-15",
           "state": "free",
-          "free": 18,
+          "free": 17,
           "total": 20,
           "types": {
-            "4인실": 8,
+            "4인실": 7,
             "6인실": 8,
             "8인실": 2
           }
@@ -6991,21 +6950,21 @@
         {
           "date": "2026-11-19",
           "state": "free",
-          "free": 17,
+          "free": 14,
           "total": 20,
           "types": {
-            "4인실": 9,
+            "4인실": 7,
             "6인실": 6,
-            "8인실": 2
+            "8인실": 1
           }
         },
         {
           "date": "2026-11-20",
           "state": "free",
-          "free": 9,
+          "free": 8,
           "total": 20,
           "types": {
-            "4인실": 5,
+            "4인실": 4,
             "6인실": 2,
             "8인실": 2
           }
@@ -7020,11 +6979,11 @@
         {
           "date": "2026-11-22",
           "state": "free",
-          "free": 15,
+          "free": 16,
           "total": 20,
           "types": {
             "4인실": 7,
-            "6인실": 7,
+            "6인실": 8,
             "8인실": 1
           }
         },
@@ -7292,11 +7251,11 @@
         {
           "date": "2026-12-18",
           "state": "free",
-          "free": 15,
+          "free": 14,
           "total": 20,
           "types": {
             "4인실": 9,
-            "6인실": 4,
+            "6인실": 3,
             "8인실": 2
           }
         },
@@ -7386,12 +7345,12 @@
         {
           "date": "2026-12-28",
           "state": "free",
-          "free": 9,
+          "free": 8,
           "total": 20,
           "types": {
             "4인실": 1,
             "6인실": 6,
-            "8인실": 2
+            "8인실": 1
           }
         },
         {
@@ -7478,7 +7437,7 @@
       "group_only": false,
       "how_to_apply": "이용안내 페이지 → [예약하기] → 생활관 (로그인 필요)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B014003",
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "lodge-B331001",
@@ -7492,21 +7451,11 @@
       "rooms": 29,
       "nights": [
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "state": "closed",
           "free": 0,
           "total": 29,
           "types": {}
-        },
-        {
-          "date": "2026-11-13",
-          "state": "free",
-          "free": 4,
-          "total": 29,
-          "types": {
-            "6인실": 3,
-            "8인실": 1
-          }
         },
         {
           "date": "2026-11-14",
@@ -7518,10 +7467,10 @@
         {
           "date": "2026-11-15",
           "state": "free",
-          "free": 3,
+          "free": 4,
           "total": 29,
           "types": {
-            "6인실": 3
+            "6인실": 4
           }
         },
         {
@@ -7534,10 +7483,10 @@
         {
           "date": "2026-11-17",
           "state": "free",
-          "free": 3,
+          "free": 4,
           "total": 29,
           "types": {
-            "3인실": 1,
+            "3인실": 2,
             "6인실": 1,
             "8인실": 1
           }
@@ -7545,20 +7494,18 @@
         {
           "date": "2026-11-18",
           "state": "free",
-          "free": 3,
+          "free": 1,
           "total": 29,
           "types": {
-            "3인실": 3
+            "3인실": 1
           }
         },
         {
           "date": "2026-11-19",
-          "state": "free",
-          "free": 2,
+          "state": "full",
+          "free": 0,
           "total": 29,
-          "types": {
-            "3인실": 2
-          }
+          "types": {}
         },
         {
           "date": "2026-11-20",
@@ -7587,10 +7534,10 @@
         {
           "date": "2026-11-23",
           "state": "free",
-          "free": 14,
+          "free": 13,
           "total": 29,
           "types": {
-            "3인실": 5,
+            "3인실": 4,
             "6인실": 6,
             "8인실": 3
           }
@@ -7609,30 +7556,33 @@
         {
           "date": "2026-11-25",
           "state": "free",
-          "free": 18,
+          "free": 17,
           "total": 29,
           "types": {
             "3인실": 5,
-            "6인실": 10,
+            "6인실": 9,
             "8인실": 3
           }
         },
         {
           "date": "2026-11-26",
           "state": "free",
-          "free": 7,
+          "free": 6,
           "total": 29,
           "types": {
-            "3인실": 5,
+            "3인실": 4,
             "6인실": 2
           }
         },
         {
           "date": "2026-11-27",
-          "state": "full",
-          "free": 0,
+          "state": "free",
+          "free": 2,
           "total": 29,
-          "types": {}
+          "types": {
+            "6인실": 1,
+            "8인실": 1
+          }
         },
         {
           "date": "2026-11-28",
@@ -7696,10 +7646,10 @@
         {
           "date": "2026-12-04",
           "state": "free",
-          "free": 16,
+          "free": 15,
           "total": 29,
           "types": {
-            "6인실": 13,
+            "6인실": 12,
             "8인실": 3
           }
         },
@@ -7830,11 +7780,11 @@
         {
           "date": "2026-12-18",
           "state": "free",
-          "free": 15,
+          "free": 16,
           "total": 29,
           "types": {
             "6인실": 13,
-            "8인실": 2
+            "8인실": 3
           }
         },
         {
@@ -8007,7 +7957,7 @@
       "group_only": false,
       "how_to_apply": "이용안내 페이지 → [예약하기] → 생활관 (로그인 필요)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B331001",
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "lodge-B183001",
@@ -8021,15 +7971,8 @@
       "rooms": 31,
       "nights": [
         {
-          "date": "2026-11-12",
-          "state": "closed",
-          "free": 0,
-          "total": 31,
-          "types": {}
-        },
-        {
           "date": "2026-11-13",
-          "state": "full",
+          "state": "closed",
           "free": 0,
           "total": 31,
           "types": {}
@@ -8044,10 +7987,12 @@
         {
           "date": "2026-11-15",
           "state": "free",
-          "free": 1,
+          "free": 6,
           "total": 31,
           "types": {
-            "4인실": 1
+            "2인실": 1,
+            "3인실": 1,
+            "4인실": 4
           }
         },
         {
@@ -8060,34 +8005,39 @@
         {
           "date": "2026-11-17",
           "state": "free",
-          "free": 1,
+          "free": 2,
           "total": 31,
           "types": {
-            "8인실": 1
+            "2인실": 1,
+            "3인실": 1
           }
         },
         {
           "date": "2026-11-18",
           "state": "free",
-          "free": 1,
+          "free": 2,
           "total": 31,
           "types": {
-            "4인실": 1
+            "4인실": 2
           }
         },
         {
           "date": "2026-11-19",
-          "state": "full",
-          "free": 0,
+          "state": "free",
+          "free": 2,
           "total": 31,
-          "types": {}
+          "types": {
+            "4인실": 2
+          }
         },
         {
           "date": "2026-11-20",
-          "state": "full",
-          "free": 0,
+          "state": "free",
+          "free": 1,
           "total": 31,
-          "types": {}
+          "types": {
+            "2인실": 1
+          }
         },
         {
           "date": "2026-11-21",
@@ -8113,40 +8063,42 @@
         {
           "date": "2026-11-24",
           "state": "free",
-          "free": 10,
+          "free": 9,
           "total": 31,
           "types": {
             "3인실": 1,
-            "4인실": 8,
+            "4인실": 7,
             "8인실": 1
           }
         },
         {
           "date": "2026-11-25",
           "state": "free",
-          "free": 8,
+          "free": 6,
           "total": 31,
           "types": {
             "3인실": 1,
-            "4인실": 6,
+            "4인실": 4,
             "8인실": 1
           }
         },
         {
           "date": "2026-11-26",
           "state": "free",
-          "free": 3,
+          "free": 1,
           "total": 31,
           "types": {
-            "4인실": 3
+            "4인실": 1
           }
         },
         {
           "date": "2026-11-27",
-          "state": "full",
-          "free": 0,
+          "state": "free",
+          "free": 1,
           "total": 31,
-          "types": {}
+          "types": {
+            "4인실": 1
+          }
         },
         {
           "date": "2026-11-28",
@@ -8165,20 +8117,20 @@
         {
           "date": "2026-11-30",
           "state": "free",
-          "free": 13,
+          "free": 12,
           "total": 31,
           "types": {
-            "4인실": 12,
+            "4인실": 11,
             "6인실": 1
           }
         },
         {
           "date": "2026-12-01",
           "state": "free",
-          "free": 23,
+          "free": 21,
           "total": 31,
           "types": {
-            "2인실": 5,
+            "2인실": 3,
             "4인실": 17,
             "8인실": 1
           }
@@ -8222,10 +8174,9 @@
         {
           "date": "2026-12-06",
           "state": "free",
-          "free": 7,
+          "free": 6,
           "total": 31,
           "types": {
-            "2인실": 1,
             "4인실": 6
           }
         },
@@ -8279,10 +8230,12 @@
         },
         {
           "date": "2026-12-11",
-          "state": "full",
-          "free": 0,
+          "state": "free",
+          "free": 1,
           "total": 31,
-          "types": {}
+          "types": {
+            "2인실": 1
+          }
         },
         {
           "date": "2026-12-12",
@@ -8294,20 +8247,20 @@
         {
           "date": "2026-12-13",
           "state": "free",
-          "free": 2,
+          "free": 1,
           "total": 31,
           "types": {
-            "2인실": 2
+            "2인실": 1
           }
         },
         {
           "date": "2026-12-14",
           "state": "free",
-          "free": 10,
+          "free": 12,
           "total": 31,
           "types": {
             "2인실": 1,
-            "4인실": 8,
+            "4인실": 10,
             "8인실": 1
           }
         },
@@ -8333,11 +8286,11 @@
         {
           "date": "2026-12-17",
           "state": "free",
-          "free": 13,
+          "free": 12,
           "total": 31,
           "types": {
             "2인실": 1,
-            "4인실": 11,
+            "4인실": 10,
             "8인실": 1
           }
         },
@@ -8358,11 +8311,11 @@
         {
           "date": "2026-12-20",
           "state": "free",
-          "free": 5,
+          "free": 2,
           "total": 31,
           "types": {
-            "2인실": 3,
-            "4인실": 2
+            "2인실": 1,
+            "4인실": 1
           }
         },
         {
@@ -8375,22 +8328,21 @@
         {
           "date": "2026-12-22",
           "state": "free",
-          "free": 14,
+          "free": 12,
           "total": 31,
           "types": {
             "2인실": 3,
-            "4인실": 10,
-            "6인실": 1
+            "4인실": 9
           }
         },
         {
           "date": "2026-12-23",
           "state": "free",
-          "free": 12,
+          "free": 11,
           "total": 31,
           "types": {
             "2인실": 1,
-            "4인실": 10,
+            "4인실": 9,
             "6인실": 1
           }
         },
@@ -8505,7 +8457,7 @@
       "group_only": false,
       "how_to_apply": "이용안내 페이지 → [예약하기] → 생활관 (로그인 필요)",
       "url": "https://reservation.knps.or.kr/contents/E/serviceGuide.do?deptId=B183001",
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "njm-EDU_0000000000000124",
@@ -8529,7 +8481,7 @@
       "phone": "061-330-7800",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "njm-EDU_0000000000000111",
@@ -8553,7 +8505,7 @@
       "phone": "061-330-7800",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "njm-EDU_0000000000000112",
@@ -8577,7 +8529,7 @@
       "phone": "061-330-7800",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "njm-EDU_0000000000000113",
@@ -8601,7 +8553,7 @@
       "phone": "061-330-7800",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "njm-EDU_0000000000000115",
@@ -8625,7 +8577,7 @@
       "phone": "061-330-7800",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "njm-EDU_0000000000000120",
@@ -8649,7 +8601,7 @@
       "phone": "061-330-7800",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "njm-EDU_0000000000000121",
@@ -8673,7 +8625,7 @@
       "phone": "061-330-7800",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2672",
@@ -8696,7 +8648,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2679",
@@ -8719,7 +8671,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2680",
@@ -8742,7 +8694,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2681",
@@ -8765,7 +8717,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2682",
@@ -8788,7 +8740,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2683",
@@ -8811,7 +8763,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2684",
@@ -8834,7 +8786,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2685",
@@ -8857,7 +8809,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2673",
@@ -8880,7 +8832,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2674",
@@ -8903,7 +8855,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2742",
@@ -8926,7 +8878,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2938",
@@ -8949,7 +8901,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2984",
@@ -8972,7 +8924,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2982",
@@ -8995,7 +8947,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2983",
@@ -9018,7 +8970,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2952",
@@ -9041,7 +8993,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2977",
@@ -9064,7 +9016,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2971",
@@ -9087,7 +9039,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2979",
@@ -9110,7 +9062,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2921",
@@ -9133,7 +9085,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2943",
@@ -9156,7 +9108,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-2944",
@@ -9179,30 +9131,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
-    },
-    {
-      "id": "gsc-830",
-      "source": "국립광주과학관",
-      "kind": "과학관",
-      "category": "행사(문화행사)",
-      "park": "국립광주과학관",
-      "title": "2026 과학관에서 생일파티 참가신청안내",
-      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
-      "target": "",
-      "price": "150,000원",
-      "status": "접수중",
-      "apply_start": "2026-02-01",
-      "apply_end": "2026-12-31",
-      "event_start": "2026-03-01",
-      "event_end": "2026-12-31",
-      "time": "",
-      "summary": "",
-      "url": "https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_39&evSEQ=830",
-      "phone": "062-960-6114",
-      "age_tag": "check",
-      "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-820",
@@ -9225,7 +9154,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-956",
@@ -9248,7 +9177,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-823",
@@ -9271,7 +9200,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-958",
@@ -9294,7 +9223,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-943",
@@ -9317,7 +9246,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-954",
@@ -9340,7 +9269,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gsc-955",
@@ -9363,7 +9292,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "acc-EM_0000009255",
@@ -9386,7 +9315,7 @@
       "phone": "1899-5566",
       "age_tag": "ok",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "acc-EM_0000009971",
@@ -9409,7 +9338,7 @@
       "phone": "1899-5566",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "acc-EM_0000009964",
@@ -9432,7 +9361,7 @@
       "phone": "1899-5566",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "acc-EM_0000009963",
@@ -9455,7 +9384,7 @@
       "phone": "1899-5566",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "acc-EM_0000009972",
@@ -9478,7 +9407,7 @@
       "phone": "1899-5566",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "acc-EM_0000009967",
@@ -9501,7 +9430,7 @@
       "phone": "1899-5566",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "acc-EM_0000009969",
@@ -9524,7 +9453,7 @@
       "phone": "1899-5566",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "acc-EM_0000009970",
@@ -9547,7 +9476,7 @@
       "phone": "1899-5566",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "acc-EM_0000009973",
@@ -9570,7 +9499,7 @@
       "phone": "1899-5566",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "acc-EM_0000009974",
@@ -9593,7 +9522,30 @@
       "phone": "1899-5566",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
+    },
+    {
+      "id": "gjr-1662",
+      "source": "광주시 바로예약",
+      "kind": "광주시 체험",
+      "category": "지역 농산물 활용 가치 공감 교육",
+      "park": "농식품가공창업보육센터",
+      "title": "2026 공유주방 첫걸음 과정, 10기(12/11 금)",
+      "place": "농식품가공창업보육센터 3층 교육장",
+      "target": "성인/청년",
+      "price": "무료",
+      "status": "",
+      "apply_start": "2026-11-13 09:00",
+      "apply_end": "2026-12-10 16:00",
+      "event_start": "2026-12-11",
+      "event_end": "2026-12-11",
+      "time": "09:00~15:00",
+      "summary": "",
+      "url": "https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve1&searchCate1=A&bookingCode=1662",
+      "capacity": "정원 30명",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1656",
@@ -9616,7 +9568,7 @@
       "capacity": "정원 40명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1657",
@@ -9639,7 +9591,7 @@
       "capacity": "정원 3500명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1658",
@@ -9662,30 +9614,7 @@
       "capacity": "정원 160명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
-    },
-    {
-      "id": "gjr-1648",
-      "source": "광주시 바로예약",
-      "kind": "광주시 체험",
-      "category": "지역 농산물 활용 가치 공감 교육",
-      "park": "농식품가공창업보육센터",
-      "title": "2026 공유주방 첫걸음 과정, 9기(11/13 금)",
-      "place": "농식품가공창업보육센터 3층",
-      "target": "성인/청년",
-      "price": "무료",
-      "status": "",
-      "apply_start": "2026-10-20 12:00",
-      "apply_end": "2026-11-12 16:00",
-      "event_start": "2026-11-13",
-      "event_end": "2026-11-13",
-      "time": "09:00~15:00",
-      "summary": "",
-      "url": "https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve1&searchCate1=A&bookingCode=1648",
-      "capacity": "정원 30명",
-      "age_tag": "no",
-      "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1413",
@@ -9708,7 +9637,30 @@
       "capacity": "정원 549000명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
+    },
+    {
+      "id": "gjr-1648",
+      "source": "광주시 바로예약",
+      "kind": "광주시 체험",
+      "category": "지역 농산물 활용 가치 공감 교육",
+      "park": "농식품가공창업보육센터",
+      "title": "2026 공유주방 첫걸음 과정, 9기(11/13 금)",
+      "place": "농식품가공창업보육센터 3층",
+      "target": "성인/청년",
+      "price": "무료",
+      "status": "",
+      "apply_start": "2026-10-20 12:00",
+      "apply_end": "2026-11-12 16:00",
+      "event_start": "2026-11-13",
+      "event_end": "2026-11-13",
+      "time": "09:00~15:00",
+      "summary": "",
+      "url": "https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve1&searchCate1=A&bookingCode=1648",
+      "capacity": "정원 30명",
+      "age_tag": "no",
+      "group_only": false,
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1646",
@@ -9731,7 +9683,7 @@
       "capacity": "정원 3500명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1647",
@@ -9754,7 +9706,7 @@
       "capacity": "정원 100명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1631",
@@ -9777,7 +9729,7 @@
       "capacity": "정원 160명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1632",
@@ -9800,7 +9752,7 @@
       "capacity": "정원 3500명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1595",
@@ -9823,7 +9775,7 @@
       "capacity": "정원 10명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1597",
@@ -9846,7 +9798,7 @@
       "capacity": "정원 15명",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1644",
@@ -9869,7 +9821,7 @@
       "capacity": "정원 12명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1661",
@@ -9892,7 +9844,7 @@
       "capacity": "정원 20명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1660",
@@ -9915,7 +9867,7 @@
       "capacity": "정원 60명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1659",
@@ -9938,7 +9890,7 @@
       "capacity": "정원 15명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1654",
@@ -9961,7 +9913,7 @@
       "capacity": "정원 40명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1653",
@@ -9984,7 +9936,7 @@
       "capacity": "정원 96명",
       "age_tag": "ok",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1651",
@@ -10007,7 +9959,7 @@
       "capacity": "정원 1380명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1641",
@@ -10030,7 +9982,7 @@
       "capacity": "정원 40명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1642",
@@ -10053,7 +10005,7 @@
       "capacity": "정원 180명",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1553",
@@ -10076,7 +10028,7 @@
       "capacity": "정원 21명",
       "age_tag": "ok",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1554",
@@ -10099,7 +10051,7 @@
       "capacity": "정원 36명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1552",
@@ -10122,7 +10074,7 @@
       "capacity": "정원 12명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1550",
@@ -10145,7 +10097,7 @@
       "capacity": "정원 13명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1432",
@@ -10168,7 +10120,7 @@
       "capacity": "정원 70명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1433",
@@ -10191,7 +10143,7 @@
       "capacity": "정원 151명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1434",
@@ -10214,7 +10166,7 @@
       "capacity": "정원 172명",
       "age_tag": "ok",
       "group_only": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1418",
@@ -10237,7 +10189,7 @@
       "capacity": "정원 46200명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1068",
@@ -10260,7 +10212,7 @@
       "capacity": "정원 7380명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1652",
@@ -10283,7 +10235,7 @@
       "capacity": "정원 12명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1636",
@@ -10306,7 +10258,7 @@
       "capacity": "정원 12명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "gjr-1650",
@@ -10329,7 +10281,7 @@
       "capacity": "정원 300명",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "ndf-9137",
@@ -10354,7 +10306,7 @@
       "group_only": false,
       "notice_date": "2026-11-02",
       "closed": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "ndf-9119",
@@ -10379,7 +10331,7 @@
       "group_only": false,
       "notice_date": "2026-10-27",
       "closed": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "ndf-9111",
@@ -10404,7 +10356,7 @@
       "group_only": false,
       "notice_date": "2026-10-22",
       "closed": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "ndf-9078",
@@ -10429,7 +10381,7 @@
       "group_only": false,
       "notice_date": "2026-10-02",
       "closed": true,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "scb-5",
@@ -10455,13 +10407,8 @@
       "group_only": false,
       "dates": [
         {
-          "date": "2026-11-13",
-          "left": 90,
-          "open": true
-        },
-        {
           "date": "2026-11-14",
-          "left": 54,
+          "left": 53,
           "open": true
         },
         {
@@ -10496,7 +10443,7 @@
         },
         {
           "date": "2026-11-22",
-          "left": 107,
+          "left": 105,
           "open": true
         },
         {
@@ -10665,7 +10612,7 @@
           "open": true
         }
       ],
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "scb-128",
@@ -10691,11 +10638,6 @@
       "group_only": false,
       "dates": [
         {
-          "date": "2026-11-14",
-          "left": 13,
-          "open": true
-        },
-        {
           "date": "2026-11-15",
           "left": 7,
           "open": true
@@ -10707,12 +10649,12 @@
         },
         {
           "date": "2026-11-21",
-          "left": 12,
+          "left": 9,
           "open": true
         },
         {
           "date": "2026-11-22",
-          "left": 17,
+          "left": 15,
           "open": true
         },
         {
@@ -10791,7 +10733,7 @@
           "open": true
         }
       ],
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "scb-126",
@@ -10817,14 +10759,9 @@
       "group_only": false,
       "dates": [
         {
-          "date": "2026-11-14",
+          "date": "2026-11-15",
           "left": 0,
           "open": false
-        },
-        {
-          "date": "2026-11-15",
-          "left": 3,
-          "open": true
         },
         {
           "date": "2026-11-20",
@@ -10908,7 +10845,7 @@
         },
         {
           "date": "2026-12-26",
-          "left": 3,
+          "left": 1,
           "open": true
         },
         {
@@ -10947,7 +10884,7 @@
           "open": true
         }
       ],
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "scb-3",
@@ -10973,13 +10910,8 @@
       "group_only": false,
       "dates": [
         {
-          "date": "2026-11-13",
-          "left": 87,
-          "open": true
-        },
-        {
           "date": "2026-11-14",
-          "left": 56,
+          "left": 86,
           "open": true
         },
         {
@@ -11034,7 +10966,7 @@
         },
         {
           "date": "2026-11-25",
-          "left": 150,
+          "left": 120,
           "open": true
         },
         {
@@ -11058,7 +10990,7 @@
           "open": true
         }
       ],
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "scb-113",
@@ -11104,7 +11036,7 @@
           "open": true
         }
       ],
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "scb-112",
@@ -11140,7 +11072,7 @@
           "open": true
         }
       ],
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "fes-3301415",
@@ -11163,7 +11095,7 @@
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3301415",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "fes-4147845",
@@ -11186,7 +11118,7 @@
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=4147845",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "fes-4142164",
@@ -11209,7 +11141,7 @@
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=4142164",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "fes-617992",
@@ -11232,7 +11164,7 @@
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=617992",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "fes-3488655",
@@ -11255,7 +11187,7 @@
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3488655",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "fes-4067214",
@@ -11278,7 +11210,7 @@
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=4067214",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     },
     {
       "id": "fes-2614198",
@@ -11301,7 +11233,7 @@
       "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=2614198",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-12 11:03"
+      "as_of": "2026-11-13 10:33"
     }
   ]
 }

@@ -15,24 +15,4 @@ TZOFFSETTO:+0900
 TZNAME:KST
 END:STANDARD
 END:VTIMEZONE
-BEGIN:VEVENT
-UID:gsc-959-apply@family-activity
-DTSTAMP:20261118T000000Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:🔔 신청 오픈: 6회차 과학스쿨 - 블랙홀\, 웜홀 그
- 리고 양자정보
-LOCATION:국립광주과학관 (광주 북구 첨단과기로 235)
-DESCRIPTION:국립광주과학관\n대상: \n접수: 2026-11-18 ~ 2026-12
- -15\nhttps://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18
- _40&evSEQ=959
-URL:https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_4
- 0&evSEQ=959
-BEGIN:VALARM
-TRIGGER:-PT15H
-ACTION:DISPLAY
-DESCRIPTION:곧 신청 오픈: 6회차 과학스쿨 - 블랙홀\, 웜홀 
- 그리고 양자정보
-END:VALARM
-END:VEVENT
 END:VCALENDAR

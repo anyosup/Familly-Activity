@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 12:17",
+  "updated_at": "2026-11-27 12:22",
   "items": [
     {
       "id": "njm-EDU_0000000000000124",
@@ -23,7 +23,7 @@
       "phone": "061-330-7800",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "njm-EDU_0000000000000111",
@@ -47,7 +47,7 @@
       "phone": "061-330-7800",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "njm-EDU_0000000000000112",
@@ -71,7 +71,7 @@
       "phone": "061-330-7800",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "njm-EDU_0000000000000113",
@@ -95,7 +95,7 @@
       "phone": "061-330-7800",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "njm-EDU_0000000000000115",
@@ -119,7 +119,7 @@
       "phone": "061-330-7800",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "njm-EDU_0000000000000120",
@@ -143,7 +143,7 @@
       "phone": "061-330-7800",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "njm-EDU_0000000000000121",
@@ -167,7 +167,7 @@
       "phone": "061-330-7800",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2988",
@@ -190,7 +190,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2989",
@@ -213,7 +213,30 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
+    },
+    {
+      "id": "gsc-2990",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(별빛천문대]\n [천문행사)",
+      "park": "국립광주과학관",
+      "title": "쌍둥이자리 유성우 기념 특별관측행사",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "6세 이상 누구나 ※ 유아, 초등학생 보호자 동시 예약 필수\n (150명)",
+      "price": "5,000원",
+      "status": "접수예정",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-13",
+      "event_start": "2026-12-14",
+      "event_end": "2026-12-14",
+      "time": "19:00-20:10,20:20-21:00,21:10-21:50",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_306&eduSEQ=2990",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2672",
@@ -236,7 +259,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2679",
@@ -259,7 +282,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2680",
@@ -282,7 +305,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2681",
@@ -305,7 +328,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2682",
@@ -328,7 +351,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2683",
@@ -351,7 +374,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2684",
@@ -374,7 +397,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2685",
@@ -397,7 +420,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2673",
@@ -420,7 +443,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2938",
@@ -443,7 +466,30 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
+    },
+    {
+      "id": "gsc-2991",
+      "source": "국립광주과학관",
+      "kind": "과학관",
+      "category": "교육(과학캠프)",
+      "park": "국립광주과학관",
+      "title": "2026년 크리스마스 가족캠프",
+      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
+      "target": "만6세 이상 2~4인 가족(20가족)\n (60명)",
+      "price": "100,000원",
+      "status": "접수중",
+      "apply_start": "2026-11-27",
+      "apply_end": "2026-12-06",
+      "event_start": "2026-12-19",
+      "event_end": "2026-12-20",
+      "time": "18:00-22:00",
+      "summary": "",
+      "url": "https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285_317&eduSEQ=2991",
+      "phone": "062-960-6114",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2674",
@@ -466,7 +512,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2987",
@@ -489,7 +535,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2742",
@@ -512,7 +558,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2952",
@@ -535,7 +581,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2977",
@@ -558,7 +604,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2971",
@@ -581,7 +627,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-2979",
@@ -604,7 +650,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-820",
@@ -627,7 +673,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-956",
@@ -650,7 +696,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-823",
@@ -673,7 +719,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-959",
@@ -696,7 +742,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-958",
@@ -719,7 +765,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-943",
@@ -742,7 +788,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "gsc-954",
@@ -765,30 +811,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
-    },
-    {
-      "id": "acc-EM_0000009255",
-      "source": "ACC 어린이문화원",
-      "kind": "박물관·미술관",
-      "category": "어린이 교육",
-      "park": "ACC 어린이문화원",
-      "title": "2026년 어린이 단체 교육 프로그램",
-      "place": "국립아시아문화전당 (광주 동구 문화전당로 38)",
-      "target": "단체",
-      "price": "1인당 7,000원 (인솔자 무료)",
-      "status": "",
-      "apply_start": null,
-      "apply_end": null,
-      "event_start": "2026-04-01",
-      "event_end": "2026-11-27",
-      "time": "",
-      "summary": "학교 밖 예술 여행<br>\r\n아시아 문화 이해 및 문화다양성을 기반으로 한 <br>단체 대상 문화예술 교육 프로그램",
-      "url": "https://www.accf.or.kr/main/product/detail/ko/316",
-      "phone": "1899-5566",
-      "age_tag": "ok",
-      "group_only": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "acc-EM_0000009971",
@@ -811,7 +834,7 @@
       "phone": "1899-5566",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "acc-EM_0000009972",
@@ -834,7 +857,7 @@
       "phone": "1899-5566",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "acc-EM_0000009970",
@@ -857,7 +880,7 @@
       "phone": "1899-5566",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "acc-EM_0000009973",
@@ -880,7 +903,7 @@
       "phone": "1899-5566",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "acc-EM_0000009974",
@@ -903,7 +926,7 @@
       "phone": "1899-5566",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "ndf-9137",
@@ -928,7 +951,7 @@
       "group_only": false,
       "notice_date": "2026-11-02",
       "closed": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "ndf-9119",
@@ -953,7 +976,7 @@
       "group_only": false,
       "notice_date": "2026-10-27",
       "closed": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "ndf-9111",
@@ -978,7 +1001,7 @@
       "group_only": false,
       "notice_date": "2026-10-22",
       "closed": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "ndf-9078",
@@ -1003,7 +1026,99 @@
       "group_only": false,
       "notice_date": "2026-10-02",
       "closed": true,
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-27 12:22"
+    },
+    {
+      "id": "fes-3432658",
+      "source": "한국관광공사",
+      "kind": "축제",
+      "category": "축제·행사",
+      "park": "함평군",
+      "title": "함평 겨울빛축제",
+      "place": "전남광주통합특별시 함평군 함평읍 곤재로 27 함평엑스포공원 및 읍 시가지 일원",
+      "target": "",
+      "price": "",
+      "status": "",
+      "apply_start": null,
+      "apply_end": null,
+      "event_start": "2026-12-18",
+      "event_end": "2026-12-31",
+      "summary": "",
+      "phone": "061-320-2247",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/51/4159151_image2_1.jpg",
+      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3432658",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-11-27 12:22"
+    },
+    {
+      "id": "fes-3488655",
+      "source": "한국관광공사",
+      "kind": "축제",
+      "category": "축제·행사",
+      "park": "북구",
+      "title": "2026 문화가 있는 날 청춘마이크",
+      "place": "전남광주통합특별시 북구 하서로 50 (운암동)",
+      "target": "",
+      "price": "",
+      "status": "",
+      "apply_start": null,
+      "apply_end": null,
+      "event_start": "2026-03-12",
+      "event_end": "2026-12-11",
+      "summary": "",
+      "phone": "062-412-1197",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/85/4039885_image2_1.jpg",
+      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3488655",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-11-27 12:22"
+    },
+    {
+      "id": "fes-4067214",
+      "source": "한국관광공사",
+      "kind": "축제",
+      "category": "축제·행사",
+      "park": "여수시",
+      "title": "2026 섬 방문의 해",
+      "place": "전남광주통합특별시 여수시 선어시장길 6 (중앙동)",
+      "target": "",
+      "price": "",
+      "status": "",
+      "apply_start": null,
+      "apply_end": null,
+      "event_start": "2026-03-01",
+      "event_end": "2026-12-31",
+      "summary": "",
+      "phone": "070-4337-5058",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/13/4067313_image2_1.jpg",
+      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=4067214",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-11-27 12:22"
+    },
+    {
+      "id": "fes-2614198",
+      "source": "한국관광공사",
+      "kind": "축제",
+      "category": "축제·행사",
+      "park": "서구",
+      "title": "2027 ACE Fair",
+      "place": "전남광주통합특별시 서구 상무누리로 30",
+      "target": "",
+      "price": "",
+      "status": "",
+      "apply_start": null,
+      "apply_end": null,
+      "event_start": "2027-09-23",
+      "event_end": "2027-09-26",
+      "summary": "",
+      "phone": "062-611-2242",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/34/4147834_image2_1.jpg",
+      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=2614198",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-11-27 12:22"
     },
     {
       "id": "scb-5",
@@ -1799,98 +1914,6 @@
           "open": true
         }
       ],
-      "as_of": "2026-11-26 12:17"
-    },
-    {
-      "id": "fes-3432658",
-      "source": "한국관광공사",
-      "kind": "축제",
-      "category": "축제·행사",
-      "park": "함평군",
-      "title": "함평 겨울빛축제",
-      "place": "전남광주통합특별시 함평군 함평읍 곤재로 27 함평엑스포공원 및 읍 시가지 일원",
-      "target": "",
-      "price": "",
-      "status": "",
-      "apply_start": null,
-      "apply_end": null,
-      "event_start": "2026-12-18",
-      "event_end": "2026-12-31",
-      "summary": "",
-      "phone": "061-320-2247",
-      "image": "https://tong.visitkorea.or.kr/cms/resource/51/4159151_image2_1.jpg",
-      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3432658",
-      "age_tag": "check",
-      "group_only": false,
-      "as_of": "2026-11-26 12:17"
-    },
-    {
-      "id": "fes-3488655",
-      "source": "한국관광공사",
-      "kind": "축제",
-      "category": "축제·행사",
-      "park": "북구",
-      "title": "2026 문화가 있는 날 청춘마이크",
-      "place": "전남광주통합특별시 북구 하서로 50 (운암동)",
-      "target": "",
-      "price": "",
-      "status": "",
-      "apply_start": null,
-      "apply_end": null,
-      "event_start": "2026-03-12",
-      "event_end": "2026-12-11",
-      "summary": "",
-      "phone": "062-412-1197",
-      "image": "https://tong.visitkorea.or.kr/cms/resource/85/4039885_image2_1.jpg",
-      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3488655",
-      "age_tag": "check",
-      "group_only": false,
-      "as_of": "2026-11-26 12:17"
-    },
-    {
-      "id": "fes-4067214",
-      "source": "한국관광공사",
-      "kind": "축제",
-      "category": "축제·행사",
-      "park": "여수시",
-      "title": "2026 섬 방문의 해",
-      "place": "전남광주통합특별시 여수시 선어시장길 6 (중앙동)",
-      "target": "",
-      "price": "",
-      "status": "",
-      "apply_start": null,
-      "apply_end": null,
-      "event_start": "2026-03-01",
-      "event_end": "2026-12-31",
-      "summary": "",
-      "phone": "070-4337-5058",
-      "image": "https://tong.visitkorea.or.kr/cms/resource/13/4067313_image2_1.jpg",
-      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=4067214",
-      "age_tag": "check",
-      "group_only": false,
-      "as_of": "2026-11-26 12:17"
-    },
-    {
-      "id": "fes-2614198",
-      "source": "한국관광공사",
-      "kind": "축제",
-      "category": "축제·행사",
-      "park": "서구",
-      "title": "2027 ACE Fair",
-      "place": "전남광주통합특별시 서구 상무누리로 30",
-      "target": "",
-      "price": "",
-      "status": "",
-      "apply_start": null,
-      "apply_end": null,
-      "event_start": "2027-09-23",
-      "event_end": "2027-09-26",
-      "summary": "",
-      "phone": "062-611-2242",
-      "image": "https://tong.visitkorea.or.kr/cms/resource/34/4147834_image2_1.jpg",
-      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=2614198",
-      "age_tag": "check",
-      "group_only": false,
       "as_of": "2026-11-26 12:17"
     },
     {

@@ -62,22 +62,4 @@ DESCRIPTION:곧 신청 오픈: 쌍둥이자리 유성우 기념 특별관
  측행사
 END:VALARM
 END:VEVENT
-BEGIN:VEVENT
-UID:gsc-2991-apply@family-activity
-DTSTAMP:20261127T000000Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:🔔 신청 오픈: 2026년 크리스마스 가족캠프
-LOCATION:국립광주과학관 (광주 북구 첨단과기로 235)
-DESCRIPTION:국립광주과학관\n대상: 만6세 이상 2~4인 가족(2
- 0가족)\n (60명)\n접수: 2026-11-27 ~ 2026-12-06\nhttps://www.science
- center.or.kr/kor/edu/index.do?mode=view&menuId=285_317&eduSEQ=2991
-URL:https://www.sciencecenter.or.kr/kor/edu/index.do?mode=view&menuId=285
- _317&eduSEQ=2991
-BEGIN:VALARM
-TRIGGER:-PT15H
-ACTION:DISPLAY
-DESCRIPTION:곧 신청 오픈: 2026년 크리스마스 가족캠프
-END:VALARM
-END:VEVENT
 END:VCALENDAR

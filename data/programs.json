@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27 12:22",
+  "updated_at": "2026-11-28 11:59",
   "items": [
     {
       "id": "njm-EDU_0000000000000124",
@@ -23,151 +23,7 @@
       "phone": "061-330-7800",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
-    },
-    {
-      "id": "njm-EDU_0000000000000111",
-      "source": "국립나주박물관",
-      "kind": "박물관·미술관",
-      "category": "교육(학교)",
-      "park": "국립나주박물관",
-      "title": "커다란 독널 이야기",
-      "place": "국립나주박물관 (나주 반남면 고분로 747)",
-      "target": "초등 3-4학년 학급단체",
-      "price": "",
-      "status": "접수마감",
-      "apply_start": "2026-02-10",
-      "apply_end": "2026-10-30",
-      "event_start": "2026-04-02",
-      "event_end": "2026-11-27",
-      "time": "",
-      "summary": "",
-      "url": "https://naju.museum.go.kr/prog/edu/kor/sub03_02_01/list.do",
-      "how_to_apply": "가족",
-      "phone": "061-330-7800",
-      "age_tag": "no",
-      "group_only": true,
-      "as_of": "2026-11-27 12:22"
-    },
-    {
-      "id": "njm-EDU_0000000000000112",
-      "source": "국립나주박물관",
-      "kind": "박물관·미술관",
-      "category": "교육(학교)",
-      "park": "국립나주박물관",
-      "title": "금·은보다 귀한 옥(玉)",
-      "place": "국립나주박물관 (나주 반남면 고분로 747)",
-      "target": "초등 4-6학년 / 중등 1~3학년 학급단체",
-      "price": "",
-      "status": "접수마감",
-      "apply_start": "2026-02-10",
-      "apply_end": "2026-10-30",
-      "event_start": "2026-04-02",
-      "event_end": "2026-11-27",
-      "time": "",
-      "summary": "",
-      "url": "https://naju.museum.go.kr/prog/edu/kor/sub03_02_01/list.do",
-      "how_to_apply": "가족",
-      "phone": "061-330-7800",
-      "age_tag": "no",
-      "group_only": true,
-      "as_of": "2026-11-27 12:22"
-    },
-    {
-      "id": "njm-EDU_0000000000000113",
-      "source": "국립나주박물관",
-      "kind": "박물관·미술관",
-      "category": "교육(학교)",
-      "park": "국립나주박물관",
-      "title": "빙글빙글, 문화유산 여행",
-      "place": "국립나주박물관 (나주 반남면 고분로 747)",
-      "target": "초등 4-6학년 학급단체",
-      "price": "",
-      "status": "접수마감",
-      "apply_start": "2026-02-10",
-      "apply_end": "2026-10-30",
-      "event_start": "2026-04-02",
-      "event_end": "2026-11-27",
-      "time": "",
-      "summary": "",
-      "url": "https://naju.museum.go.kr/prog/edu/kor/sub03_02_01/list.do",
-      "how_to_apply": "가족",
-      "phone": "061-330-7800",
-      "age_tag": "no",
-      "group_only": true,
-      "as_of": "2026-11-27 12:22"
-    },
-    {
-      "id": "njm-EDU_0000000000000115",
-      "source": "국립나주박물관",
-      "kind": "박물관·미술관",
-      "category": "교육(학교)",
-      "park": "국립나주박물관",
-      "title": "박물관에서 찾은 나의 꿈",
-      "place": "국립나주박물관 (나주 반남면 고분로 747)",
-      "target": "초등 5~6학년/ 중등 1~3학년 학급 단체",
-      "price": "",
-      "status": "접수마감",
-      "apply_start": "2026-02-10",
-      "apply_end": "2026-10-30",
-      "event_start": "2026-04-02",
-      "event_end": "2026-11-27",
-      "time": "",
-      "summary": "",
-      "url": "https://naju.museum.go.kr/prog/edu/kor/sub03_02_01/list.do",
-      "how_to_apply": "가족",
-      "phone": "061-330-7800",
-      "age_tag": "no",
-      "group_only": true,
-      "as_of": "2026-11-27 12:22"
-    },
-    {
-      "id": "njm-EDU_0000000000000120",
-      "source": "국립나주박물관",
-      "kind": "박물관·미술관",
-      "category": "교육(학교)",
-      "park": "국립나주박물관",
-      "title": "박물관 속 동물 이야기",
-      "place": "국립나주박물관 (나주 반남면 고분로 747)",
-      "target": "초등 1-3학년 학급단체",
-      "price": "",
-      "status": "접수마감",
-      "apply_start": "2026-02-10",
-      "apply_end": "2026-10-30",
-      "event_start": "2026-04-02",
-      "event_end": "2026-11-27",
-      "time": "",
-      "summary": "",
-      "url": "https://naju.museum.go.kr/prog/edu/kor/sub03_02_01/list.do",
-      "how_to_apply": "가족",
-      "phone": "061-330-7800",
-      "age_tag": "no",
-      "group_only": true,
-      "as_of": "2026-11-27 12:22"
-    },
-    {
-      "id": "njm-EDU_0000000000000121",
-      "source": "국립나주박물관",
-      "kind": "박물관·미술관",
-      "category": "교육(학교)",
-      "park": "국립나주박물관",
-      "title": "옛 사람들의 부엌 이야기",
-      "place": "국립나주박물관 (나주 반남면 고분로 747)",
-      "target": "초등 1-3학년 학급단체",
-      "price": "",
-      "status": "접수마감",
-      "apply_start": "2026-02-10",
-      "apply_end": "2026-10-30",
-      "event_start": "2026-04-02",
-      "event_end": "2026-11-27",
-      "time": "",
-      "summary": "",
-      "url": "https://naju.museum.go.kr/prog/edu/kor/sub03_02_01/list.do",
-      "how_to_apply": "가족",
-      "phone": "061-330-7800",
-      "age_tag": "no",
-      "group_only": true,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2988",
@@ -190,7 +46,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2989",
@@ -213,7 +69,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2990",
@@ -236,7 +92,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2672",
@@ -259,7 +115,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2679",
@@ -282,7 +138,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2680",
@@ -305,7 +161,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2681",
@@ -328,7 +184,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2682",
@@ -351,7 +207,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2683",
@@ -374,7 +230,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2684",
@@ -397,7 +253,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2685",
@@ -420,7 +276,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2673",
@@ -443,7 +299,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2938",
@@ -466,7 +322,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2991",
@@ -476,7 +332,7 @@
       "park": "국립광주과학관",
       "title": "2026년 크리스마스 가족캠프",
       "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
-      "target": "만6세 이상 2~4인 가족(20가족)\n (60명)",
+      "target": "만6세 이상 2~6인 가족(20가족)\n (60명)",
       "price": "100,000원",
       "status": "접수중",
       "apply_start": "2026-11-27",
@@ -489,7 +345,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2674",
@@ -512,7 +368,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": true,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2987",
@@ -535,7 +391,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2742",
@@ -547,7 +403,7 @@
       "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
       "target": "성인\n (20명)",
       "price": "20,000원",
-      "status": "접수중",
+      "status": "접수마감",
       "apply_start": "2026-11-02",
       "apply_end": "2026-11-27",
       "event_start": "2026-12-01",
@@ -558,7 +414,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2952",
@@ -581,7 +437,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2977",
@@ -604,7 +460,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2971",
@@ -627,7 +483,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-2979",
@@ -650,7 +506,7 @@
       "phone": "062-960-6114",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-820",
@@ -673,7 +529,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-956",
@@ -696,7 +552,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-823",
@@ -719,7 +575,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-959",
@@ -742,7 +598,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-958",
@@ -765,7 +621,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "gsc-943",
@@ -788,76 +644,7 @@
       "phone": "062-960-6114",
       "age_tag": "check",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
-    },
-    {
-      "id": "gsc-954",
-      "source": "국립광주과학관",
-      "kind": "과학관",
-      "category": "행사(주말/계기별/기념일 행사)",
-      "park": "국립광주과학관",
-      "title": "2026년 11월 주말 과학문화행사",
-      "place": "국립광주과학관 (광주 북구 첨단과기로 235)",
-      "target": "",
-      "price": "1,000원",
-      "status": "접수중",
-      "apply_start": "2026-10-07",
-      "apply_end": "2026-11-27",
-      "event_start": "2026-11-01",
-      "event_end": "2026-11-29",
-      "time": "",
-      "summary": "",
-      "url": "https://www.sciencecenter.or.kr/kor/ev/index.do?mode=view&menuId=18_337&evSEQ=954",
-      "phone": "062-960-6114",
-      "age_tag": "check",
-      "group_only": false,
-      "as_of": "2026-11-27 12:22"
-    },
-    {
-      "id": "acc-EM_0000009971",
-      "source": "ACC 어린이문화원",
-      "kind": "박물관·미술관",
-      "category": "어린이 교육",
-      "park": "ACC 어린이문화원",
-      "title": "〈예술가와 놀자!〉\r 떠나자! 아시아 미술탐험대",
-      "place": "국립아시아문화전당 (광주 동구 문화전당로 38)",
-      "target": "초등 저학년",
-      "price": "80,000원",
-      "status": "",
-      "apply_start": null,
-      "apply_end": null,
-      "event_start": "2026-10-03",
-      "event_end": "2026-11-28",
-      "time": "",
-      "summary": "아시아 문화를 탐색하고 다양한 미술 재료와 기법을 통해 ‘나만의 탐험 기록 작품’으로 완성하는 어린이 문화예술교육 프로그램",
-      "url": "https://www.accf.or.kr/main/product/detail/ko/419",
-      "phone": "1899-5566",
-      "age_tag": "no",
-      "group_only": false,
-      "as_of": "2026-11-27 12:22"
-    },
-    {
-      "id": "acc-EM_0000009972",
-      "source": "ACC 어린이문화원",
-      "kind": "박물관·미술관",
-      "category": "어린이 교육",
-      "park": "ACC 어린이문화원",
-      "title": "〈예술가와 놀자!〉 나 언박싱: 내 안의 나를 열어보다",
-      "place": "국립아시아문화전당 (광주 동구 문화전당로 38)",
-      "target": "초등 저학년",
-      "price": "80,000원",
-      "status": "",
-      "apply_start": null,
-      "apply_end": null,
-      "event_start": "2026-10-10",
-      "event_end": "2026-11-28",
-      "time": "",
-      "summary": "그림책과 연극·놀이·만들기 등 다양한 예술 활동을 통해 어린이가 자신의 감정과 생각을 발견하고 표현하며, 서로의 다름을 이해하고 소통하는 힘을 키우는 통합예술교육 프로그램",
-      "url": "https://www.accf.or.kr/main/product/detail/ko/420",
-      "phone": "1899-5566",
-      "age_tag": "no",
-      "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "acc-EM_0000009970",
@@ -880,7 +667,7 @@
       "phone": "1899-5566",
       "age_tag": "no",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "acc-EM_0000009973",
@@ -903,7 +690,7 @@
       "phone": "1899-5566",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "acc-EM_0000009974",
@@ -926,7 +713,7 @@
       "phone": "1899-5566",
       "age_tag": "ok",
       "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "ndf-9137",
@@ -951,7 +738,7 @@
       "group_only": false,
       "notice_date": "2026-11-02",
       "closed": true,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "ndf-9119",
@@ -976,7 +763,7 @@
       "group_only": false,
       "notice_date": "2026-10-27",
       "closed": true,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "ndf-9111",
@@ -1001,7 +788,7 @@
       "group_only": false,
       "notice_date": "2026-10-22",
       "closed": true,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "ndf-9078",
@@ -1026,99 +813,7 @@
       "group_only": false,
       "notice_date": "2026-10-02",
       "closed": true,
-      "as_of": "2026-11-27 12:22"
-    },
-    {
-      "id": "fes-3432658",
-      "source": "한국관광공사",
-      "kind": "축제",
-      "category": "축제·행사",
-      "park": "함평군",
-      "title": "함평 겨울빛축제",
-      "place": "전남광주통합특별시 함평군 함평읍 곤재로 27 함평엑스포공원 및 읍 시가지 일원",
-      "target": "",
-      "price": "",
-      "status": "",
-      "apply_start": null,
-      "apply_end": null,
-      "event_start": "2026-12-18",
-      "event_end": "2026-12-31",
-      "summary": "",
-      "phone": "061-320-2247",
-      "image": "https://tong.visitkorea.or.kr/cms/resource/51/4159151_image2_1.jpg",
-      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3432658",
-      "age_tag": "check",
-      "group_only": false,
-      "as_of": "2026-11-27 12:22"
-    },
-    {
-      "id": "fes-3488655",
-      "source": "한국관광공사",
-      "kind": "축제",
-      "category": "축제·행사",
-      "park": "북구",
-      "title": "2026 문화가 있는 날 청춘마이크",
-      "place": "전남광주통합특별시 북구 하서로 50 (운암동)",
-      "target": "",
-      "price": "",
-      "status": "",
-      "apply_start": null,
-      "apply_end": null,
-      "event_start": "2026-03-12",
-      "event_end": "2026-12-11",
-      "summary": "",
-      "phone": "062-412-1197",
-      "image": "https://tong.visitkorea.or.kr/cms/resource/85/4039885_image2_1.jpg",
-      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3488655",
-      "age_tag": "check",
-      "group_only": false,
-      "as_of": "2026-11-27 12:22"
-    },
-    {
-      "id": "fes-4067214",
-      "source": "한국관광공사",
-      "kind": "축제",
-      "category": "축제·행사",
-      "park": "여수시",
-      "title": "2026 섬 방문의 해",
-      "place": "전남광주통합특별시 여수시 선어시장길 6 (중앙동)",
-      "target": "",
-      "price": "",
-      "status": "",
-      "apply_start": null,
-      "apply_end": null,
-      "event_start": "2026-03-01",
-      "event_end": "2026-12-31",
-      "summary": "",
-      "phone": "070-4337-5058",
-      "image": "https://tong.visitkorea.or.kr/cms/resource/13/4067313_image2_1.jpg",
-      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=4067214",
-      "age_tag": "check",
-      "group_only": false,
-      "as_of": "2026-11-27 12:22"
-    },
-    {
-      "id": "fes-2614198",
-      "source": "한국관광공사",
-      "kind": "축제",
-      "category": "축제·행사",
-      "park": "서구",
-      "title": "2027 ACE Fair",
-      "place": "전남광주통합특별시 서구 상무누리로 30",
-      "target": "",
-      "price": "",
-      "status": "",
-      "apply_start": null,
-      "apply_end": null,
-      "event_start": "2027-09-23",
-      "event_end": "2027-09-26",
-      "summary": "",
-      "phone": "062-611-2242",
-      "image": "https://tong.visitkorea.or.kr/cms/resource/34/4147834_image2_1.jpg",
-      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=2614198",
-      "age_tag": "check",
-      "group_only": false,
-      "as_of": "2026-11-27 12:22"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "scb-5",
@@ -1144,18 +839,8 @@
       "group_only": false,
       "dates": [
         {
-          "date": "2026-11-27",
-          "left": 87,
-          "open": true
-        },
-        {
-          "date": "2026-11-28",
-          "left": 37,
-          "open": true
-        },
-        {
           "date": "2026-11-29",
-          "left": 108,
+          "left": 110,
           "open": true
         },
         {
@@ -1175,7 +860,7 @@
         },
         {
           "date": "2026-12-04",
-          "left": 105,
+          "left": 108,
           "open": true
         },
         {
@@ -1190,12 +875,12 @@
         },
         {
           "date": "2026-12-08",
-          "left": 111,
+          "left": 106,
           "open": true
         },
         {
           "date": "2026-12-09",
-          "left": 111,
+          "left": 97,
           "open": true
         },
         {
@@ -1260,12 +945,12 @@
         },
         {
           "date": "2026-12-24",
-          "left": 103,
+          "left": 101,
           "open": true
         },
         {
           "date": "2026-12-25",
-          "left": 100,
+          "left": 94,
           "open": true
         },
         {
@@ -1397,9 +1082,19 @@
           "date": "2027-01-24",
           "left": 111,
           "open": true
+        },
+        {
+          "date": "2027-01-26",
+          "left": 111,
+          "open": true
+        },
+        {
+          "date": "2027-01-27",
+          "left": 111,
+          "open": true
         }
       ],
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "scb-128",
@@ -1425,28 +1120,18 @@
       "group_only": false,
       "dates": [
         {
-          "date": "2026-11-28",
-          "left": 17,
-          "open": true
-        },
-        {
-          "date": "2026-11-29",
-          "left": 16,
-          "open": true
-        },
-        {
           "date": "2026-12-04",
-          "left": 26,
+          "left": 29,
           "open": true
         },
         {
           "date": "2026-12-05",
-          "left": 20,
+          "left": 17,
           "open": true
         },
         {
           "date": "2026-12-06",
-          "left": 22,
+          "left": 15,
           "open": true
         },
         {
@@ -1471,7 +1156,7 @@
         },
         {
           "date": "2026-12-19",
-          "left": 26,
+          "left": 19,
           "open": true
         },
         {
@@ -1481,7 +1166,7 @@
         },
         {
           "date": "2026-12-25",
-          "left": 17,
+          "left": 15,
           "open": true
         },
         {
@@ -1495,7 +1180,7 @@
           "open": true
         }
       ],
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "scb-126",
@@ -1521,18 +1206,8 @@
       "group_only": false,
       "dates": [
         {
-          "date": "2026-11-28",
-          "left": 0,
-          "open": false
-        },
-        {
-          "date": "2026-11-29",
-          "left": 0,
-          "open": false
-        },
-        {
           "date": "2026-12-04",
-          "left": 1,
+          "left": 4,
           "open": true
         },
         {
@@ -1552,8 +1227,8 @@
         },
         {
           "date": "2026-12-12",
-          "left": 0,
-          "open": false
+          "left": 1,
+          "open": true
         },
         {
           "date": "2026-12-13",
@@ -1617,18 +1292,18 @@
         },
         {
           "date": "2027-01-10",
-          "left": 4,
+          "left": 1,
           "open": true
         },
         {
           "date": "2027-01-15",
-          "left": 6,
+          "left": 4,
           "open": true
         },
         {
           "date": "2027-01-16",
-          "left": 3,
-          "open": true
+          "left": 0,
+          "open": false
         },
         {
           "date": "2027-01-17",
@@ -1651,7 +1326,7 @@
           "open": true
         }
       ],
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "scb-3",
@@ -1676,16 +1351,6 @@
       "age_tag": "check",
       "group_only": false,
       "dates": [
-        {
-          "date": "2026-11-27",
-          "left": 147,
-          "open": true
-        },
-        {
-          "date": "2026-11-28",
-          "left": 145,
-          "open": true
-        },
         {
           "date": "2026-11-29",
           "left": 150,
@@ -1723,7 +1388,7 @@
         },
         {
           "date": "2026-12-07",
-          "left": 150,
+          "left": 140,
           "open": true
         },
         {
@@ -1842,7 +1507,7 @@
           "open": true
         }
       ],
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "scb-113",
@@ -1869,7 +1534,7 @@
       "dates": [
         {
           "date": "2026-12-04",
-          "left": 10,
+          "left": 13,
           "open": true
         },
         {
@@ -1883,7 +1548,7 @@
           "open": true
         }
       ],
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "scb-112",
@@ -1914,7 +1579,99 @@
           "open": true
         }
       ],
-      "as_of": "2026-11-26 12:17"
+      "as_of": "2026-11-28 11:59"
+    },
+    {
+      "id": "fes-3432658",
+      "source": "한국관광공사",
+      "kind": "축제",
+      "category": "축제·행사",
+      "park": "함평군",
+      "title": "함평 겨울빛축제",
+      "place": "전남광주통합특별시 함평군 함평읍 곤재로 27 함평엑스포공원 및 읍 시가지 일원",
+      "target": "",
+      "price": "",
+      "status": "",
+      "apply_start": null,
+      "apply_end": null,
+      "event_start": "2026-12-18",
+      "event_end": "2026-12-31",
+      "summary": "",
+      "phone": "061-320-2247",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/51/4159151_image2_1.jpg",
+      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3432658",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-11-28 11:59"
+    },
+    {
+      "id": "fes-3488655",
+      "source": "한국관광공사",
+      "kind": "축제",
+      "category": "축제·행사",
+      "park": "북구",
+      "title": "2026 문화가 있는 날 청춘마이크",
+      "place": "전남광주통합특별시 북구 하서로 50 (운암동)",
+      "target": "",
+      "price": "",
+      "status": "",
+      "apply_start": null,
+      "apply_end": null,
+      "event_start": "2026-03-12",
+      "event_end": "2026-12-11",
+      "summary": "",
+      "phone": "062-412-1197",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/85/4039885_image2_1.jpg",
+      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3488655",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-11-28 11:59"
+    },
+    {
+      "id": "fes-4067214",
+      "source": "한국관광공사",
+      "kind": "축제",
+      "category": "축제·행사",
+      "park": "여수시",
+      "title": "2026 섬 방문의 해",
+      "place": "전남광주통합특별시 여수시 선어시장길 6 (중앙동)",
+      "target": "",
+      "price": "",
+      "status": "",
+      "apply_start": null,
+      "apply_end": null,
+      "event_start": "2026-03-01",
+      "event_end": "2026-12-31",
+      "summary": "",
+      "phone": "070-4337-5058",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/13/4067313_image2_1.jpg",
+      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=4067214",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-11-28 11:59"
+    },
+    {
+      "id": "fes-2614198",
+      "source": "한국관광공사",
+      "kind": "축제",
+      "category": "축제·행사",
+      "park": "서구",
+      "title": "2027 ACE Fair",
+      "place": "전남광주통합특별시 서구 상무누리로 30",
+      "target": "",
+      "price": "",
+      "status": "",
+      "apply_start": null,
+      "apply_end": null,
+      "event_start": "2027-09-23",
+      "event_end": "2027-09-26",
+      "summary": "",
+      "phone": "062-611-2242",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/34/4147834_image2_1.jpg",
+      "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=2614198",
+      "age_tag": "check",
+      "group_only": false,
+      "as_of": "2026-11-28 11:59"
     },
     {
       "id": "GB171XXX07172",
@@ -10275,29 +10032,6 @@
       "as_of": "2026-11-17 12:17"
     },
     {
-      "id": "gjr-1642",
-      "source": "광주시 바로예약",
-      "kind": "광주시 체험",
-      "category": "안전교육",
-      "park": "남구안전교육센터(전남광주통합특별시",
-      "title": "11월 남구안전교육센터 통합소방안전교육",
-      "place": "남구안전교육센터(전남광주통합특별시 남구 봉선1로 106, 봉선동)",
-      "target": "기타",
-      "price": "무료",
-      "status": "",
-      "apply_start": "2026-10-16 12:00",
-      "apply_end": "2026-11-25 23:59",
-      "event_start": "2026-11-03",
-      "event_end": "2026-11-27",
-      "time": "10:30~12:00",
-      "summary": "",
-      "url": "https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&searchCate1=B&bookingCode=1642",
-      "capacity": "정원 160명",
-      "age_tag": "check",
-      "group_only": false,
-      "as_of": "2026-11-17 12:17"
-    },
-    {
       "id": "gjr-1553",
       "source": "광주시 바로예약",
       "kind": "광주시 체험",
@@ -10408,29 +10142,6 @@
       "summary": "",
       "url": "https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&searchCate1=B&bookingCode=1432",
       "capacity": "정원 70명",
-      "age_tag": "ok",
-      "group_only": false,
-      "as_of": "2026-11-17 12:17"
-    },
-    {
-      "id": "gjr-1433",
-      "source": "광주시 바로예약",
-      "kind": "광주시 체험",
-      "category": "초등 체험프로그램",
-      "park": "광주",
-      "title": "마한 문화유산 여행(학교 방문형)",
-      "place": "광주 신창동 마한유적체험관",
-      "target": "어린이/청소년",
-      "price": "350,000원",
-      "status": "",
-      "apply_start": "2026-01-26 15:00",
-      "apply_end": "2026-11-27 14:28",
-      "event_start": "2026-03-10",
-      "event_end": "2026-11-27",
-      "time": "09:00~09:01",
-      "summary": "",
-      "url": "https://www.gwangju.go.kr/reserve/bookingView.do?pageId=reserve2&searchCate1=B&bookingCode=1433",
-      "capacity": "정원 151명",
       "age_tag": "ok",
       "group_only": false,
       "as_of": "2026-11-17 12:17"
